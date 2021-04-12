@@ -1,0 +1,15 @@
+docker push yourhubusername/verse_gapminder
+docker push oguto/egestor_php:v2
+
+id = 247332e02d3c
+
+Login:
+docker login
+
+tag
+
+docker tag 247332e02d3c oguto/egestor_php:latest
+
+docker push oguto/egestor_php:v5
+
+docker build -t egestor_php:latest

@@ -1,0 +1,26 @@
+
+#cria certificado
+
+keytool -genkey -v -keystore chave-gwo.keystore -alias gwo -keyalg RSA -keysize 2048 -validity 10000
+
+
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore chave-gwo.keystore c_gwo.apk gwo
+
+jarsigner -verify -verbose -certs c_gwo.apk
+
+zipalign -v 4 c_gwo.apk gwo.apk
+
+
+
+keytool -importcert -file deployment_cert.der -keystore chave-gwo.keystore  -alias "gwo"
+
+keytool -keypasswd -alias alias_name -keystore  chave-gwo.keystore
+keytool -keypasswd  -alias <chave-gwo.keystore> -keystore chave-gwo.keystore
+
+keytool -keystore chave-gwo.keystore -list -v
+
+keytool -changealias -alias "mykey" -destalias "gwo" -keypass gwo -keystore chave-gwo.keystore -storepass gwo
+keytool -storepasswd -keystore chave-gwo.keystore
+
+Senha : nelos123

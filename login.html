@@ -1,0 +1,99 @@
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/alertify.css" rel="stylesheet">
+  <script src="js/vue.js"></script>
+  <script src="js/axios.min.js"></script>
+  <script src="js/pdf.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Page Content -->
+  <div class="container " id="appLogin" style="max-width:580px !important;">
+    <h1>LOGO</h1>
+    <form v-if='esqSenha==false && codigoSms==false && redefinirSenha==false'>
+      <input type="text" v-model='email' name="email" value="" placeholder="E-mail cadastrado*">
+      <input type="password" v-model='senha' name="senha" placeholder="Senha*" value="">
+      <label for="">
+          <input type="checkbox" name="" value=""> Lembrar acesso
+      </label>
+
+
+      <button type="button" name="button" class="btn btn-success" @click='logar()'>Entrar</button>
+
+      <br>
+      <a href="#" @click='esqueceuSenha()'> Esquecei a senha</a>
+    </form>
+
+    <form v-if='esqSenha==true'>
+      <h2>Recuperar Senha</h2>
+
+      <h6><br> Digite o telefone cadastrado para que o código de<br> validação seja enviado:</h6>
+      <input type="text" v-model='telefone' name="telefone" value="" placeholder="Telefone cadastrado*" required>
+      <button type="button" name="button" class="btn btn-success" @click='enviarCodigo()'>Enviar Código</button>
+      <br>
+      <a @click='codigoSms=false; esqSenha=false'> Voltar ao login</a>
+    </form>
+
+
+    <form v-if='codigoSms==true'>
+
+      <h2>Código de Validação</h2>
+
+      <h6><br> Digite o código que foi enviado para seu celular:<br> </h6>
+      <input type="text" v-model='codigo' name="codigo" value="" placeholder="Informe o código recebido via sms">
+
+      <button type="button" name="button" class="btn btn-success" @click='validarCodigo()'>Validar Código</button>
+
+      <br>
+      <a  @click='codigoSms=false; esqSenha=true'> Reenviar código</a>
+    </form>
+
+    <form v-if='redefinirSenha==true'>
+
+      <h2>Crie sua Nova Senha</h2>
+
+      <h6><br>Digite uma senha com 6 a 8 dígitos, alternando entre letras, caracteres e números.<br></h6>
+
+      <input type="text" v-model='senha' name="senha" value="" placeholder="Nova Senha*">
+
+      <input type="text" v-model='senha2' name="senha" value="" placeholder="Repita a Nova Senha *">
+
+      <button type="button" name="button" class="btn btn-success" @click='mudarSenha()'>Validar</button>
+
+      <br>
+      <a  @click='codigoSms=false; esqSenha=true'> Reenviar código</a>
+    </form>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/alertify.min.js"></script>
+  <script type="text/javascript">
+    const config = {
+      dominio: 'http://localhost/'
+    }
+  </script>
+
+  <!--Modulo-->
+  <script src="src/Login.js"></script>
+
+
+
+</body>
+
+</html>

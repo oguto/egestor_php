@@ -1,0 +1,36 @@
+<div v-if='formulario==false && visualizar==false'>
+    <a @click='incluirAtividades()' class=" btn btn-primary"> Incluir</a>
+  <table class='table'>
+    <thead>
+      <tr>
+         <th>Acesso</th>
+         <th>Data</th>
+         </tr>
+   </thead>
+   <tbody>
+    <tr  v-for='linha in lista'>
+      <td>{{linha.acesso}}</td>
+      <td>{{linha.data}}</td>
+      <td>
+        <a @click='verAtividades(linha.id)' class="btn btn-success">Visualizar</a>
+        <a @click='editarAtividades(linha.id)' class="btn btn-success"> Editar</a>
+        <a @click='excluirAtividades(linha.id)' class="btn btn-danger">Excluir</a>
+      </td>
+    </tr >
+    <tr v-if='total==0'>
+      <td colspan='3'>
+      <div class='alert alert-danger' style='float: left; width:100%'>
+      Nenhum registro encontrado!
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div v-if='visualizar==true'>
+    <a href="#" @click='listarAtividades()' class="btn btn-primary"> Voltar</a>
+    <ul>
+      <li><b>acesso </b>{{dadosAtividades.acesso}}</li>
+      <li><b>data </b>{{dadosAtividades.data}}</li>
+      </ul>
+</div>

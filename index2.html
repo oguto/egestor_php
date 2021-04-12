@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Modern Business - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="css/alertify.css" rel="stylesheet">
+
+  <script src="js/vue.js"></script>
+  <script src="js/axios.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav nav-tabs" id="nav-tab" role="tablist">
+          <li class="nav-item " role="presentation">
+            <a href="#nav-home" class="nav-link active" data-toggle="tab" role="tab" aria-controls="nav-home" aria-selected="true">LOGO</a>
+          </li>
+
+          <li class="nav-item " role="presentation">
+            <a href="#nav-grupos" class="nav-link " data-toggle="tab" role="tab" aria-controls="nav-grupos" aria-selected="true">Grupos</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a href="#nav-usuarios" class="nav-link" data-toggle="tab" role="tab" aria-controls="nav-usuarios" aria-selected="false">Usuários</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a href="#nav-documentos" class="nav-link" data-toggle="tab" role="tab" aria-controls="nav-documentos" aria-selected="false">Documentos</a>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a href="#nav-atividades" class="nav-link" data-toggle="tab" role="tab" aria-controls="nav-atividades" aria-selected="false">Atividades</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Content -->
+  <div class="container corpo">
+    <div class="conteudo">
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel">
+          <div id="app">
+
+            <a @click='incluirAluno()' class=" btn btn-primary"> Incluir</a>
+            <table class='table' v-if='formulario==false && visualizar==false'>
+              <thead>
+                <tr>
+                  <th>Nome</th>
+                  <th>Curso</th>
+                  <th>Turma</th>
+                  <th>Ano</th>
+                  <th>Email</th>
+                  <th>Senha</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for='linha in lista'>
+                  <td>{{linha.nome}}</td>
+                  <td>{{linha.curso}}</td>
+                  <td>{{linha.turma}}</td>
+                  <td>{{linha.ano}}</td>
+                  <td>{{linha.email}}</td>
+                  <td>{{linha.senha}}</td>
+                  <td>
+                    <a @click='verAluno(linha.id)' class="btn btn-success"> Visualizar</a>
+                    <a @click='editarAluno(linha.id)' class="btn btn-success"> Editar</a>
+                    <a @click='excluirAluno(linha.id)' class="btn btn-danger"> Excluir</a>
+                  </td>
+                </tr>
+                <tr v-if='total==0'>
+                  <td colspan='3'>
+                    <div class='alert alert-danger' style='float: left; width:100%'>
+                      Nenhum registro encontrado!
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div v-if='visualizar==true'>
+
+              <a href="#" @click='listarAluno()' class="btn btn-primary"> Voltar</a>
+
+              <ul>
+
+              <li>{{dadosAluno.nome}}</li>
+              <li>{{dadosAluno.curso}}</li>
+              <li>{{dadosAluno.turma}}</li>
+              <li>{{dadosAluno.ano}}</li>
+              <li>{{dadosAluno.email}}</li>
+              <li>{{dadosAluno.senha}}</li>
+            </li>
+
+            </div>
+            <div  v-if='formulario==true'>
+                <a @click='listarAluno()' class="btn btn-primary"> Voltar</a>
+            <form class='aluno' name='Aluno'>
+              <input type='hidden' name='id' id='id' v-model='id'>
+              <label for='nome'>Nome</label>
+              <input type='text' name='nome' id='nome' v-model='nome' required=' required'>
+              <label for='curso'>Curso</label>
+              <input type='text' name='curso' id='curso' v-model='curso' required=' required'>
+              <label for='turma'>Turma</label>
+              <input type='text' name='turma' id='turma' v-model='turma' required=' required'>
+              <label for='ano'>Ano</label>
+              <input type='text' name='ano' id='ano' v-model='ano' required=' required'>
+              <label for='email'>Email</label>
+              <input type='text' name='email' id='email' v-model='email' required=' required'>
+              <label for='senha'>Senha</label>
+              <input type='text' name='senha' id='senha' v-model='senha' required=' required'>
+              <button class='btn btn-primary' type='button' @click='salvarAluno'>
+                <i class='fas fa-plus fa-sm'></i> incluir
+              </button>
+            </form>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-grupos" role="tabpanel">nav-grupos</div>
+        <div class="tab-pane fade" id="nav-usuarios" role="tabpanel">nav-usuarios</div>
+        <div class="tab-pane fade" id="nav-documentos" role="tabpanel">.doc</div>
+        <div class="tab-pane fade" id="nav-atividades" role="tabpanel">atividades</div>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/alertify.min.js"></script>
+  <script type="text/javascript">
+  const config={dominio:'http://localhost/freelas/egestor/'}
+  </script>
+  <script src="src/Aluno.js"></script>
+
+
+</body>
+
+</html>

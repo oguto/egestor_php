@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  php:
+    container_name: php
+    build:
+      context: .
+      dockerfile: php.Dockerfile
+    ports:
+     - "80:80"
+    volumes:
+     -  ".:/var/www/html"
+    links:
+      - db
+  db:
+    image: mysql:5.7
+    volumes:
+     - /var/lib/mysql
+    environment:
+     - MYSQL_ROOT_PASSWORD=egestor123
+     - MYSQL_DATABASE=egestor
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - db:db
+    ports:
+      - "8002:80"
+    environment:
+      - MYSQL_ROOT_PASSWORD=egestor123

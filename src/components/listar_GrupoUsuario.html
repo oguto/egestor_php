@@ -1,0 +1,36 @@
+<div v-if='formulario==false && visualizar==false'>
+    <a @click='incluirGrupoUsuario()' class=" btn btn-primary"> Incluir</a>
+  <table class='table'>
+    <thead>
+      <tr>
+         <th>Grupo</th>
+         <th>Usuário</th>
+         </tr>
+   </thead>
+   <tbody>
+    <tr  v-for='linha in lista'>
+      <td>{{linha.id_grupo}}</td>
+      <td>{{linha.id_usuario}}</td>
+      <td>
+        <a @click='verGrupoUsuario(linha.id)' class="btn btn-success">Visualizar</a>
+        <a @click='editarGrupoUsuario(linha.id)' class="btn btn-success"> Editar</a>
+        <a @click='excluirGrupoUsuario(linha.id)' class="btn btn-danger">Excluir</a>
+      </td>
+    </tr >
+    <tr v-if='total==0'>
+      <td colspan='3'>
+      <div class='alert alert-danger' style='float: left; width:100%'>
+      Nenhum registro encontrado!
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div v-if='visualizar==true'>
+    <a href="#" @click='listarGrupoUsuario()' class="btn btn-primary"> Voltar</a>
+    <ul>
+      <li><b>id_grupo </b>{{dadosGrupoUsuario.id_grupo}}</li>
+      <li><b>id_usuario </b>{{dadosGrupoUsuario.id_usuario}}</li>
+      </ul>
+</div>

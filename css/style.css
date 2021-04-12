@@ -1,0 +1,435 @@
+.dropbox {
+    border: 2px dashed #829599; /* the dash box */
+    background-color:  #fff;
+    background-image: url("../img/dragfile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: dimgray;
+    padding: 10px 10px;
+    min-height: 200px; /* minimum height */
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    float: left;
+    width: 100%;
+  }
+
+  .input-file {
+    opacity: 0; /* invisible but it's there! */
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .dropbox:hover {
+  border: 2px dashed #003641; /* when mouse over to the drop zone, change color */
+  }
+
+  .dropbox p {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px ;
+    background-color: #07ae9d;
+    color: #fff;
+    border-radius: 5px;
+    width: 50%;
+    float: left;
+    border: 2px solid #fff;
+    margin-bottom: 0px;
+
+  }
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+  float: left;
+}
+
+
+
+.checkbox label{
+  background-color: #fff;
+  color:#829599;
+  position:inherit;
+  padding: 0px;
+  padding-bottom: 2px;
+  margin-left: 5px;
+  float: left;
+    margin-top: 20px;
+
+}
+.checkbox{
+    margin-top: 25px;
+
+
+}
+
+.checkbox label input {
+  display: none; /* Hide the default checkbox */
+}
+
+/* Style the artificial checkbox */
+.checkbox label span {
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  border: 2px solid #829599;
+  display: inline-block;
+  position: relative;
+}
+
+.checkbox_doc label{
+  padding: 0px;
+      padding-bottom: 0px;
+      margin-left: 0px;
+
+
+}
+
+.checkbox_doc label input {
+  display: none; /* Hide the default checkbox_doc */
+}
+
+/* Style the artificial checkbox_doc */
+.checkbox_doc label span {
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  border: 2px solid #829599;
+  display: inline-block;
+  position: relative;
+  padding: 0px;
+      padding-bottom: 0px;
+      margin-left: 0px;
+}
+
+
+
+
+
+/* Style its checked state...with a ticked icon */
+[type=checkbox]:checked + span:before {
+  content: '\2714';
+  position: absolute;
+  background-color: #003641;
+  height: 16px;
+  width: 16px;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #fff;
+
+}
+
+[type=checkbox]:checked span{
+
+  border: 2px solid  #002E36;
+
+}
+.docs{
+
+  min-height: 306px;
+  background: #FDFDFD;
+  border: 2px solid #EFF1F2;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px;
+  color: #829599;
+  word-wrap: break-word;
+
+}
+.doc ul.active{
+      border: 2px solid #002E36;
+}
+
+.doc ul.active{
+      border: 2px solid #002E36;
+}
+
+.docs .capa{
+
+  height: 155px;
+  width: 100%;
+  background: #d6e5e8;
+border: 2px solid #EFF1F2;
+box-sizing: border-box;
+border-radius: 5px;
+padding: 5px;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+
+
+
+}
+
+.docs:hover{
+border:2px solid #002E36;
+}
+.docs li{
+  list-style-type: none;
+}
+.docs a{
+  float: right;
+  font-size: 12px;
+  color: #829599;
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+.doc{
+  padding-right: 7px;
+    padding-left: 7px;
+
+
+}
+
+/*DOCUMENTOS*/
+
+#appDocumentos .navbar{
+  background-color: transparent !important;
+
+}
+
+/* PASTAS */
+
+.pastas{
+
+  width: 100%;
+  float: left;
+  padding: 0px;
+  margin-bottom: 50px;
+
+}
+
+.pastas li p{
+  font-size: 45px;
+  color:#DDE8EB;
+
+}
+
+.pastas li div{
+
+  min-height: 130px;
+  background: #FDFDFD;
+border: 2px solid #EFF1F2;
+box-sizing: border-box;
+border-radius: 5px;
+padding: 20px;
+color:#829599;
+font-weight: normal;
+font-size: 18px;
+text-align: center;
+cursor: pointer;
+
+
+
+
+}
+.pastas li.active div{
+      border: 2px solid #002E36;
+}
+
+
+
+.pastas li div:hover{
+border:2px solid #002E36;
+}
+.pastas li{
+  list-style-type: none;
+  padding-right: 7px;
+padding-left: 7px;
+}
+.pastas a{
+  float: right;
+  font-size: 12px;
+  color: #829599;
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+.dados,#documentosPdf{
+  width: 100% !important;
+    background: #FDFDFD;
+    border: 2px solid #EFF1F2 !important;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    color: #829599;
+    font-weight: normal;
+    font-size: 18px;
+    float: left;
+}
+.dados li{
+  list-style-type: none;
+  width: 50%;
+  float: left;
+
+}
+
+.gruposMenu{
+  width: 100%;
+  float: left;
+  margin-top: 45px;
+  margin-bottom: 45px;
+
+
+}
+.gruposMenu ul{
+  width: 100%;
+  float: left;
+  padding: 0px;
+
+
+}
+.gruposMenu li{
+  float: left;
+  list-style: none;
+  margin: 5px;
+  cursor: pointer;
+
+
+}
+.gruposMenu li a, .gruposMenu li a:active{
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #003641;
+
+
+}
+.gruposMenu li.active a{
+  color: #00AE9D !important;
+  background: rgba(0, 174, 157, 0.1);
+border-radius: 5px;
+text-decoration: none;
+
+}
+.gruposMenu a:hover{
+  color: #003641;
+  background: #E1EBEE;
+border-radius: 5px;
+text-decoration: none;
+
+}
+
+/*BOTOES*/
+
+.btn-default{
+
+  background: #D6E5E8;
+border-radius: 5px;
+
+}
+button.btn-primary{
+  margin-top: 10px;
+}
+.play,
+.play:hover{
+  border-radius: 100px !important;
+  text-align: center;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  padding: 0px;
+
+}
+#appLogin{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+#appLogin h1{
+  font-size: 55px;
+  font-weight: 600;
+
+}
+#appLogin form{
+  border: 0px;
+
+}
+#appLogin button{
+  width: 100%;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+#appLogin form input{
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+/* identical to box height, or 34px */
+
+letter-spacing: 0.02em;
+
+/* Label */
+
+color: #CCCECE;
+
+
+}
+.paginacao{
+  height: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+      background: #F2F7F7 !important;
+      box-shadow: 0 0 1em #0000005c;
+      line-height: 50px;
+      text-align: center;
+
+}
+
+#previsualizar{
+  display: none;
+}
+.verDados{
+  border-radius: 5px !important;
+border-collapse: separate;
+border: 2px solid #EFF1F2;
+padding: 10px;
+font-weight: normal;
+
+
+}
+.verDados li{
+  list-style: none;
+  padding: 5px;
+}
+.btn-rosa{
+  color: #D74545;
+   background: #FFEEEE;
+    border-radius: 5px;
+    font-weight: 400;
+
+
+}
+.btn-rosa:hover{
+  color: #D74545;
+   background: #FFF8F8;
+    border-radius: 5px;
+    font-weight: 400;
+
+}

@@ -1,0 +1,938 @@
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/alertify.css" rel="stylesheet">
+  <script src="js/vue.js"></script>
+  <script src="js/axios.min.js"></script>
+  <script src="js/pdf.min.js"></script>
+</head>
+
+<body>
+  </div>
+  <nav class="navbar fixed-top navbar-expand-lg fixed-top">
+    <div class="container" style="min-width:1280px">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav nav-tabs" id="nav-tab" role="tablist">
+
+          <li class="nav-item" role="presentation">
+            <a href="#nav-home" class="nav-link active" data-toggle="tab" role="tab" aria-controls="nav-home" aria-selected="true">LOGO</a>
+          </li>
+          <li class="nav-item " role="presentation" id="menuGrupo">
+            <a href="#nav-Grupo" class="nav-link " data-toggle="tab" role="tab" aria-controls="nav-Grupo" aria-selected="true">Grupos</a>
+          </li>
+          <li class="nav-item" role="presentation" id='menuUsuarios' >
+            <a href="#nav-Usuarios" class="nav-link " data-toggle="tab" role="tab" aria-controls="nav-Usuarios" aria-selected="true">Usuarios</a>
+          </li>
+
+          <li class="nav-item " role="presentation" id='menuDocumento'>
+            <a href="#nav-Documentos" @click='homeDocumentos()' class="nav-link " data-toggle="tab" role="tab" aria-controls="nav-Documentos" aria-selected="true">Documentos</a>
+          </li>
+          <li class="nav-item " role="presentation"  id="menuAtividades">
+            <a href="#nav-Atividades" @click='homeAtividades()' class="nav-link " data-toggle="tab" role="tab" aria-controls="nav-Atividades" aria-selected="true">Atividades</a>
+          </li>
+
+          <a  class="btn btn-default play"  data-toggle="tab" role="tab" aria-selected="true"> &#xe907; </a>
+        </ul>
+      </div>
+      <a href="#" class="btn btn-default" id="menuSair" @click="sair()"> &#xe906; Sair</a>
+    </div>
+  </nav>
+  <!-- Page Content -->
+  <div class="container corpo">
+
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade active show" id="nav-home" role="tabpanel">
+        <div id="appHome">
+          <div v-if='formulario==false && visualizar==false'>
+            <h2>Seja bem vindo, {{usuario}}!</h2>
+            <table class='table'>
+              <thead>
+                <tr>
+                  <th colspan="4">
+
+                                        <a v-if='statusDoc=="ativo"' @click='listarDocumentos("expirado")' class="btn btn-rosa" style="float:right">Documentos Expirados</a>
+
+                                          <a v-if='statusDoc!="ativo"' @click='listarDocumentos("ativo")' class="btn btn-rosa" style="float:right">Documentos Não expirados</a>
+                    <h5 v-if='statusDoc=="ativo"' >Documentos com datas não expiradas</h5>
+                    <h5 v-if='statusDoc!="ativo"' >Documentos com datas  expiradas</h5>
+
+                  </th>
+
+                </tr>
+                <tr>
+                  <th>Nº Registro</th>
+                  <th>Documento</th>
+                  <th>Data de Expiração</th>
+                  <th>Ações</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for='linha in lista'>
+                  <td>{{linha.id}}</td>
+                  <td>{{linha.nome}}</td>
+                  <td>{{linha.data_final}}</td>
+                  <td>
+                    <!--<a @click='verDocumentos(linha.id)' class="btn btn-info">Visualizar</a>
+                    <a @click='editarDocumentos(linha.id)' class="btn btn-info"> Editar</a>
+                    <a @click='excluirDocumentos(linha.id)' class="btn btn-danger">Excluir</a>-->
+                  </td>
+                </tr>
+                <tr v-if='total==0'>
+                  <td colspan='4'>
+                    <div class='alert alert-danger' style='float: left; width:100%'>
+                      Nenhum registro encontrado!
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div v-if='visualizar==true'>
+            <a href="#" @click='listarDocumentos()' class="btn voltar">  &#xe900; Voltar</a>
+            <ul class="dados">
+              <li><b>Nº :</b>{{dadosDocumentos.id}}</li>
+              <li><b>Documento: </b>{{dadosDocumentos.nome}}</li>
+              <li v-if='dadosDocumentos.data_inicial'><b>Data Inicial </b>{{dadosDocumentos.data_inicial}}</li>
+              <li v-if='dadosDocumentos.data_final'><b>Data final </b>{{dadosDocumentos.data_final}}</li>
+            </ul>
+
+            <div class="paginacao fixed-bottom" v-if='totalPaginas>1'>
+              Página </b>{{paginaAtual}} de {{totalPaginas}}
+             <button id="prev" v-if='paginaAtual>1' @click='mudarPagina(dadosDocumentos.url,"documentosPdf","anterior")' class="btn btn-default"><</button>
+              <button id="next" v-if='paginaAtual<totalPaginas' @click='mudarPagina(dadosDocumentos.url,"documentosPdf","proximo")'  class="btn btn-default">></button>
+            </div>
+
+              <canvas id="documentosPdf" v-if='dadosDocumentos.url.search(".pdf")>=1' style="border: 1px solid black; direction: ltr; margin-bottom:55px;"></canvas>
+                <div class="dados dadosImage" v-if='dadosDocumentos.url.search(".pdf")<1' >
+
+                  <img :src='dadosDocumentos.url' >
+
+
+                </div>
+
+
+          </div>
+          <div v-if='formulario==true' class="formModulo">
+            <a @click='listarDocumentos()' class="btn voltar">  &#xe900; Voltar aos Documentos</a>
+            <h2>{{titulo}}</h2>
+            <form class='documentos' name='Documentos' enctype="multipart/form-data">
+              <input type='hidden' name='id' id='id' v-model='id'>
+              <div class="form-group">
+                <div class="col-xl-6">
+                  <div class="col-xl-12"  v-if='!id_pasta' :style="[nova_pasta ? {paddingTop:'0px'}:{paddingTop:'46px'}]" >
+
+                    <label for='id_pasta'  v-if='nova_pasta'>Nova pasta</label>
+
+                    <input type='text' v-model='nova_pasta' name='nova_pasta' id='nova_pasta' placeholder="Criar nova pasta" >
+
+                  </div>
+                  <div class="col-xl-12" v-if='!nova_pasta'>
+
+                    <p style="text-align:center" v-if='!id_pasta'>    <br> Ou</p>
+
+                    <label for='id_pasta'>Selecionar Pasta Existente</label>
+                    <div class='select'>
+                      <select name='id_pasta' id='id_pasta' v-model='id_pasta'>
+                        <option value="">Nenhuma</option>
+                        <option v-for='pasta in listarPastas' :value='pasta.id' >{{pasta.nome}}</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-12" v-if='this.id==null'>
+                    <br>
+                    <h5>Selecione ou Arraste Seu(s) Arquivo(s)</h5>
+
+                    <div class="dropbox">
+
+                      <input type='file' id='btnDocumento' name='documentos' class='input-file' @change="selecionarDocumento($event.target.name, $event.target.files); " accept=".jpg, .jpeg, .pdf" required multiple>
+                      <p v-for="arquivos in listaArquivos">
+                        {{arquivos.name}}
+                      </p>
+
+                    </div>
+                    <label for='btnDocumento' class="btn btn-primary" style="margin-top:20px; width:100%; margin-left: 0px;">Selecionar PDF ou JPEG</label>
+
+
+
+
+                  </div>
+                </div>
+                <div class="col-xl-6">
+                  <div class="col-xl-12" v-if='listaArquivos.length<=1'>
+                    <label for='nome'>Nome</label>
+                    <input type='text' name='nome' id='nome' v-model='nome' required=' required'>
+                  </div>
+                  <div class="col-xl-6">
+                    <label for='data_inicial'>Data inicial</label>
+                    <input type='date' name='data_inicial' id='data_inicial' v-model='data_inicial' required=' required'>
+                  </div>
+                  <div class="col-xl-6">
+                    <label for='data_final'>Data final</label>
+                    <input type='date' name='data_final' id='data_final' v-model='data_final' required=' required'>
+                  </div>
+                  <div class="col-xl-12 checkbox gruposDoc">
+                    <h5>Grupos</h5>
+
+                    <div class="col-xl-6" v-for='grupo in listarGrupos'>
+                      <label :for="grupo.id">
+                        <input type="checkbox" :id='grupo.id' name="id_grupo" :value='grupo.id' @change="selGrupoDoc()">
+                        <span></span> {{grupo.nome}}
+                      </label>
+                    </div>
+
+                  </div>
+                  <div class="col-xl-12">
+                    <label for='palavras_chaves'>Palavras chaves</label>
+                    <textarea name='palavras_chaves' id='palavras_chaves' v-model='palavras_chaves' required='required'></textarea>
+                  </div>
+                </div>
+                <div id="previsualizar" >
+
+                </div>
+
+                <div class="col-xl-12">
+                  <button class='btn btn-primary' type='button' @click='salvarDocumentos()'>
+                    Salvar
+                  </button>
+                </div>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-GrupoDocumento" role="tabpanel">
+        <div id="appGrupoDocumento">
+          <div v-if='formulario==false && visualizar==false'>
+            <a @click='incluirGrupoDocumento()' class=" btn btn-success">  &#xe901; Incluir</a>
+            <table class='table'>
+              <thead>
+                <tr>
+                  <th>Grupo</th>
+                  <th>Documento</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for='linha in lista'>
+                  <td>{{linha.id_grupo}}</td>
+                  <td>{{linha.id_documento}}</td>
+                  <td>
+                    <a @click='verGrupoDocumento(linha.id)' class="btn btn-success">Visualizar</a>
+                    <a @click='editarGrupoDocumento(linha.id)' class="btn btn-success"> Editar</a>
+                    <a @click='excluirGrupoDocumento(linha.id)' class="btn btn-danger">Excluir</a>
+                  </td>
+                </tr>
+                <tr v-if='total==0'>
+                  <td colspan='3'>
+                    <div class='alert alert-danger' style='float: left; width:100%'>
+                      Nenhum registro encontrado!
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div v-if='visualizar==true'>
+            <a href="#" @click='listarGrupoDocumento()' class="btn voltar">  &#xe900; Voltar </a>
+
+            <ul>
+              <li><b>id_grupo </b>{{dadosGrupoDocumento.id_grupo}}</li>
+              <li><b>id_documento </b>{{dadosGrupoDocumento.id_documento}}</li>
+            </ul>
+          </div>
+          <div v-if='formulario==true' class="formModulo">
+            <a @click='listarGrupoDocumento()' class="btn voltar">  &#xe900;  Voltar aos grupos</a>
+
+            <form class='grupo_documento' name='GrupoDocumento'>
+              <input type='hidden' name='id' id='id' v-model='id'>
+              <div class="form-group">
+                <div class="col-xl-12">
+                  <label for='id_grupo'>Grupo</label>
+                  <div class='select'>
+                    <select name='id_grupo' id='id_grupo' v-model='id_grupo' required='required'>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xl-12">
+                  <label for='id_documento'>Documento</label>
+                  <div class='select'>
+                    <select name='id_documento' id='id_documento' v-model='id_documento' required='required'>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <button class='btn btn-primary' type='button' @click='salvarGrupoDocumento()'>
+                Salvar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="nav-Usuarios" role="tabpanel">
+        <div id="appUsuarios" v-if='permissao==1'>
+          <div v-if='formulario==false && visualizar==false'>
+            <a @click='incluirUsuarios()' class=" btn btn-success"><b> &#xe901;</b> Criar Usuário</a>
+            <table class='table'>
+              <thead>
+                <tr>
+                  <th>Id</th>
+                  <th style="width:33%">Nome</th>
+                  <th>E-mail</th>
+                  <th>Permissão</th>
+                  <th>Ações</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for='linha in lista'>
+                  <td>{{linha.id}}</td>
+                  <td>{{linha.nome}}</td>
+                  <td>{{linha.email}}</td>
+                  <td v-if="linha.id_permissao==1">Admin</td>
+                  <td v-if="linha.id_permissao==2">Usuario</td>
+                  <td>
+                    <a @click='verUsuarios(linha.id)' class="btn btn-info">Ver Detalhes</a>
+                    <a @click='editarUsuarios(linha.id)' class="btn btn-info"> Editar</a>
+                    <a v-if="linha.id_permissao==2" @click='excluirUsuarios(linha.id)' class="btn btn-danger">Apagar</a>
+                  </td>
+                </tr>
+                <tr v-if='total==0'>
+                  <td colspan='5'>
+                    <div class='alert alert-danger' style='float: left; width:100%'>
+                      Nenhum registro encontrado!
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div v-if='visualizar==true'>
+            <a href="#" @click='listarUsuarios()' class="btn voltar">  &#xe900; Voltar</a>
+            <ul class="verDados" style="width:50%">
+              <li><b>Nome: </b>{{dadosUsuarios.nome}}</li>
+              <li><b>Telefone: </b>{{dadosUsuarios.telefone}}</li>
+              <li><b>Email: </b>{{dadosUsuarios.email}}</li>
+              <li v-if='dadosUsuarios.id_permissao==1'>
+                <b>Permissão: </b>Admin
+              </li>
+              <li v-if='dadosUsuarios.id_permissao==2'>
+                  <b>Permissão: </b>Usuário
+                </li>
+            </ul>
+          </div>
+          <div v-if='formulario==true' class="formModulo ">
+            <a @click='listarUsuarios()' class="btn voltar">  &#xe900; Voltar</a>
+            <h2>Cadastro de Usuário</h2>
+            <form class='usuarios ' name='Usuarios'>
+              <input type='hidden' name='id' id='id' v-model='id'>
+              <div class="form-group">
+                <div class="col-xl-6">
+                  <div class="col-xl-12">
+                    <label for='nome'>Nome</label>
+                    <input type='text' name='nome' id='nome' v-model='nome' required=' required'>
+                  </div>
+                  <div class="col-xl-12">
+                    <label for='senha'>Senha</label>
+                    <input type="password" name='senha' id='senha' v-model='senha' required='required'>
+                  </div>
+                  <div class="col-xl-12">
+                    <label for='telefone'>Telefone</label>
+                    <input type='text' name='telefone' id='telefone' v-model='telefone' required=' required'>
+                  </div>
+                  <div class="col-xl-12">
+                    <label for='email'>Email</label>
+                    <input type='text' name='email' id='email' v-model='email' required=' required'>
+                  </div>
+                  <div class="col-xl-12">
+                    <label for='id_permissao'>Permissão</label>
+                    <div class='select'>
+                      <select name='id_permissao' id='id_permissao' v-model='id_permissao' required='required'>
+                        <option value="1">Admin</option>
+                        <option value="2" selected>Usuarios</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 checkbox guposUser">
+                <h5>Grupos</h5>
+                <div class="col-xl-6" >
+                  <label for="1">
+                    <input type="checkbox" id='1' name="id_grupo" value='1'  @change="selGrupoUser()">
+                    <span></span> Todos
+                  </label>
+                </div>
+                <div class="col-xl-6" v-for='grupo in listarGrupos'>
+                  <label :for="grupo.id">
+                    <input type="checkbox" :id='grupo.id' name="id_grupo" :value='grupo.id' @change="selGrupoUser()">
+                    <span></span> {{grupo.nome}}
+                  </label>
+                </div>
+
+              </div>
+              <div class="col-xl-12">
+                <button class='btn btn-primary' type='button' @click='salvarUsuarios()'>
+                  Salvar
+                </button>
+
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="nav-Grupo" role="tabpanel">
+        <div id="appGrupo"  v-if='permissao==1'>
+          <div v-if='formulario==false && visualizar==false'>
+            <a @click='incluirGrupo()' class=" btn btn-success"><b>&#xe901;</b> Criar Grupo</a>
+            <table class='table'>
+              <thead>
+
+                <tr>
+                  <th style="width:33%">id</th>
+                  <th style="width:33%">Nome</th>
+                  <th>Ações</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for='linha in lista'>
+                  <td>{{linha.id}}</td>
+                  <td>{{linha.nome}}</td>
+                  <td>
+                    <a @click='editarGrupo(linha.id)' class="btn btn-info"> Editar</a>
+                    <a @click='excluirGrupo(linha.id)' class="btn btn-danger">Apagar</a>
+                  </td>
+                </tr>
+                <tr v-if='total==0'>
+                  <td colspan='3'>
+                    <div class='alert alert-danger' style='float: left; width:100%'>
+                      Nenhum registro encontrado!
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div v-if='visualizar==true'>
+            <a href="#" @click='listarGrupo()' class="btn voltar">  &#xe900; Voltar</a>
+            <ul>
+              <li><b>nome </b>{{dadosGrupo.nome}}</li>
+            </ul>
+          </div>
+          <div v-if='formulario==true' class="formModulo">
+            <a @click='listarGrupo()' class="btn voltar">  &#xe900; Voltar aos Grupos</a>
+            <h2>{{titulo}}</h2>
+            <form class='grupo' name='Grupo' style="max-width:630px;">
+              <input type='hidden' name='id' id='id' v-model='id'>
+              <h5>Digite o nome do Grupo:</h5>
+              <div class="form-group">
+                <div class="col-xl-12">
+                  <label for='nome'>Nome</label>
+                  <input type='text' name='nome' id='nome' v-model='nome' required=' required'>
+                </div>
+              </div>
+              <button class='btn btn-primary' type='button' @click='salvarGrupo()'>
+                Salvar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--
+
+        <div class="tab-pane fade" id="nav-Pastas" role="tabpanel">
+          <div id="appPastas">
+            <div v-if='formulario==false && visualizar==false'>
+              <a @click='incluirPastas()' class=" btn btn-success"> Incluir</a>
+              <table class='table'>
+                <thead>
+                  <tr>
+                    <th>Nome</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for='linha in lista'>
+                    <td>{{linha.nome}}</td>
+                    <td>
+                      <a @click='verPastas(linha.id)' class="btn btn-success">Visualizar</a>
+                      <a @click='editarPastas(linha.id)' class="btn btn-success"> Editar</a>
+                      <a @click='excluirPastas(linha.id)' class="btn btn-danger">Excluir</a>
+                    </td>
+                  </tr>
+                  <tr v-if='total==0'>
+                    <td colspan='3'>
+                      <div class='alert alert-danger' style='float: left; width:100%'>
+                        Nenhum registro encontrado!
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div v-if='visualizar==true'>
+              <a href="#" @click='listarPastas()' class="btn voltar">  &#xe900; Voltar</a>
+              <ul>
+                <li><b>nome </b>{{dadosPastas.nome}}</li>
+              </ul>
+            </div>
+            <div v-if='formulario==true' class="formModulo">
+              <a @click='listarPastas()' class="btn voltar">  &#xe900; Voltar</a>
+              <form class='pastas' name='Pastas'>
+                <input type='hidden' name='id' id='id' v-model='id'>
+                <div class="form-group">
+                  <div class="col-xl-12">
+                    <label for='nome'>Nome</label>
+                    <input type='text' name='nome' id='nome' v-model='nome' required=' required'>
+                  </div>
+                </div>
+                <button class='btn btn-primary' type='button' @click='salvarPastas()'>
+                  Salvar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="nav-GrupoUsuario" role="tabpanel">
+          <div id="appGrupoUsuario">
+            <div v-if='formulario==false && visualizar==false'>
+              <a @click='incluirGrupoUsuario()' class=" btn btn-success"> Incluir</a>
+              <table class='table'>
+                <thead>
+                  <tr>
+                    <th>Grupo</th>
+                    <th>Usuário</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for='linha in lista'>
+                    <td>{{linha.id_grupo}}</td>
+                    <td>{{linha.id_usuario}}</td>
+                    <td>
+                      <a @click='verGrupoUsuario(linha.id)' class="btn btn-success">Visualizar</a>
+                      <a @click='editarGrupoUsuario(linha.id)' class="btn btn-success"> Editar</a>
+                      <a @click='excluirGrupoUsuario(linha.id)' class="btn btn-danger">Excluir</a>
+                    </td>
+                  </tr>
+                  <tr v-if='total==0'>
+                    <td colspan='3'>
+                      <div class='alert alert-danger' style='float: left; width:100%'>
+                        Nenhum registro encontrado!
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div v-if='visualizar==true'>
+              <a href="#" @click='listarGrupoUsuario()' class="btn voltar">  &#xe900; Voltar</a>
+              <ul>
+                <li><b>id_grupo </b>{{dadosGrupoUsuario.id_grupo}}</li>
+                <li><b>id_usuario </b>{{dadosGrupoUsuario.id_usuario}}</li>
+              </ul>
+            </div>
+            <div v-if='formulario==true' class="formModulo">
+              <a @click='listarGrupoUsuario()' class="btn voltar">  &#xe900; Voltar</a>
+              <form class='grupo_usuario' name='GrupoUsuario'>
+                <input type='hidden' name='id' id='id' v-model='id'>
+                <div class="form-group">
+                  <div class="col-xl-12">
+                    <label for='id_grupo'>Grupo</label>
+                    <div class='select'>
+                      <select name='id_grupo' id='id_grupo' v-model='id_grupo' required='required'>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-12">
+                    <label for='id_usuario'>Usuário</label>
+                    <div class='select'>
+                      <select name='id_usuario' id='id_usuario' v-model='id_usuario' required='required'>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <button class='btn btn-primary' type='button' @click='salvarGrupoUsuario()'>
+                  Salvar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="tab-pane fade" id="nav-Permissoes" role="tabpanel">
+          <div id="appPermissoes">
+            <div v-if='formulario==false && visualizar==false'>
+              <a @click='incluirPermissoes()' class=" btn btn-success"> Incluir</a>
+              <table class='table'>
+                <thead>
+                  <tr>
+                    <th>Nome</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for='linha in lista'>
+                    <td>{{linha.nome}}</td>
+                    <td>
+                      <a @click='verPermissoes(linha.id)' class="btn btn-success">Visualizar</a>
+                      <a @click='editarPermissoes(linha.id)' class="btn btn-success"> Editar</a>
+                      <a @click='excluirPermissoes(linha.id)' class="btn btn-danger">Excluir</a>
+                    </td>
+                  </tr>
+                  <tr v-if='total==0'>
+                    <td colspan='3'>
+                      <div class='alert alert-danger' style='float: left; width:100%'>
+                        Nenhum registro encontrado!
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div v-if='visualizar==true'>
+              <a href="#" @click='listarPermissoes()' class="btn voltar">  &#xe900; Voltar</a>
+              <ul>
+                <li><b>nome </b>{{dadosPermissoes.nome}}</li>
+              </ul>
+            </div>
+            <div v-if='formulario==true' class="formModulo">
+              <a @click='listarPermissoes()' class="btn voltar">  &#xe900; Voltar</a>
+              <form class='permissoes' name='Permissoes'>
+                <input type='hidden' name='id' id='id' v-model='id'>
+                <div class="form-group">
+                  <div class="col-xl-12">
+                    <label for='nome'>Nome</label>
+                    <input type='text' name='nome' id='nome' v-model='nome' required=' required'>
+                  </div>
+                </div>
+                <button class='btn btn-primary' type='button' @click='salvarPermissoes()'>
+                  Salvar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>  -->
+
+      <div class="tab-pane fade" id="nav-Documentos" role="tabpanel">
+        <div id="appDocumentos">
+          <div v-if='formulario==false && visualizar==false'>
+            <a @click='incluirDocumentos()' class=" btn btn-success"><b> &#xe901;</b>  Novo Documento</a>
+            <div class="documentos">
+
+              <h5>Selecione o grupo de documentos:</h5>
+              <nav class="gruposMenu">
+
+                <ul >
+
+                  <li  v-for='grupo in listarGrupos' :id='"grupo_"+grupo.id'>
+                    <a @click='listarDocumentos(grupo.id)' >{{grupo.nome}}</a>
+                  </li>
+
+                  <li id="docExcluido">
+                    <a @click='listarExcluidos()' >Arquivos Excluídos</a>
+                  </li>
+                </ul>
+
+              </nav>
+
+              <div class="col-xl-12 " v-if='listaArqExcluir.length>0'>
+
+              <a @click='excluirEmMassa()'  class="btn btn-danger"> Exlcuir selecionados ({{listaArqExcluir.length}})</a>
+              <a @click='desselecionaTudo()'  class="btn btn-default"> Desselecionar</a>
+
+
+              <hr>
+            </div>
+
+            <ul class="pastas" v-if="exclusao==false">
+              <li v-for='docpastas in listarPastas' class="col-xl-2" :id='"pasta_"+docpastas.id'>
+                <div class="col-xl-12" @click='listarDocumentos(grupo , docpastas.id)' >
+                 <p>&#xe903;</p>
+                {{docpastas.nome}}
+              </div>
+               </li>
+            </ul>
+
+
+
+              <div class="col-xl-2 doc" v-for='linha in lista'>
+
+
+
+
+                <ul class="docs" :id='"doc_"+linha.id'>
+                  <li class="checkbox_doc">
+                    <label :for="linha.id" v-if="linha.exclusao==null">
+                      <input type="checkbox" :id='linha.id' name="id" :valor='linha.id' @change="selDoc(linha.id)">
+
+                      <span></span>
+                    </label>
+
+                    <a @click='excluirDocumentos(linha.id)' class="" v-if="linha.exclusao==null"> &#xe904; </a>
+                    <a @click='editarDocumentos(linha.id)' class=""  v-if="linha.exclusao==null">  &#xe905; </a>
+                  </li>
+                  <li @click='verDocumentos(linha.id)' style="text-align:center">
+                    <p class="capa" v-bind:style="{ backgroundImage: 'url(' + linha.thumbnail + ')' }" >
+
+                    </p>
+                    <b>
+                      {{linha.nome}}
+                    <br>
+                    Nº {{linha.id}}
+                  </b>
+                  </li>
+
+
+                </ul>
+              </div>
+
+
+              <div class="col-xl-12 " v-if='listaArqExcluir.length>0'>
+                <hr>
+
+              <a @click='excluirEmMassa()'  class="btn btn-danger"> Exlcuir selecionados({{listaArqExcluir.length}})</a>
+              <a @click='desselecionaTudo()'  class="btn btn-default"> Desselecionar</a>
+            </div>
+
+              <div v-if='total==0' class='alert alert-danger' style='float: left; width:100%'>
+                Nenhum registro encontrado!
+              </div>
+
+            </div>
+          </div>
+          <div v-if='visualizar==true'>
+            <a href="#" @click='listarDocumentos()' class="btn voltar">  &#xe900; Voltar</a>
+            <ul class="dados">
+              <li><b>Nº :</b>{{dadosDocumentos.id}}</li>
+              <li><b>Documento: </b>{{dadosDocumentos.nome}}</li>
+              <li v-if='dadosDocumentos.data_inicial'><b>Data Inicial </b>{{dadosDocumentos.data_inicial}}</li>
+              <li v-if='dadosDocumentos.data_final'><b>Data final </b>{{dadosDocumentos.data_final}}</li>
+            </ul>
+
+            <div class="paginacao fixed-bottom" v-if='totalPaginas>1'>
+              Página </b>{{paginaAtual}} de {{totalPaginas}}
+             <button id="prev" v-if='paginaAtual>1' @click='mudarPagina(dadosDocumentos.url,"documentosPdf","anterior")' class="btn btn-default"><</button>
+              <button id="next" v-if='paginaAtual<totalPaginas' @click='mudarPagina(dadosDocumentos.url,"documentosPdf","proximo")'  class="btn btn-default">></button>
+            </div>
+
+              <canvas id="documentosPdf" v-if='dadosDocumentos.url.search(".pdf")>=1' style="border: 1px solid black; direction: ltr; margin-bottom:55px;"></canvas>
+                <div class="dados dadosImage" v-if='dadosDocumentos.url.search(".pdf")<1' >
+
+                  <img :src='dadosDocumentos.url' >
+
+
+                </div>
+
+
+          </div>
+          <div v-if='formulario==true' class="formModulo">
+            <a @click='listarDocumentos()' class="btn voltar">  &#xe900; Voltar aos Documentos</a>
+            <h2>{{titulo}}</h2>
+            <form class='documentos' name='Documentos' enctype="multipart/form-data">
+              <input type='hidden' name='id' id='id' v-model='id'>
+              <div class="form-group">
+                <div class="col-xl-6">
+                  <div class="col-xl-12"  v-if='!id_pasta' :style="[nova_pasta ? {paddingTop:'0px'}:{paddingTop:'46px'}]" >
+
+                    <label for='id_pasta'  v-if='nova_pasta'>Nova pasta</label>
+
+                    <input type='text' v-model='nova_pasta' name='nova_pasta' id='nova_pasta' placeholder="Criar nova pasta" >
+
+                  </div>
+                  <div class="col-xl-12" v-if='!nova_pasta'>
+
+                    <p style="text-align:center" v-if='!id_pasta'>    <br> Ou</p>
+
+                    <label for='id_pasta'>Selecionar Pasta Existente</label>
+                    <div class='select'>
+                      <select name='id_pasta' id='id_pasta' v-model='id_pasta'>
+                        <option value="">Nenhuma</option>
+                        <option v-for='pasta in listarPastas' :value='pasta.id' >{{pasta.nome}}</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-12" v-if='this.id==null'>
+                    <br>
+                    <h5>Selecione ou Arraste Seu(s) Arquivo(s)</h5>
+
+                    <div class="dropbox">
+
+                      <input type='file' id='btnDocumento' name='documentos' class='input-file' @change="selecionarDocumento($event.target.name, $event.target.files); " accept=".jpg, .jpeg, .pdf" required multiple>
+                      <p v-for="arquivos in listaArquivos">
+                        {{arquivos.name}}
+                      </p>
+
+                    </div>
+                    <label for='btnDocumento' class="btn btn-primary" style="margin-top:20px; width:100%; margin-left: 0px;">Selecionar PDF ou JPEG</label>
+
+
+
+
+                  </div>
+                </div>
+                <div class="col-xl-6">
+                  <div class="col-xl-12" v-if='listaArquivos.length<=1'>
+                    <label for='nome'>Nome</label>
+                    <input type='text' name='nome' id='nome' v-model='nome' required=' required'>
+                  </div>
+                  <div class="col-xl-6">
+                    <label for='data_inicial'>Data inicial</label>
+                    <input type='date' name='data_inicial' id='data_inicial' v-model='data_inicial' required=' required'>
+                  </div>
+                  <div class="col-xl-6">
+                    <label for='data_final'>Data final</label>
+                    <input type='date' name='data_final' id='data_final' v-model='data_final' required=' required'>
+                  </div>
+                  <div class="col-xl-12 checkbox gruposDoc">
+                    <h5>Grupos</h5>
+
+                    <div class="col-xl-6" v-for='grupo in listarGrupos'>
+                      <label :for="grupo.id">
+                        <input type="checkbox" :id='grupo.id' name="id_grupo" :value='grupo.id' @change="selGrupoDoc()">
+                        <span></span> {{grupo.nome}}
+                      </label>
+                    </div>
+
+                  </div>
+                  <div class="col-xl-12">
+                    <label for='palavras_chaves'>Palavras chaves</label>
+                    <textarea name='palavras_chaves' id='palavras_chaves' v-model='palavras_chaves' required='required'></textarea>
+                  </div>
+                </div>
+                <div id="previsualizar" >
+
+                </div>
+
+                <div class="col-xl-12">
+                  <button class='btn btn-primary' type='button' @click='salvarDocumentos()'>
+                    Salvar
+                  </button>
+                </div>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="nav-Atividades" role="tabpanel">
+        <div id="appAtividades">
+          <div v-if='formulario==false && visualizar==false'>
+            <table class='table'>
+              <thead>
+                <tr>
+                  <th colspan="3" style="width:33%">
+
+                    <div class="form-group filtro">
+                      <div class="col-xl-6">
+                        <br>
+                        <br>
+                        <input type='text' name='acesso' id='acesso' v-model='acesso' placeholder="Busca de Registro" @change='listarAtividades()'>
+                      </div>
+                      <div class="col-xl-3">
+                        <label for='data'>Inicio:</label>
+                        <input type='date' name='de' id='de' v-model='de' @change='listarAtividades()'>
+                      </div>
+
+                      <div class="col-xl-3">
+                        <label for='data'>Fim</label>
+                        <input type='date' name='ate' id='ate' v-model='ate' @change='listarAtividades()'>
+                      </div>
+                    </div>
+                    <br> {{total}} Registro(s) encontrado(s)
+
+                  </th>
+
+                </tr>
+                <tr>
+                  <th>Nº Registro</th>
+                  <th>Acesso</th>
+                  <th>Data</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for='linha in lista'>
+                  <td>{{linha.id}}</td>
+                  <td>{{linha.acesso}}</td>
+                  <td>{{linha.data}}</td>
+
+                </tr>
+                <tr v-if='total==0'>
+                  <td colspan='3'>
+                    <div class='alert alert-danger' style='float: left; width:100%'>
+                      Nenhum registro encontrado!
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div v-if='visualizar==true'>
+            <a href="#" @click='listarAtividades()' class="btn voltar">  &#xe900; Voltar</a>
+            <ul>
+              <li><b>acesso </b>{{dadosAtividades.acesso}}</li>
+              <li><b>data </b>{{dadosAtividades.data}}</li>
+            </ul>
+          </div>
+          <div v-if='formulario==true' class="formModulo">
+            <a @click='listarAtividades()' class="btn voltar">  &#xe900; Voltar</a>
+            <form class='atividades' name='Atividades'>
+              <input type='hidden' name='id' id='id' v-model='id'>
+              <div class="form-group">
+                <div class="col-xl-12">
+                  <label for='acesso'>Acesso</label>
+                  <input type='text' name='acesso' id='acesso' v-model='acesso' required=' required'>
+                </div>
+                <div class="col-xl-12">
+                  <label for='data'>Data</label>
+                  <input type='date' name='data' id='data' v-model='data' required=' required'>
+                </div>
+              </div>
+              <button class='btn btn-primary' type='button' @click='salvarAtividades()'>
+                Salvar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/alertify.min.js"></script>
+  <script type="text/javascript">
+    const config = {
+      dominio: 'http://localhost/'
+    }
+  </script>
+
+  <!--Modulo-->
+  <script src="src/Home.js"></script>
+  <script src="src/Usuarios.js"></script>
+  <script src="src/Grupo.js"></script>
+  <script src="src/Documentos.js"></script>
+  <script src="src/Atividades.js"></script>
+
+
+</body>
+
+</html>

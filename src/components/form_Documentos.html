@@ -1,0 +1,38 @@
+<div  v-if='formulario==true'>
+ <a @click='listarDocumentos()' class="btn btn-primary"> Voltar</a>
+	<form  class='documentos' name='Documentos'>
+	<input type='hidden' name='id' id='id' v-model='id'>
+	<div class="form-group">
+	<div class="col-sm-12">
+	<label for='nome'>Nome</label>
+							<input type='text' name='nome' id='nome' v-model='nome' required=' required'>
+	</div>
+	<div class="col-sm-12">
+	<label for='id_pasta'>Pasta</label>
+                    <div class='select'>
+                    <select name='id_pasta' id='id_pasta' v-model='id_pasta' required='required'>
+                    </select>
+                    </div>
+	</div>
+	<div class="col-sm-12">
+	<label for='data_inicial'>Data inicial</label>
+							<input type='text' name='data_inicial' id='data_inicial' v-model='data_inicial' required=' required'>
+	</div>
+	<div class="col-sm-12">
+	<label for='data_final'>Data final</label>
+							<input type='text' name='data_final' id='data_final' v-model='data_final' required=' required'>
+	</div>
+	<div class="col-sm-12">
+	<label for='palavras_chaves'>Palavras chaves</label>
+							<textarea name='palavras_chaves' id='palavras_chaves' v-model='palavras_chaves' required='required'></textarea>
+	</div>
+	<div class="col-sm-12">
+	<label for='url'>Url</label>
+							<textarea name='url' id='url' v-model='url' required='required'></textarea>
+	</div>
+	</div>
+	<button class='btn btn-primary' type='button' @click='salvarDocumentos()'>
+	Salvar
+	</button>
+</form>
+</div>

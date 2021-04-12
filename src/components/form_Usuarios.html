@@ -1,0 +1,34 @@
+<div  v-if='formulario==true'>
+ <a @click='listarUsuarios()' class="btn btn-primary"> Voltar</a>
+	<form  class='usuarios' name='Usuarios'>
+	<input type='hidden' name='id' id='id' v-model='id'>
+	<div class="form-group">
+	<div class="col-sm-12">
+	<label for='nome'>Nome</label>
+							<input type='text' name='nome' id='nome' v-model='nome' required=' required'>
+	</div>
+	<div class="col-sm-12">
+	<label for='senha'>Senha</label>
+							<textarea name='senha' id='senha' v-model='senha' required='required'></textarea>
+	</div>
+	<div class="col-sm-12">
+	<label for='telefone'>Telefone</label>
+							<input type='text' name='telefone' id='telefone' v-model='telefone' required=' required'>
+	</div>
+	<div class="col-sm-12">
+	<label for='email'>Email</label>
+							<input type='text' name='email' id='email' v-model='email' required=' required'>
+	</div>
+	<div class="col-sm-12">
+	<label for='id_permissao'>Permissão</label>
+                    <div class='select'>
+                    <select name='id_permissao' id='id_permissao' v-model='id_permissao' required='required'>
+                    </select>
+                    </div>
+	</div>
+	</div>
+	<button class='btn btn-primary' type='button' @click='salvarUsuarios()'>
+	Salvar
+	</button>
+</form>
+</div>

@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS `valfram`.`TAREFAS` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `id_projeto` INT(11) NOT NULL,
+  `id_tipo` INT(11) NOT NULL,
+  `titulo` VARCHAR(255) NOT NULL,
+  `descricao` TEXT NOT NULL,
+  `inicio` DATE NOT NULL,
+  `fim` DATE NOT NULL,
+  `data` DATE NOT NULL,
+  `status` INT(2) NULL DEFAULT NULL,
+  `admin` INT(11) NOT NULL,
+  `exclusao` VARCHAR(10) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8

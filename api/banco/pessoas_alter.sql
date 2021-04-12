@@ -1,0 +1,1 @@
+ALTER TABLE `PESSOA` ADD `profissao` VARCHAR(255) NULL AFTER `razao_social`, ADD `nome_pai` VARCHAR(255) NULL AFTER `profissao`, ADD `nome_mae` VARCHAR(255) NULL AFTER `nome_pai`, ADD `naturalidade` VARCHAR(255) NULL AFTER `nome_mae`; 

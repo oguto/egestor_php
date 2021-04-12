@@ -1,0 +1,15 @@
+<div  v-if='formulario==true'>
+ <a @click='listarPermissoes()' class="btn btn-primary"> Voltar</a>
+	<form  class='permissoes' name='Permissoes'>
+	<input type='hidden' name='id' id='id' v-model='id'>
+	<div class="form-group">
+	<div class="col-sm-12">
+	<label for='nome'>Nome</label>
+							<input type='text' name='nome' id='nome' v-model='nome' required=' required'>
+	</div>
+	</div>
+	<button class='btn btn-primary' type='button' @click='salvarPermissoes()'>
+	Salvar
+	</button>
+</form>
+</div>

@@ -1,0 +1,33 @@
+<div v-if='formulario==false && visualizar==false'>
+    <a @click='incluirPermissoes()' class=" btn btn-primary"> Incluir</a>
+  <table class='table'>
+    <thead>
+      <tr>
+         <th>Nome</th>
+         </tr>
+   </thead>
+   <tbody>
+    <tr  v-for='linha in lista'>
+      <td>{{linha.nome}}</td>
+      <td>
+        <a @click='verPermissoes(linha.id)' class="btn btn-success">Visualizar</a>
+        <a @click='editarPermissoes(linha.id)' class="btn btn-success"> Editar</a>
+        <a @click='excluirPermissoes(linha.id)' class="btn btn-danger">Excluir</a>
+      </td>
+    </tr >
+    <tr v-if='total==0'>
+      <td colspan='3'>
+      <div class='alert alert-danger' style='float: left; width:100%'>
+      Nenhum registro encontrado!
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div v-if='visualizar==true'>
+    <a href="#" @click='listarPermissoes()' class="btn btn-primary"> Voltar</a>
+    <ul>
+      <li><b>nome </b>{{dadosPermissoes.nome}}</li>
+      </ul>
+</div>

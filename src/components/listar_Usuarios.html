@@ -1,0 +1,45 @@
+<div v-if='formulario==false && visualizar==false'>
+    <a @click='incluirUsuarios()' class=" btn btn-primary"> Incluir</a>
+  <table class='table'>
+    <thead>
+      <tr>
+         <th>Nome</th>
+         <th>Senha</th>
+         <th>Telefone</th>
+         <th>Email</th>
+         <th>Permissão</th>
+         </tr>
+   </thead>
+   <tbody>
+    <tr  v-for='linha in lista'>
+      <td>{{linha.nome}}</td>
+      <td>{{linha.senha}}</td>
+      <td>{{linha.telefone}}</td>
+      <td>{{linha.email}}</td>
+      <td>{{linha.id_permissao}}</td>
+      <td>
+        <a @click='verUsuarios(linha.id)' class="btn btn-success">Visualizar</a>
+        <a @click='editarUsuarios(linha.id)' class="btn btn-success"> Editar</a>
+        <a @click='excluirUsuarios(linha.id)' class="btn btn-danger">Excluir</a>
+      </td>
+    </tr >
+    <tr v-if='total==0'>
+      <td colspan='3'>
+      <div class='alert alert-danger' style='float: left; width:100%'>
+      Nenhum registro encontrado!
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div v-if='visualizar==true'>
+    <a href="#" @click='listarUsuarios()' class="btn btn-primary"> Voltar</a>
+    <ul>
+      <li><b>nome </b>{{dadosUsuarios.nome}}</li>
+      <li><b>senha </b>{{dadosUsuarios.senha}}</li>
+      <li><b>telefone </b>{{dadosUsuarios.telefone}}</li>
+      <li><b>email </b>{{dadosUsuarios.email}}</li>
+      <li><b>id_permissao </b>{{dadosUsuarios.id_permissao}}</li>
+      </ul>
+</div>

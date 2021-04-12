@@ -1,0 +1,283 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+ @font-face {
+   font-family: 'icomoon';
+   src:  url('../fonts/icomoon.eot?gs6bg5');
+   src:  url('../fonts/icomoon.eot?gs6bg5#iefix') format('embedded-opentype'),
+     url('../fonts/icomoon.ttf?gs6bg5') format('truetype'),
+     url('../fonts/icomoon.woff?gs6bg5') format('woff'),
+     url('../fonts/icomoon.svg?gs6bg5#icomoon') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-display: block;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+body {
+  padding-top: 56px;
+  background-color: #fff;
+  color: #003641;
+ font-family: 'Asap','icomoon', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.navbar-toggler {
+
+    background-color: #D6E5E8;
+      color: #003641;
+
+}
+
+
+.navbar{
+    background: #F2F7F7 !important;
+    color: #003641;
+    height: 86px;
+    float: left;
+
+
+}
+
+.navbar a{
+    color: #003641;
+
+}
+.navbar li{
+
+  margin-left: 20px;
+
+
+
+}
+
+.navbar  a.active{
+
+      color:#00AE9D !important
+
+
+}
+
+
+.conteudo{
+  border: 2px solid #EFF1F2;
+  width: 100%;
+  min-height:  500px;
+  border-radius: 5px;
+  margin: 0 auto;
+
+
+}
+.corpo{
+  padding-top: 60px;
+      min-width: 1280px;
+}
+
+.navbar .nav-tabs{
+    border-bottom: 0px;
+
+
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: transparent;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.navbar a.active {
+    color: #00AE9D !important;
+}
+
+.navbar a:hover{
+  background-color: #E1EBEE !important;
+  border-radius: 5px;
+  color: #003641 !important;
+  }
+
+
+
+.navbar .nav-tabs .nav-link ,
+.navbar .nav-tabs .nav-link.active{
+    border: 0px !important;
+
+}
+
+.table tbody{
+  color: #829599;
+  font-size: 20px;
+}
+.btn{
+  border: 0px !important;
+}
+.btn-success{
+  background: #7DB61C;
+
+color: #fff!important;
+font-size: 18px;
+margin: 2.5px;
+float: right;
+}
+.btn-success:hover{
+  background: #66990F;
+color: #fff!important;
+
+}
+.btn-info{
+  background: #00AE9D;
+color: #fff!important;
+margin: 2.5px;
+}
+.btn-info:hover{
+  background: #019183;
+color: #fff!important;
+
+}
+
+.btn-danger{
+  background: #D74545;
+color: #fff!important;
+margin: 2.5px;
+}
+.btn-danger:hover{
+  background: #AE1111;
+color: #fff!important;
+
+}
+
+
+.btn-default{
+  background: #D6E5E8;
+color: #212529!important;
+margin: 2.5px;
+}
+.btn-default:hover{
+  background: #ABC3C8;
+color: #212529!important;
+
+}
+.table{
+  margin-top: 38px;
+  border: 1px solid #ccc;
+  float: left;
+  border-radius: 5px !important;
+  border-collapse:separate;
+  border: 2px solid #EFF1F2;
+    -webkit-border-radius: 25px;
+       -moz-border-radius: 25px;
+            border-radius: 25px;
+}
+.table th,
+.table td{
+  border-bottom: 2px solid #EFF1F2;
+  border-top: 0px;
+  margin-bottom: 0px;
+
+}
+.thead{
+    border-collapse:separate;
+  border-bottom: 2px solid #EFF1F2;
+}
+.voltar{
+  background: #49479D;
+  color: #fff;
+  min-width: 137px;
+  margin-bottom: 38px;
+
+}
+
+.voltar:hover{
+  background: #110F60;
+  color: #fff;
+
+
+}
+input,select,textarea{
+  width: 100%;
+  margin-top: -18px;
+  padding: 10px;
+  border: 1px solid #829599;
+  border-radius: 5px;
+  z-index: 1;
+  background-color: #fff;
+}
+label{
+  background-color: #fff;
+  color:#829599;
+  z-index: 2;
+  position: relative;
+  padding: 10px;
+  padding-bottom: 2px;
+  margin-left: 5px;
+
+}
+form,
+.documentos{
+  border: 2px solid #EFF1F2;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 47px;
+  width: 100%;
+  float: left;
+
+
+}
+.documentos{
+  margin-top: 28px;
+
+
+}
+ h5,h2,h3{
+  color: #003641;
+  font-weight: bold;
+
+
+}
+h5{
+  font-size: 20px;
+  font-weight: bold;
+}
+h2{
+  font-size: 32px;
+
+
+}
+form button{
+  float: right;
+  background: #00AE9D !important;
+  margin-right:  13px;
+  color: #fff!important;
+
+}
+.filtro{
+  margin-bottom: 45px;
+  float: left;
+  width: 100%;
+
+
+}
+.filtro input{
+  height: 60px;
+
+}

@@ -1,0 +1,19 @@
+<div  v-if='formulario==true'>
+ <a @click='listarAtividades()' class="btn btn-primary"> Voltar</a>
+	<form  class='atividades' name='Atividades'>
+	<input type='hidden' name='id' id='id' v-model='id'>
+	<div class="form-group">
+	<div class="col-sm-12">
+	<label for='acesso'>Acesso</label>
+							<input type='text' name='acesso' id='acesso' v-model='acesso' required=' required'>
+	</div>
+	<div class="col-sm-12">
+	<label for='data'>Data</label>
+							<input type='text' name='data' id='data' v-model='data' required=' required'>
+	</div>
+	</div>
+	<button class='btn btn-primary' type='button' @click='salvarAtividades()'>
+	Salvar
+	</button>
+</form>
+</div>

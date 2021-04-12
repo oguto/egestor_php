@@ -1,0 +1,48 @@
+<div v-if='formulario==false && visualizar==false'>
+    <a @click='incluirDocumentos()' class=" btn btn-primary"> Incluir</a>
+  <table class='table'>
+    <thead>
+      <tr>
+         <th>Nome</th>
+         <th>Pasta</th>
+         <th>Data inicial</th>
+         <th>Data final</th>
+         <th>Palavras chaves</th>
+         <th>Url</th>
+         </tr>
+   </thead>
+   <tbody>
+    <tr  v-for='linha in lista'>
+      <td>{{linha.nome}}</td>
+      <td>{{linha.id_pasta}}</td>
+      <td>{{linha.data_inicial}}</td>
+      <td>{{linha.data_final}}</td>
+      <td>{{linha.palavras_chaves}}</td>
+      <td>{{linha.url}}</td>
+      <td>
+        <a @click='verDocumentos(linha.id)' class="btn btn-success">Visualizar</a>
+        <a @click='editarDocumentos(linha.id)' class="btn btn-success"> Editar</a>
+        <a @click='excluirDocumentos(linha.id)' class="btn btn-danger">Excluir</a>
+      </td>
+    </tr >
+    <tr v-if='total==0'>
+      <td colspan='3'>
+      <div class='alert alert-danger' style='float: left; width:100%'>
+      Nenhum registro encontrado!
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div v-if='visualizar==true'>
+    <a href="#" @click='listarDocumentos()' class="btn btn-primary"> Voltar</a>
+    <ul>
+      <li><b>nome </b>{{dadosDocumentos.nome}}</li>
+      <li><b>id_pasta </b>{{dadosDocumentos.id_pasta}}</li>
+      <li><b>data_inicial </b>{{dadosDocumentos.data_inicial}}</li>
+      <li><b>data_final </b>{{dadosDocumentos.data_final}}</li>
+      <li><b>palavras_chaves </b>{{dadosDocumentos.palavras_chaves}}</li>
+      <li><b>url </b>{{dadosDocumentos.url}}</li>
+      </ul>
+</div>

@@ -1,0 +1,25 @@
+<div  v-if='formulario==true'>
+ <a @click='listarGrupoUsuario()' class="btn btn-primary"> Voltar</a>
+	<form  class='grupo_usuario' name='GrupoUsuario'>
+	<input type='hidden' name='id' id='id' v-model='id'>
+	<div class="form-group">
+	<div class="col-sm-12">
+	<label for='id_grupo'>Grupo</label>
+                    <div class='select'>
+                    <select name='id_grupo' id='id_grupo' v-model='id_grupo' required='required'>
+                    </select>
+                    </div>
+	</div>
+	<div class="col-sm-12">
+	<label for='id_usuario'>Usuário</label>
+                    <div class='select'>
+                    <select name='id_usuario' id='id_usuario' v-model='id_usuario' required='required'>
+                    </select>
+                    </div>
+	</div>
+	</div>
+	<button class='btn btn-primary' type='button' @click='salvarGrupoUsuario()'>
+	Salvar
+	</button>
+</form>
+</div>
