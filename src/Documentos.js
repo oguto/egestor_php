@@ -42,6 +42,7 @@ const  moduloDocumentos = {
       id_pasta:null,
       data_inicial:null,
       data_final:null,
+      data_br:null,
       palavras_chaves:null,
       url:null,
       grupo:null,
@@ -51,6 +52,8 @@ const  moduloDocumentos = {
       formulario:false,
       visualizar:false,
       total: 0,
+      totalPaginasDocs:0,
+      paginaAtualDocs:1,
       totalPaginas:0,
       paginaAtual:1,
       uploadError: null,
@@ -152,18 +155,26 @@ const  moduloDocumentos = {
             appDocumentos.listarPastasDoc();
             });
     },
-		listarDocumentos(grupo=0,pasta=null){
-      
+		listarDocumentos(pagina=0,grupo=0,pasta=null){
+
 	      axios.post(config.dominio+'api/Documentos/listar',
-        {grupo:grupo,id_pasta:pasta}).then(function(response) {
+        {grupo:grupo,id_pasta:pasta,pagina:pagina}).then(function(response) {
+          console.log(response);
+
+          if((pagina)!=appDocumentos.paginaAtualDocs){
+
+            appDocumentos.paginaAtualDocs=1;
+
+          }
 
           appDocumentos.exclusao=false;
           appDocumentos.grupo=grupo;
           appDocumentos.listarGruposDoc();
           appDocumentos.listarPastasDoc();
           appDocumentos.limparModulo();
-	        appDocumentos.total = response.data.length;
-	        appDocumentos.lista = response.data;
+	        appDocumentos.total = response.data.total;
+	        appDocumentos.lista = response.data.lista;
+          appDocumentos.totalPaginasDocs=response.data.paginas;
           $(".gruposMenu li").removeClass("active");
           $("li#grupo_"+grupo).addClass("active");
           if(pasta!=null){
@@ -177,7 +188,7 @@ const  moduloDocumentos = {
 
 
 	  },
-    listarExcluidos(grupo=0,pasta=null){
+    listarExcluidos(pagina=0,grupo=0,pasta=null){
 
         appDocumentos.listarGruposDoc();
 
@@ -188,8 +199,9 @@ const  moduloDocumentos = {
           id_pasta:pasta,
           exclusao:true}).then(function(response) {
           appDocumentos.limparModulo();
-	        appDocumentos.total = response.data.length;
-	        appDocumentos.lista = response.data;
+          appDocumentos.total = response.data.total;
+         appDocumentos.lista = response.data.lista;
+          appDocumentos.totalPaginasDocs=response.data.paginas;
           appDocumentos.exclusao=true;
           $(".gruposMenu li").removeClass("active");
           $("li#docExcluido").addClass("active");
@@ -205,11 +217,10 @@ const  moduloDocumentos = {
             exclusao:appDocumentos.exclusao
           }).then(function(response) {
             appDocumentos.visualizar = true;
-            appDocumentos.total = response.data.length;
-            appDocumentos.dadosDocumentos = response.data[0];
-            appDocumentos.verArquivo(response.data[0].url,"documentosPdf",1);
+            appDocumentos.total = response.data.lista.length;
+            appDocumentos.dadosDocumentos = response.data.lista[0];
+            appDocumentos.verArquivo(response.data.lista[0].url,"documentosPdf",1);
             appDocumentos.listaArqExcluir=[];
-
             appDocumentos.salvarAtividades("visualizou o arquivo Nº "+appDocumentos.dadosDocumentos.id+".");
 
 

@@ -22,7 +22,32 @@ class Atividades extends REST_Controller {
     {
         $dados = $this->post();
 
-        $resultado = $this->AtividadesModel->filtrar($dados);
+        if(!empty($dados['pagina'])){
+
+          $pagina = $dados['pagina'];
+
+          unset($dados['pagina']);
+
+        }else{
+
+          $pagina = null;
+
+          }
+
+          $pagina = $pagina-1;
+          if($pagina<0){
+              $pagina =0;
+          }
+
+      
+
+        $lista = $this->AtividadesModel->filtrar($dados,10,$pagina*10);
+
+        $total = $this->AtividadesModel->contarTotal($dados);
+
+        $resultado= array('lista' =>$lista,
+              'total' =>$total,
+              'paginas' =>ceil($total/10));
 
       $this->response($resultado, REST_Controller::HTTP_OK);
 

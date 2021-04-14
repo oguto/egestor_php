@@ -115,6 +115,43 @@ class AtividadesModel extends CI_Model {
 
     }
 
+    function contarTotal($filtro){
+
+        $this->db->from("ATIVIDADES");
+        $this->db->select("ATIVIDADES.*,DATE_FORMAT(data,'%d/%m/%Y %H:%i') AS data ");
+
+        $this->db->order_by('ATIVIDADES.id', 'desc');
+
+        $this->db->where('ATIVIDADES.exclusao is null');
+
+        if(!empty($filtro['de'])){
+
+            $this->db->where('ATIVIDADES.data>=',$filtro['de']);
+
+            unset($filtro['de']);
+
+
+        }
+
+         if(!empty($filtro['ate'])){
+
+            $this->db->where('ATIVIDADES.data<=',$filtro['ate']);
+
+            unset($filtro['ate']);
+        }
+        if(!empty($filtro)){
+
+          $filtro=array_filter($this->dados($filtro));
+
+            $this->db->like($filtro);
+
+        }
+
+
+
+       return $this->db->get()->num_rows();
+
+    }
 
     function excluir($id) {
 

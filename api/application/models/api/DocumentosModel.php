@@ -88,6 +88,75 @@ class DocumentosModel extends CI_Model {
       $filtro= array_filter($filtro);
 
 
+      $this->db->select("DOCUMENTOS.*,DOCUMENTOS.id AS id, DATE_FORMAT(data_final,'%d/%m/%Y ') AS data_br ");
+
+        $this->db->group_by("DOCUMENTOS.id");
+
+        $this->db->from("DOCUMENTOS");
+
+        if(!empty($filtro['exclusao'])){
+
+            $this->db->where('DOCUMENTOS.exclusao is not null');
+
+            unset($filtro['exclusao']);
+
+        }else{
+
+          $this->db->where('DOCUMENTOS.exclusao is null');
+
+        }
+
+
+
+        $this->db->join('GRUPO_DOCUMENTO', 'DOCUMENTOS.id = GRUPO_DOCUMENTO.id_documento','Left');
+
+          if(!empty($filtro['grupo'])){
+
+            $this->db->where('GRUPO_DOCUMENTO.id_grupo',$filtro['grupo']);
+
+            unset($filtro['grupo']);
+
+          }
+          if(!empty($filtro['id'])){
+
+            $this->db->where('DOCUMENTOS.id',$filtro['id']);
+
+            unset($filtro['id']);
+
+          }
+
+        if(!empty($filtro['status'])){
+
+          if($filtro['status']=="ativo"){
+
+            $this->db->where('DOCUMENTOS.data_final>=',date('Y-m-d'));
+
+          }else{
+
+            $this->db->where('DOCUMENTOS.data_final<',date('Y-m-d'));
+
+          }
+
+          unset($filtro['status']);
+
+        }
+
+
+        $this->db->where($filtro);
+
+        $query = $this->db->get("", $maximo, $inicio);
+
+        return $query->result_array();
+
+    }
+
+
+    function contarTotal($filtro){
+
+      $filtro= array_filter($filtro);
+
+      unset($filtro['pagina']);
+
       $this->db->select("DOCUMENTOS.*,DOCUMENTOS.id AS id");
 
         $this->db->group_by("DOCUMENTOS.id");
@@ -143,9 +212,7 @@ class DocumentosModel extends CI_Model {
 
         $this->db->where($filtro);
 
-        $query = $this->db->get("", $maximo, $inicio);
-
-        return $query->result_array();
+        return $this->db->get()->num_rows();
 
     }
 

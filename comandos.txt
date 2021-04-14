@@ -13,3 +13,7 @@ docker tag 247332e02d3c oguto/egestor_php:latest
 docker push oguto/egestor_php:v5
 
 docker build -t egestor_php:latest
+
+git remote set-url origin  https://appnelos@bitbucket.org/appnelos/egestor_php.git
+
+git remote add origin https://appnelos@bitbucket.org/appnelos/egestor_php.git

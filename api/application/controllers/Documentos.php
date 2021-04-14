@@ -24,7 +24,25 @@ class Documentos extends REST_Controller {
     {
         $dados = $this->post();
 
-        $resultado = $this->DocumentosModel->filtrar($dados);
+        if(!empty($dados['pagina'])){
+
+          $pagina = $dados['pagina'];
+
+          unset($dados['pagina']);
+
+        }else{
+
+          $pagina = null;
+
+        }
+
+        $lista = $this->DocumentosModel->filtrar($dados,10,$pagina);
+
+        $total = $this->DocumentosModel->contarTotal($dados);
+
+        $resultado= array('lista' =>$lista,
+              'total' =>$total,
+              'paginas' =>ceil($total/10));
 
       $this->response($resultado, REST_Controller::HTTP_OK);
 

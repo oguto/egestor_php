@@ -1,10 +1,10 @@
 .dropbox {
     border: 2px dashed #829599; /* the dash box */
     background-color:  #fff;
-    background-image: url("../img/dragfile.png");
+    background-image: url("dragfile.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50%;
     color: dimgray;
     padding: 10px 10px;
     min-height: 200px; /* minimum height */
@@ -131,7 +131,6 @@
   font-size: 16px;
   line-height: 16px;
   text-align: center;
-
   color: #fff;
 
 }
@@ -432,4 +431,8 @@ font-weight: normal;
     border-radius: 5px;
     font-weight: 400;
 
+}
+.paginar{
+  text-align: right;
+  background: transparent;
 }

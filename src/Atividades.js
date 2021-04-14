@@ -13,7 +13,9 @@ const  moduloAtividades = {
     conteudo: null,
     formulario:false,
     visualizar:false,
-    total: 0
+    total: 0,
+    totalPaginas:0,
+    paginaAtual:1
     },
     methods: {
       limparModulo(){
@@ -86,15 +88,17 @@ const  moduloAtividades = {
               appAtividades.exclusao=AtividadesDados.exclusao;
               });
       },
-  		listarAtividades(){
+  		listarAtividades(pagina=0){
   	      axios.post(config.dominio+'api/Atividades/listar', {
             acesso:appAtividades.acesso,
             de:appAtividades.de,
-            ate:appAtividades.ate
+            ate:appAtividades.ate,
+            pagina:pagina
           }).then(function(response) {
             //appAtividades.limparModulo();
-  	        appAtividades.total = response.data.length;
-  	        appAtividades.lista = response.data;
+  	        appAtividades.total = response.data.total;
+  	        appAtividades.lista = response.data.lista;
+            appAtividades.totalPaginas = response.data.paginas;
   	      });
 
 
@@ -139,7 +143,7 @@ const  moduloAtividades = {
       }
   },
   created() {
-  
+
     this.listarAtividades();
   }
 

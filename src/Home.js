@@ -46,7 +46,6 @@ const  moduloHome = {
         appHome.listaArqExcluir=[];
         appHome.listaArquivos=[];
         appHome.totalPaginas=0;
-        appHome.paginaAtual=1;
         appHome.thumbnail=[];
         appHome.listThumbnail=[];
         },
@@ -118,17 +117,16 @@ const  moduloHome = {
             appHome.listarPastasDoc();
             });
     },
-		listarDocumentos(status="ativo"){
+		listarDocumentos(status="ativo",pagina=0){
 	      axios.post(config.dominio+'api/Documentos/listar',
-        {status:status}).then(function(response) {
+        {status:status,pagina:pagina}).then(function(response) {
           appHome.limparModulo();
-	        appHome.total = response.data.length;
-	        appHome.lista = response.data;
+	        appHome.total = response.data.total;
+	        appHome.lista = response.data.lista;
+          appHome.totalPaginas = response.data.paginas;
           appHome.statusDoc=status;
 
 	      });
-
-
 	  },
     verDocumentos(id){
           axios.post(config.dominio+'api/Documentos/listar',{
@@ -139,7 +137,6 @@ const  moduloHome = {
             appHome.dadosDocumentos = response.data[0];
             appHome.verArquivo(response.data[0].url,"documentosPdf",1);
             appHome.listaArqExcluir=[];
-
             appHome.salvarAtividades("visualizou o arquivo Nº "+appHome.dadosDocumentos.id+".");
 
 
