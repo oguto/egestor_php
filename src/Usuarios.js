@@ -15,6 +15,8 @@ const  moduloUsuarios = {
     formulario:false,
     visualizar:false,
     total: 0,
+    totalPaginas:0,
+    paginaAtual:1,
     listarGrupos:[],
     listaSelGruposUser:[],
     dadosLogin:null,
@@ -107,12 +109,14 @@ const  moduloUsuarios = {
 
             });
     },
-		listarUsuarios(){
+		listarUsuarios(pagina=0){
 	      axios.post(config.dominio+'api/Usuarios/listar', {
+            pagina:pagina
 	      }).then(function(response) {
           appUsuarios.limparModulo();
-	        appUsuarios.total = response.data.length;
-	        appUsuarios.lista = response.data;
+	        appUsuarios.total = response.data.lista.length;
+	        appUsuarios.lista = response.data.lista;
+          appUsuarios.totalPaginas = response.data.paginas;
 	      });
 
 
@@ -132,7 +136,7 @@ const  moduloUsuarios = {
               axios.post(config.dominio+'api/Usuarios/listar',{
                 id_aauth: id
               }).then(function(response) {
-                appUsuarios.permissao =parseInt(response.data[0].id_permissao);
+                appUsuarios.permissao =parseInt(response.data.lista[0].id_permissao);
 
                 if(appUsuarios.permissao==2){
 
@@ -265,7 +269,7 @@ const  moduloUsuarios = {
                       }).then(function(response) {
                         console.log(response);
 
-                        callback(response.data[0].id_permissao);
+                        callback(response.data.lista[0].id_permissao);
 
 
                       });

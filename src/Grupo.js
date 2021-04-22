@@ -12,7 +12,9 @@ const  moduloGrupo = {
     formulario:false,
     visualizar:false,
     permissao:null,
-    total: 0
+    total: 0,
+    totalPaginas:0,
+    paginaAtual:1
     },
     methods: {
       limparModulo(){
@@ -81,15 +83,15 @@ const  moduloGrupo = {
             appGrupo.exclusao=GrupoDados.exclusao;
             });
     },
-		listarGrupo(){
+		listarGrupo(pagina=0){
 	      axios.post(config.dominio+'api/Grupo/listar', {
+          pagina:pagina
 	      }).then(function(response) {
           appGrupo.limparModulo();
-	        appGrupo.total = response.data.length;
-	        appGrupo.lista = response.data;
+	        appGrupo.total = response.data.lista.length;
+	        appGrupo.lista = response.data.lista;
+          appGrupo.totalPaginas = response.data.paginas;
           appUsuarios.verUserLogin(function(dadosPermissoes) {
-          console.log(dadosPermissoes);
-
           appGrupo.permissao=dadosPermissoes;
 
           })

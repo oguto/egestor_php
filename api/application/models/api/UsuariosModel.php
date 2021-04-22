@@ -91,6 +91,8 @@ class UsuariosModel extends CI_Model {
 
     function filtrar($filtro,$maximo = NULL, $inicio = NULL){
 
+        $filtro= array_filter($filtro);
+
         $this->db->from("USUARIOS");
 
         $this->db->where('USUARIOS.exclusao is null');
@@ -102,6 +104,23 @@ class UsuariosModel extends CI_Model {
         return $query->result_array();
 
     }
+
+
+    function contarTotal($filtro){
+
+        $filtro= array_filter($filtro);
+
+        $this->db->from("USUARIOS");
+
+        $this->db->where('USUARIOS.exclusao is null');
+
+        $this->db->where($filtro);
+
+      return $this->db->get()->num_rows();
+
+    }
+
+
 
 
     function excluir($id) {

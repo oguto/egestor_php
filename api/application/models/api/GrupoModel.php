@@ -73,7 +73,7 @@ class GrupoModel extends CI_Model {
 
     function filtrar($filtro,$maximo = NULL, $inicio = NULL){
 
-
+      $filtro= array_filter($filtro);
 
         $this->db->from("GRUPO");
 
@@ -93,7 +93,27 @@ class GrupoModel extends CI_Model {
         return $query->result_array();
 
     }
+    function contarTotal($filtro){
 
+        $filtro= array_filter($filtro);
+
+        $this->db->from("GRUPO");
+
+        $this->db->where('GRUPO.exclusao is null');
+
+        if(!empty($filtro['id'])){
+
+          $this->db->where('GRUPO.id',$filtro['id']);
+
+          unset($filtro['id']);
+
+        }
+        $this->db->where($filtro);
+
+
+        return  $this->db->get()->num_rows();
+
+    }
 
     function excluir($id) {
 

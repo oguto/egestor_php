@@ -88,7 +88,8 @@ class DocumentosModel extends CI_Model {
       $filtro= array_filter($filtro);
 
 
-      $this->db->select("DOCUMENTOS.*,DOCUMENTOS.id AS id, DATE_FORMAT(data_final,'%d/%m/%Y ') AS data_br ");
+      $this->db->select("DOCUMENTOS.*,DOCUMENTOS.id AS id, DATE_FORMAT(data_final,'%d/%m/%Y ') AS data_br, DATE_FORMAT(data_inicial,'%d/%m/%Y ') AS data_inicio_br ");
+
 
         $this->db->group_by("DOCUMENTOS.id");
 

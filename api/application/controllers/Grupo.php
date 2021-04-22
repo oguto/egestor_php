@@ -26,19 +26,37 @@ class Grupo extends REST_Controller {
     {
         $dados = $this->post();
 
+        if(!empty($dados['pagina'])){
+
+          $pagina = $dados['pagina'];
+
+          unset($dados['pagina']);
+
+        }else{
+
+          $pagina = null;
+
+        }
+
         $login=$this->aauth->get_user();
 
         $user= $this->UsuariosModel->filtrar(array('id_aauth' =>$login->id))[0];
 
         if($user['id_permissao']==2){
 
-            $resultado= $this-> GrupoUsuarioModel->filtrar(array('id_usuario' =>$user['id']));
+            $lista= $this-> GrupoUsuarioModel->filtrar(array('id_usuario' =>$user['id']));
 
         }else{
 
-            $resultado = $this->GrupoModel->filtrar($dados);
+            $lista = $this->GrupoModel->filtrar($dados);
 
         }
+
+        $total = $this->GrupoModel->contarTotal($dados);
+
+        $resultado= array('lista' =>$lista,
+              'total' =>$total,
+              'paginas' =>ceil($total/10));
 
 
 

@@ -358,7 +358,8 @@ const  moduloDocumentos = {
     listarGruposDoc(id=null){
 	      axios.post(config.dominio+'api/Grupo/listar', {
 	      }).then(function(response) {
-          appDocumentos.listarGrupos =response.data;
+          console.log(response);
+          appDocumentos.listarGrupos =response.data.lista;
 
           if(id!=null){
 
@@ -386,7 +387,7 @@ const  moduloDocumentos = {
 
 
 
-          response.data.forEach((item) => {
+          response.data.lista.forEach((item) => {
             console.log(item);
 
 

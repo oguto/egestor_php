@@ -18,7 +18,7 @@ const  moduloHome = {
       formulario:false,
       visualizar:false,
       total: 0,
-      totalPaginas:0,
+      totalPaginas:1,
       paginaAtual:1,
       uploadError: null,
       thumbnail:null,
@@ -133,9 +133,9 @@ const  moduloHome = {
             id: id
           }).then(function(response) {
             appHome.visualizar = true;
-            appHome.total = response.data.length;
-            appHome.dadosDocumentos = response.data[0];
-            appHome.verArquivo(response.data[0].url,"documentosPdf",1);
+            appHome.total = response.data.total;
+            appHome.dadosDocumentos = response.data.lista[0];
+            appHome.verArquivo(response.data.lista[0].url,"documentosPdf",1);
             appHome.listaArqExcluir=[];
             appHome.salvarAtividades("visualizou o arquivo Nº "+appHome.dadosDocumentos.id+".");
 

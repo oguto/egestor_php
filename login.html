@@ -18,19 +18,23 @@
 
   <!-- Page Content -->
   <div class="container " id="appLogin" style="max-width:580px !important;">
-    <h1>LOGO</h1>
+    <h1 class="logo">LOGO</h1>
     <form v-if='esqSenha==false && codigoSms==false && redefinirSenha==false'>
       <input type="text" v-model='email' name="email" value="" placeholder="E-mail cadastrado*">
       <input type="password" v-model='senha' name="senha" placeholder="Senha*" value="">
-      <label for="">
-          <input type="checkbox" name="" value=""> Lembrar acesso
-      </label>
+      <div class="checkbox">
+      <label for="lembrar" >
+          <input type="checkbox" name="lembrar" id="lembrar" value="" style="float:Left">
+          <span></span>
+                   Lembrar acesso
 
+      </label>
+</div>
 
       <button type="button" name="button" class="btn btn-success" @click='logar()'>Entrar</button>
 
       <br>
-      <a href="#" @click='esqueceuSenha()'> Esquecei a senha</a>
+      <a href="#" @click='esqueceuSenha()'> Esqueceu sua senha?</a>
     </form>
 
     <form v-if='esqSenha==true'>
