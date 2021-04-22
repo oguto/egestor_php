@@ -61,7 +61,7 @@ class UsuariosModel extends CI_Model {
 
     function editar($dados) {
 
-        $dados = array_filter($this->dados($dados));
+        $dados = array_filter($dados);
 
         $this->db->where('USUARIOS.id', $dados['id']);
 

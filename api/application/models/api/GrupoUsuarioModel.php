@@ -77,7 +77,7 @@ class GrupoUsuarioModel extends CI_Model {
 
         $this->db->from("GRUPO_USUARIO");
 
-        $this->db->select("GRUPO.*,GRUPO.id AS id");
+        $this->db->select("GRUPO.*,GRUPO_USUARIO.id_usuario,GRUPO.id AS id");
 
         $this->db->group_by("GRUPO.id");
 

@@ -224,7 +224,6 @@ input,select,textarea{
 }
 label{
   background-color: #fff;
-  color:#829599;
   z-index: 2;
   position: relative;
   padding: 10px;

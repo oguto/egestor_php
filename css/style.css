@@ -480,3 +480,13 @@ font-weight: normal;
   text-align: right;
   background: transparent;
 }
+
+
+
+.required input, .required select{
+border-color: red;
+
+}
+.required {
+   color: red;
+}

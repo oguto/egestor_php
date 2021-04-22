@@ -404,7 +404,7 @@
 
               </div>
               <div class="col-xl-12">
-                <button class='btn btn-primary' type='button' @click='salvarUsuarios()'>
+                <button class='btn btn-primary' type='button' @click='validarForm()'>
                   Salvar
                 </button>
 
@@ -669,6 +669,11 @@
 
                 <ul>
 
+                  <li  id='grupo_1' class="active">
+                    <a @click='listarDocumentos(0,1)'>Todos</a>
+                  </li>
+
+
                   <li v-for='grupo in listarGrupos' :id='"grupo_"+grupo.id'>
                     <a @click='listarDocumentos(0,grupo.id)'>{{grupo.nome}}</a>
                   </li>
@@ -858,6 +863,13 @@
                   <div class="col-xl-12 checkbox gruposDoc">
                     <h5>Grupos</h5>
 
+                    <div class="col-xl-6">
+                      <label for="1">
+                        <input type="checkbox" id='1' name="id_grupo" value='1' @change="selGrupoDoc()">
+                        <span></span> Todos
+                      </label>
+                    </div>
+
                     <div class="col-xl-6" v-for='grupo in listarGrupos'>
                       <label :for="grupo.id">
                         <input type="checkbox" :id='grupo.id' name="id_grupo" :value='grupo.id' @change="selGrupoDoc()">
@@ -876,7 +888,7 @@
                 </div>
 
                 <div class="col-xl-12">
-                  <button class='btn btn-primary' type='button' @click='salvarDocumentos()'>
+                  <button class='btn btn-primary' type='button' @click='validarForm()'>
                     Salvar
                   </button>
                 </div>

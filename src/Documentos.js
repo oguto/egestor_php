@@ -69,6 +69,62 @@ const  moduloDocumentos = {
       uploadedFiles: [],
     },
     methods: {
+    validarForm(){
+
+        var enviar = false;
+
+        var campos =[{campo:'data_inicial',valor:this.data_inicial},
+                     {campo:'data_final',valor:this.data_final}
+                   ];
+
+        campos.forEach((item) => {
+
+          if(item.valor==null){
+              enviar =false;
+
+              $("#appDocumentos form [name='"+item.campo+"']").parent().addClass("required");
+              $("#appDocumentos form select[name='"+item.campo+"']").parent().parent().addClass("required");
+
+
+          }
+          else if(item.valor==""){
+              enviar =false;
+              $("#appDocumentos form [name='"+item.campo+"']").parent().addClass("required");
+                $("#appDocumentos form select[name='"+item.campo+"']").parent().parent().addClass("required");
+
+
+          }
+          else{
+              enviar = true;
+              $("#appDocumentos form [name='"+item.campo+"']").parent().removeClass("required");
+              $("#appDocumentos form select[name='"+item.campo+"']").parent().parent().removeClass("required");
+
+          }
+
+
+        });
+
+        if(appDocumentos.listaArquivos.length<=1){
+
+        if(appDocumentos.nome==null || appDocumentos.nome==""){
+
+              enviar =false;
+
+              $("#appDocumentos form [name='nome']").parent().addClass("required");
+
+
+          }else{
+              $("#appDocumentos form [name='nome']").parent().removeClass("required");
+              enviar =true;
+          }
+
+        }
+
+          if(enviar){
+            appDocumentos.salvarDocumentos();
+          }
+
+    },
     limparModulo(){
         appDocumentos.formulario=false;
         appDocumentos.visualizar=false;
@@ -155,7 +211,7 @@ const  moduloDocumentos = {
             appDocumentos.listarPastasDoc();
             });
     },
-		listarDocumentos(pagina=0,grupo=0,pasta=null){
+		listarDocumentos(pagina=0,grupo=1,pasta=null){
 
 	      axios.post(config.dominio+'api/Documentos/listar',
         {grupo:grupo,id_pasta:pasta,pagina:pagina}).then(function(response) {
@@ -384,8 +440,6 @@ const  moduloDocumentos = {
 	      axios.post(config.dominio+'api/GrupoDocumento/listar', {
           id_documento:id_documento
 	      }).then(function(response) {
-
-
 
           response.data.lista.forEach((item) => {
             console.log(item);

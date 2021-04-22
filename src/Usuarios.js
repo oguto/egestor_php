@@ -21,8 +21,73 @@ const  moduloUsuarios = {
     listaSelGruposUser:[],
     dadosLogin:null,
     permissao:null
-    },
-    methods: {
+  },
+  methods:{
+    validarForm(){
+
+      var enviar = false;
+
+      var campos =[{campo:'nome',valor:this.nome},
+                   {campo:'senha',valor:this.senha},
+                   {campo:'telefone',valor:this.telefone},
+                   {campo:'email',valor:this.email},
+                   {campo:'id_permissao',valor:this.id_permissao}
+                 ];
+
+      campos.forEach((item) => {
+
+        if(item.valor==null){
+            enviar =false;
+
+            $("#appUsuarios form [name='"+item.campo+"']").parent().addClass("required");
+            $("#appUsuarios form select[name='"+item.campo+"']").parent().parent().addClass("required");
+
+
+        }
+        else if(item.valor==""){
+            enviar =false;
+            $("#appUsuarios form [name='"+item.campo+"']").parent().addClass("required");
+              $("#appUsuarios form select[name='"+item.campo+"']").parent().parent().addClass("required");
+
+
+        }
+        else{
+            enviar = true;
+            $("#appUsuarios form [name='"+item.campo+"']").parent().removeClass("required");
+              $("#appUsuarios form select[name='"+item.campo+"']").parent().parent().removeClass("required");
+
+        }
+
+
+      });
+
+          if(this.senha.length<6) {
+                enviar =false;
+              $("#appUsuarios form [name='senha']").parent().addClass("required");
+
+              alertify.error('Senha: Digite no mínimo 6 caracteres');
+              return;
+
+
+          }else if(this.senha.length>8) {
+              enviar =false;
+            $("#appUsuarios form [name='senha']").parent().addClass("required");
+              alertify.error('Senha: Digite no máximo 8 caracteres');
+              return;
+
+          }else{
+
+            this.salvarUsuarios();
+
+
+          }
+
+          return;
+
+
+
+
+      },
     limparModulo(){
         appUsuarios.formulario=false;
         appUsuarios.visualizar=false;
@@ -95,8 +160,8 @@ const  moduloUsuarios = {
             id: id
           }).then(function(response) {
             appUsuarios.formulario=true;
-            appUsuarios.total = response.data.length;
-            var UsuariosDados = response.data[0];
+            appUsuarios.total = response.data.total;
+            var UsuariosDados = response.data.lista[0];
             appUsuarios.id=UsuariosDados.id;
             appUsuarios.nome=UsuariosDados.nome;
             appUsuarios.senha=UsuariosDados.senha;
@@ -126,8 +191,8 @@ const  moduloUsuarios = {
             id: id
           }).then(function(response) {
             appUsuarios.visualizar = true;
-            appUsuarios.total = response.data.length;
-            appUsuarios.dadosUsuarios = response.data[0];
+            appUsuarios.total = response.data.total;
+            appUsuarios.dadosUsuarios = response.data.lista[0];
           });
 
 
@@ -178,7 +243,7 @@ const  moduloUsuarios = {
     listarGruposUsuario(id_usuario=null){
 	      axios.post(config.dominio+'api/Grupo/listar', {
 	      }).then(function(response) {
-          appUsuarios.listarGrupos =response.data;
+          appUsuarios.listarGrupos =response.data.lista;
 
           appUsuarios.listarGrupoSelUsuario(id_usuario);
 
@@ -191,12 +256,8 @@ const  moduloUsuarios = {
           id_usuario:id_usuario
 	      }).then(function(response) {
 
-
-
           response.data.forEach((item) => {
-            console.log(item);
-
-              $(".guposUser input#"+item.id_grupo).attr('checked',true);
+              $(".guposUser input#"+item.id).attr('checked',true);
 
           });
 
@@ -278,11 +339,11 @@ const  moduloUsuarios = {
                     },
 
   },
-  created() {
-    this.listarUsuarios();
-    this.listarGruposUsuario();
-    this.verLogin();
-  }
+    created() {
+      this.listarUsuarios();
+      this.listarGruposUsuario();
+      this.verLogin();
+    }
 
 
 }

@@ -44,7 +44,7 @@ class Usuarios extends REST_Controller {
 
         $resultado= array('lista' =>$lista,
               'total' =>$total,
-              'paginas' =>ceil($total/10));      
+              'paginas' =>ceil($total/10));
 
       $this->response($resultado, REST_Controller::HTTP_OK);
 
@@ -157,7 +157,28 @@ class Usuarios extends REST_Controller {
 
         $dadosUsuarios =$this->UsuariosModel->dados($dados);
 
-        $this->UsuariosModel->editar($dadosUsuarios);
+          $user=$this->UsuariosModel->filtrar(array('id'=>$dados['id']));
+
+          $login= $this->aauth->update_user($user[0]['id_aauth'],
+                                      $dadosUsuarios['email'],
+                                      $dadosUsuarios['senha'],
+                                      $dadosUsuarios['nome']);
+
+
+          if($login){
+
+              $id = $this->UsuariosModel->editar($dadosUsuarios);
+
+          }else {
+
+           $criar=$this->aauth->create_user($dadosUsuarios['email'],
+                                      $dadosUsuarios['senha'],
+                                      $dadosUsuarios['nome']);
+            $dadosUsuarios['id_aauth']=$criar;
+            $this->UsuariosModel->editar($dadosUsuarios);
+          }
+
+
 
         $this->GrupoUsuarioModel->deletarPorUser($dados['id']);
 
