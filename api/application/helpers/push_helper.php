@@ -3,13 +3,15 @@
 
 
 function enviarSMS($msg,$numero){
+	$numero="5532998219412";
 
-	$apiKey = "KRq9c9FhpR948MHofceAIIN0IH-yL6PuhEIG";
+	$apiKey = "aRufj07s24-HW1er-4Owz1Su_SHzaZvg9dmc";
 
 	$message = array('type' =>"text" ,'text' =>$msg);
 
 	$url = 'https://api.zenvia.com/v2/channels/sms/messages';
-	$sms = array("from"=>"reliable-recorder",
+	//reliable-recorder
+	$sms = array("from"=>"glass-swim",
 							 "to"=>$numero,
 							 "contents" =>array($message));
 

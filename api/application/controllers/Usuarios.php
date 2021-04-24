@@ -67,9 +67,9 @@ class Usuarios extends REST_Controller {
 
         $this->UsuariosModel->editarCodigo(array('id' =>$buscar[0]['id'],'codigo'=>$codigo));
 
-        enviarSMS("Código de verificação: ".$codigo,"55".$dados['telefone']);
+        $sms=enviarSMS("Código de verificação: ".$codigo,"55".$dados['telefone']);
 
-        $this->response($buscar, REST_Controller::HTTP_OK);
+        $this->response($sms, REST_Controller::HTTP_OK);
 
       }else{
 
