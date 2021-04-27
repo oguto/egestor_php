@@ -222,6 +222,7 @@ const  moduloDocumentos = {
             appDocumentos.exclusao=DocumentosDados.exclusao;
             appDocumentos.listaArqExcluir=[];
             appDocumentos.listarGruposDoc(id);
+            appDocumentos.listarGrupoDocumento(id);
             appDocumentos.listarPastasDoc();
             });
     },
@@ -455,7 +456,7 @@ const  moduloDocumentos = {
           id_documento:id_documento
 	      }).then(function(response) {
 
-          response.data.lista.forEach((item) => {
+          response.data.forEach((item) => {
             console.log(item);
 
 
