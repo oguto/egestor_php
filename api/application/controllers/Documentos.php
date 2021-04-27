@@ -32,7 +32,7 @@ class Documentos extends REST_Controller {
 
         }else{
 
-          $pagina = null;
+          $pagina = 0;
 
         }
 

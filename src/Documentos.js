@@ -71,7 +71,10 @@ const  moduloDocumentos = {
     methods: {
     validarForm(){
 
+      grupos = this.listaSelGrupos
+
         var enviar = false;
+
 
         var campos =[{campo:'data_inicial',valor:this.data_inicial},
                      {campo:'data_final',valor:this.data_final}
@@ -119,6 +122,17 @@ const  moduloDocumentos = {
           }
 
         }
+        if(grupos.length==0){
+
+           enviar = false;
+
+           alertify.error("Selecione ao menos um grupo");
+
+          $("#appDocumentos form .gruposDoc label").addClass("required");
+
+
+        }
+
 
           if(enviar){
             appDocumentos.salvarDocumentos();

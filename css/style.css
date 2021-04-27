@@ -483,10 +483,10 @@ font-weight: normal;
 
 
 
-.required input, .required select{
-border-color: red;
+.required input, .required select,.required span, {
+border-color: red !important;
 
 }
 .required {
-   color: red;
+   color: red !important;
 }

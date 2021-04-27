@@ -198,7 +198,7 @@
 
                     <div class="col-xl-6" v-for='grupo in listarGrupos'>
                       <label :for="grupo.id">
-                        <input type="checkbox" :id='grupo.id' name="id_grupo" :value='grupo.id' @change="selGrupoDoc()">
+                        <input type="checkbox" :id='grupo.id'  name="id_grupo" :value='grupo.id' @change="selGrupoDoc()">
                         <span></span> {{grupo.nome}}
                       </label>
                     </div>
