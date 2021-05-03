@@ -17,6 +17,7 @@ class Documentos extends REST_Controller {
         $this->load->model('api/PastasModel');
 
         $this->load->model('api/GrupoDocumentoModel');
+        $this->load->model('api/GrupoPastaModel');
 
         }
 
@@ -83,6 +84,9 @@ class Documentos extends REST_Controller {
             foreach ($dados['grupos'] as $grupo) {
               $this->GrupoDocumentoModel->incluir(
                 array("id_grupo"=>$grupo,"id_documento"=>$id)
+              );
+              $this->GrupoPastaModel->incluir(
+                array("id_grupo"=>$grupo,"id_pasta"=>$dadosDocumentos['id_pasta'])
               );
             }
         }
@@ -161,8 +165,6 @@ class Documentos extends REST_Controller {
 
           $buscarPasta = $this->PastasModel->filtrar(array("nome"=>$dados['nova_pasta']));
 
-          print_r($buscarPasta);
-
           if(empty($buscarPasta)){
 
             $id_pasta=  $this->PastasModel->incluir(array("nome"=>$dados['nova_pasta']));
@@ -174,11 +176,17 @@ class Documentos extends REST_Controller {
             $dadosDocumentos['id_pasta']=$buscarPasta[0]['id'];
           }
         }
-          $this->GrupoDocumentoModel->deletarPorDoc($dados['id']);
+
+        $this->GrupoDocumentoModel->deletarPorDoc($dados['id']);
+
+        $this->GrupoPastaModel->deletarPorPasta($dadosDocumentos['id_pasta']);
 
         foreach ($dados['grupos'] as $grupo) {
           $this->GrupoDocumentoModel->incluir(
             array("id_grupo"=>$grupo,"id_documento"=>$dados['id'])
+          );
+          $this->GrupoPastaModel->incluir(
+            array("id_grupo"=>$grupo,"id_pasta"=>$dadosDocumentos['id_pasta'])
           );
         }
 

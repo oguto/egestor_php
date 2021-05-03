@@ -10,6 +10,7 @@ const  moduloUsuarios = {
     id_permissao:null,
     exclusao:null,
     lista:[],
+    grupos:[],
     dadosUsuarios:null,
     conteudo: null,
     formulario:false,
@@ -251,6 +252,18 @@ const  moduloUsuarios = {
 
 
 	  },
+    gruposUsuario(id_usuario=null){
+        axios.post(config.dominio+'api/Grupo/listar', {
+        }).then(function(response) {
+          console.log(response);
+          appUsuarios.gruposUser= response.data.lista;
+
+        });
+
+        console.log(appUsuarios.gruposUser);
+
+
+    },
     listarGrupoSelUsuario(id_usuario){
 	      axios.post(config.dominio+'api/GrupoUsuario/listar', {
           id_usuario:id_usuario

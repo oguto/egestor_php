@@ -40,6 +40,14 @@ class Usuarios extends REST_Controller {
 
         $lista = $this->UsuariosModel->filtrar($dados,10,$pagina);
 
+        foreach ($lista as $key => $value) {
+
+          //print_r($lista[$key]);
+
+          $lista[$key]['grupos']=$this->GrupoUsuarioModel->filtrar(array('id_usuario'=>$lista[$key]['id']));
+          // code...
+        }
+
         $total = $this->UsuariosModel->contarTotal($dados);
 
         $resultado= array('lista' =>$lista,

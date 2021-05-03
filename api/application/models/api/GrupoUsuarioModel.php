@@ -85,6 +85,8 @@ class GrupoUsuarioModel extends CI_Model {
 
         $this->db->where('GRUPO_USUARIO.exclusao is null');
 
+        $this->db->where('GRUPO.exclusao is null');
+
         $this->db->where($filtro);
 
         $query = $this->db->get("", $maximo, $inicio);

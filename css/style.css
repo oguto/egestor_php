@@ -490,3 +490,15 @@ border-color: red !important;
 .required {
    color: red !important;
 }
+.item{
+  color: #40484a !important;
+    background:#d6e5e8;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px;
+    display: block;
+    margin: 2px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 10px;
+  }

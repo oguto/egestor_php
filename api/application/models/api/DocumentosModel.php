@@ -108,6 +108,13 @@ class DocumentosModel extends CI_Model {
         }
 
 
+        if( empty($filtro['id_pasta']) &&
+            empty($filtro['exclusao']) &&
+            empty($filtro['id']) ){
+
+            $this->db->where('DOCUMENTOS.id_pasta is null');
+
+        }
 
         $this->db->join('GRUPO_DOCUMENTO', 'DOCUMENTOS.id = GRUPO_DOCUMENTO.id_documento','Left');
 

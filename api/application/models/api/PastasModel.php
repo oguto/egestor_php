@@ -75,9 +75,22 @@ class PastasModel extends CI_Model {
 
         $this->db->from("PASTAS");
 
+        $this->db->select("PASTAS.*, PASTAS.id AS id");
+
+        $this->db->group_by("PASTAS.id");
+
         $this->db->where('PASTAS.exclusao is null');
 
-        $this->db->where($filtro);
+        if(!empty($filtro['id_grupo'])){
+
+        $this->db->join('GRUPO_PASTA', ' PASTAS.id =GRUPO_PASTA.id_pasta','Left');
+
+        $this->db->where('GRUPO_PASTA.id_grupo',$filtro['id_grupo']);
+
+      }
+
+
+        //$this->db->where($filtro);
 
         $query = $this->db->get("", $maximo, $inicio);
 

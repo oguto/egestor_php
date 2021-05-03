@@ -290,7 +290,6 @@
           </div>
         </div>
       </div>
-
       <div class="tab-pane fade" id="nav-Usuarios" role="tabpanel">
         <div id="appUsuarios" v-if='permissao==1'>
           <div v-if='formulario==false && visualizar==false'>
@@ -301,19 +300,24 @@
                   <th>Id</th>
                   <th >Nome</th>
                   <th>E-mail</th>
+                  <th>Grupos</th>
                   <th>Permissão</th>
                   <th>Ações</th>
                 </tr>
               </thead>
               <tbody>
                 <tr v-for='linha in lista'>
+
                   <td>{{linha.id}}</td>
                   <td>{{linha.nome}}</td>
                   <td>{{linha.email}}</td>
+                  <td>
+                    <i v-for='listaGrupo in linha.grupos' class="item">{{listaGrupo.nome }}</i>
+                   </td>
                   <td v-if="linha.id_permissao==1">Admin</td>
                   <td v-if="linha.id_permissao==2">Usuario</td>
                   <td>
-                    <a @click='verUsuarios(linha.id)' class="btn btn-info">Ver Detalhes</a>
+                    <a @click='verUsuarios(linha.id)' class="btn btn-info">Detalhes</a>
                     <a @click='editarUsuarios(linha.id)' class="btn btn-info"> Editar</a>
                     <a v-if="linha.id_permissao==2" @click='excluirUsuarios(linha.id)' class="btn btn-danger">Apagar</a>
                   </td>
@@ -414,7 +418,6 @@
           </div>
         </div>
       </div>
-
       <div class="tab-pane fade" id="nav-Grupo" role="tabpanel">
         <div id="appGrupo" v-if='permissao==1'>
           <div v-if='formulario==false && visualizar==false'>
@@ -791,7 +794,7 @@
             <canvas id="documentosPdf" v-if='dadosDocumentos.url.search(".pdf")>=1' style="border: 1px solid black; direction: ltr; margin-bottom:55px;"></canvas>
             <div class="dados dadosImage" v-if='dadosDocumentos.url.search(".pdf")<1'>
 
-              <img :src='dadosDocumentos.url'>
+              <img :src='dominio+dadosDocumentos.url'>
 
 
             </div>
@@ -839,8 +842,7 @@
                     </div>
                     <p style="text-align:center" ><br>
                       <br> Ou</p>
-
-                                      <label for='btnDocumento' class="btn btn-info" style=" width:100%; margin-left: 0px;">&#xe901; Selecionar PDF ou JPEG</label>
+                        <label for='btnDocumento' class="btn btn-info" style=" width:100%; margin-left: 0px;">&#xe901; Selecionar PDF ou JPEG</label>
 
 
 

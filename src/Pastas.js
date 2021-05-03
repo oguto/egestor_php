@@ -13,7 +13,7 @@ const  moduloPastas = {
     total: 0
     },
     methods: {
-      limparModulo(){
+    limparModulo(){
         appPastas.formulario=false;
         appPastas.visualizar=false;
         appPastas.nome=null;
@@ -22,8 +22,8 @@ const  moduloPastas = {
     incluirPastas() {
         appPastas.formulario=true;
         appPastas.id=null;
-      appPastas.nome=null;
-      appPastas.exclusao=null;
+        appPastas.nome=null;
+        appPastas.exclusao=null;
       },
     salvarPastas(){
           var url ='';

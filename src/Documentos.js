@@ -67,6 +67,7 @@ const  moduloDocumentos = {
       listarGrupos:[],
       listarPastas:[],
       uploadedFiles: [],
+      dominio:config.dominio
     },
     methods: {
     validarForm(){
@@ -208,6 +209,7 @@ const  moduloDocumentos = {
             id: id,
             exclusao:appDocumentos.exclusao
           }).then(function(response) {
+            console.log(response);
             appDocumentos.titulo="Editar Documento";
             appDocumentos.formulario=true;
             appDocumentos.total = response.data.length;
@@ -241,7 +243,7 @@ const  moduloDocumentos = {
           appDocumentos.exclusao=false;
           appDocumentos.grupo=grupo;
           appDocumentos.listarGruposDoc();
-          appDocumentos.listarPastasDoc();
+          appDocumentos.listarPastasDoc(grupo);
           appDocumentos.limparModulo();
 	        appDocumentos.total = response.data.total;
 	        appDocumentos.lista = response.data.lista;
@@ -443,8 +445,9 @@ const  moduloDocumentos = {
 
 
 	  },
-    listarPastasDoc(){
+    listarPastasDoc(grupo){
         axios.post(config.dominio+'api/Pastas/listar', {
+          id_grupo:grupo
         }).then(function(response) {
           appDocumentos.listarPastas = response.data;
         });
