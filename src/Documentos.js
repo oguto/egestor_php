@@ -550,7 +550,7 @@ const  moduloDocumentos = {
 
         pdfjsLib.GlobalWorkerOptions.workerSrc = './js/pdf.worker.js';
 
-        var loadingTask = pdfjsLib.getDocument(url);
+        var loadingTask = pdfjsLib.getDocument(".."+url);
         loadingTask.promise.then(function(pdf) {
           //
           // Fetch the first page
@@ -722,7 +722,7 @@ const  moduloDocumentos = {
   },
   created() {
     this.listarDocumentos();
-  
+
   }
 
 
