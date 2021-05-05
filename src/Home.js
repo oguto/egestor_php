@@ -30,6 +30,7 @@ const  moduloHome = {
       listarGrupos:[],
       listarPastas:[],
       uploadedFiles: [],
+      dominio:config.dominio
     },
     methods: {
     limparModulo(){

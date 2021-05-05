@@ -722,7 +722,7 @@ const  moduloDocumentos = {
   },
   created() {
     this.listarDocumentos();
-
+  
   }
 
 
