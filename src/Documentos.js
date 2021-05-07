@@ -252,6 +252,8 @@ const  moduloDocumentos = {
           $("li#grupo_"+grupo).addClass("active");
           if(pasta!=null){
 
+              $('.pastas').removeClass("active");
+
             $(".pastas li#pasta_"+pasta).toggleClass("active");
 
           }
