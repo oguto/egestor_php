@@ -249,10 +249,11 @@ const  moduloDocumentos = {
 	        appDocumentos.lista = response.data.lista;
           appDocumentos.totalPaginasDocs=response.data.paginas;
           $(".gruposMenu li").removeClass("active");
+          $('.pastas li').removeClass("active");
           $("li#grupo_"+grupo).addClass("active");
           if(pasta!=null){
 
-              $('.pastas').removeClass("active");
+              $('.pastas li').removeClass("active");
 
             $(".pastas li#pasta_"+pasta).toggleClass("active");
 
