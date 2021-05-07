@@ -67,7 +67,7 @@ const  moduloDocumentos = {
       listarGrupos:[],
       listarPastas:[],
       uploadedFiles: [],
-      dominio:config.dominio
+      pasta:"/Sisseg"
     },
     methods: {
     validarForm(){
@@ -550,7 +550,7 @@ const  moduloDocumentos = {
 
         pdfjsLib.GlobalWorkerOptions.workerSrc = './js/pdf.worker.js';
 
-        var loadingTask = pdfjsLib.getDocument(".."+url);
+        var loadingTask = pdfjsLib.getDocument(appDocumentos.pasta+url);
         loadingTask.promise.then(function(pdf) {
           //
           // Fetch the first page

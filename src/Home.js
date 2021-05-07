@@ -30,7 +30,7 @@ const  moduloHome = {
       listarGrupos:[],
       listarPastas:[],
       uploadedFiles: [],
-      dominio:config.dominio
+      pasta:"/Sisseg"
     },
     methods: {
     limparModulo(){

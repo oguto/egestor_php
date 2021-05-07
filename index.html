@@ -127,7 +127,7 @@
             <canvas id="documentosPdf" v-if='dadosDocumentos.url.search(".pdf")>=1' style="border: 1px solid black; direction: ltr; margin-bottom:55px;"></canvas>
             <div class="dados dadosImage" v-if='dadosDocumentos.url.search(".pdf")<1'>
 
-              <img :src='".."+dadosDocumentos.url'>
+              <img :src='pasta+dadosDocumentos.url'>
 
 
             </div>
@@ -794,7 +794,7 @@
             <canvas id="documentosPdf" v-if='dadosDocumentos.url.search(".pdf")>=1' style="border: 1px solid black; direction: ltr; margin-bottom:55px;"></canvas>
             <div class="dados dadosImage" v-if='dadosDocumentos.url.search(".pdf")<1'>
 
-              <img :src='".."+dadosDocumentos.url'>
+              <img :src='pasta+dadosDocumentos.url'>
 
 
             </div>
