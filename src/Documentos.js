@@ -67,7 +67,7 @@ const  moduloDocumentos = {
       listarGrupos:[],
       listarPastas:[],
       uploadedFiles: [],
-      pasta:"/Sisseg"
+      pasta:".."
     },
     methods: {
     validarForm(){

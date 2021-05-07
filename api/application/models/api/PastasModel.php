@@ -86,11 +86,13 @@ class PastasModel extends CI_Model {
         $this->db->join('GRUPO_PASTA', ' PASTAS.id =GRUPO_PASTA.id_pasta','Left');
 
         $this->db->where('GRUPO_PASTA.id_grupo',$filtro['id_grupo']);
+        
+        unset($filtro['id_grupo'])
 
       }
 
 
-        //$this->db->where($filtro);
+        $this->db->where($filtro);
 
         $query = $this->db->get("", $maximo, $inicio);
 
