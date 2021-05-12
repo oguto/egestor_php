@@ -275,6 +275,12 @@ border:2px solid #002E36;
     background-color: #002E36;
     color: #fff!important;
 }
+
+.pastas li a:hover{
+
+    background-color: #D74545;
+    color: #fff!important;
+}
 .pastas li{
   list-style-type: none;
   padding-right: 7px;
