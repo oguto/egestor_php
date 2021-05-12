@@ -14294,3 +14294,4188 @@ DEBUG - 2021-05-12 00:28:28 --> Config file loaded: /var/www/html/api/applicatio
 INFO - 2021-05-12 00:28:28 --> Database Driver Class Initialized
 INFO - 2021-05-12 00:28:28 --> Final output sent to browser
 DEBUG - 2021-05-12 00:28:28 --> Total execution time: 0.0753
+INFO - 2021-05-12 00:31:27 --> Config Class Initialized
+INFO - 2021-05-12 00:31:27 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:31:27 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:31:27 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:31:27 --> URI Class Initialized
+INFO - 2021-05-12 00:31:27 --> Router Class Initialized
+INFO - 2021-05-12 00:31:27 --> Output Class Initialized
+INFO - 2021-05-12 00:31:27 --> Security Class Initialized
+DEBUG - 2021-05-12 00:31:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:31:27 --> Input Class Initialized
+INFO - 2021-05-12 00:31:27 --> Language Class Initialized
+INFO - 2021-05-12 00:31:27 --> Loader Class Initialized
+INFO - 2021-05-12 00:31:27 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:31:27 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:27 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:31:27 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:31:27 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:31:27 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:31:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:31:27 --> Pagination Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Final output sent to browser
+DEBUG - 2021-05-12 00:31:27 --> Total execution time: 0.0428
+INFO - 2021-05-12 00:31:27 --> Config Class Initialized
+INFO - 2021-05-12 00:31:27 --> Hooks Class Initialized
+INFO - 2021-05-12 00:31:27 --> Config Class Initialized
+INFO - 2021-05-12 00:31:27 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:31:27 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:31:27 --> Utf8 Class Initialized
+DEBUG - 2021-05-12 00:31:27 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:31:27 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:31:27 --> URI Class Initialized
+INFO - 2021-05-12 00:31:27 --> URI Class Initialized
+INFO - 2021-05-12 00:31:27 --> Router Class Initialized
+INFO - 2021-05-12 00:31:27 --> Router Class Initialized
+INFO - 2021-05-12 00:31:27 --> Output Class Initialized
+INFO - 2021-05-12 00:31:27 --> Security Class Initialized
+INFO - 2021-05-12 00:31:27 --> Output Class Initialized
+DEBUG - 2021-05-12 00:31:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:31:27 --> Input Class Initialized
+INFO - 2021-05-12 00:31:27 --> Security Class Initialized
+INFO - 2021-05-12 00:31:27 --> Language Class Initialized
+DEBUG - 2021-05-12 00:31:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:31:27 --> Input Class Initialized
+INFO - 2021-05-12 00:31:27 --> Language Class Initialized
+INFO - 2021-05-12 00:31:27 --> Loader Class Initialized
+INFO - 2021-05-12 00:31:27 --> Loader Class Initialized
+INFO - 2021-05-12 00:31:27 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:31:27 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:31:27 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:27 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:27 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:31:27 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:31:27 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:31:27 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:31:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:31:27 --> Pagination Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Final output sent to browser
+DEBUG - 2021-05-12 00:31:27 --> Total execution time: 0.0291
+INFO - 2021-05-12 00:31:27 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:31:27 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:31:27 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:31:27 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:31:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:31:27 --> Pagination Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+INFO - 2021-05-12 00:31:27 --> Model Class Initialized
+DEBUG - 2021-05-12 00:31:27 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:31:27 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:31:27 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:31:27 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:27 --> Final output sent to browser
+DEBUG - 2021-05-12 00:31:27 --> Total execution time: 0.0505
+INFO - 2021-05-12 00:31:29 --> Config Class Initialized
+INFO - 2021-05-12 00:31:29 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:31:29 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:31:29 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:31:29 --> URI Class Initialized
+INFO - 2021-05-12 00:31:29 --> Router Class Initialized
+INFO - 2021-05-12 00:31:29 --> Output Class Initialized
+INFO - 2021-05-12 00:31:29 --> Security Class Initialized
+DEBUG - 2021-05-12 00:31:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:31:29 --> Input Class Initialized
+INFO - 2021-05-12 00:31:29 --> Language Class Initialized
+INFO - 2021-05-12 00:31:29 --> Loader Class Initialized
+INFO - 2021-05-12 00:31:29 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:31:29 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:29 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:31:29 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:31:29 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:31:29 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:31:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:31:29 --> Pagination Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Final output sent to browser
+DEBUG - 2021-05-12 00:31:29 --> Total execution time: 0.0325
+INFO - 2021-05-12 00:31:29 --> Config Class Initialized
+INFO - 2021-05-12 00:31:29 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:31:29 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:31:29 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:31:29 --> URI Class Initialized
+INFO - 2021-05-12 00:31:29 --> Router Class Initialized
+INFO - 2021-05-12 00:31:29 --> Config Class Initialized
+INFO - 2021-05-12 00:31:29 --> Hooks Class Initialized
+INFO - 2021-05-12 00:31:29 --> Output Class Initialized
+DEBUG - 2021-05-12 00:31:29 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:31:29 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:31:29 --> URI Class Initialized
+INFO - 2021-05-12 00:31:29 --> Security Class Initialized
+INFO - 2021-05-12 00:31:29 --> Router Class Initialized
+DEBUG - 2021-05-12 00:31:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:31:29 --> Input Class Initialized
+INFO - 2021-05-12 00:31:29 --> Language Class Initialized
+INFO - 2021-05-12 00:31:29 --> Output Class Initialized
+INFO - 2021-05-12 00:31:29 --> Security Class Initialized
+DEBUG - 2021-05-12 00:31:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:31:29 --> Input Class Initialized
+INFO - 2021-05-12 00:31:29 --> Language Class Initialized
+INFO - 2021-05-12 00:31:29 --> Loader Class Initialized
+INFO - 2021-05-12 00:31:29 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:31:29 --> Loader Class Initialized
+INFO - 2021-05-12 00:31:29 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:31:29 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:31:29 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:29 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:29 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:31:29 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:31:29 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:31:29 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:31:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:31:29 --> Pagination Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Final output sent to browser
+DEBUG - 2021-05-12 00:31:29 --> Total execution time: 0.0314
+INFO - 2021-05-12 00:31:29 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:31:29 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:31:29 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:31:29 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:31:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:31:29 --> Pagination Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+INFO - 2021-05-12 00:31:29 --> Model Class Initialized
+DEBUG - 2021-05-12 00:31:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:31:29 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:31:29 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:31:29 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:29 --> Final output sent to browser
+DEBUG - 2021-05-12 00:31:29 --> Total execution time: 0.0452
+INFO - 2021-05-12 00:31:30 --> Config Class Initialized
+INFO - 2021-05-12 00:31:30 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:31:30 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:31:30 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:31:30 --> URI Class Initialized
+INFO - 2021-05-12 00:31:30 --> Router Class Initialized
+INFO - 2021-05-12 00:31:30 --> Output Class Initialized
+INFO - 2021-05-12 00:31:30 --> Security Class Initialized
+DEBUG - 2021-05-12 00:31:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:31:30 --> Input Class Initialized
+INFO - 2021-05-12 00:31:30 --> Language Class Initialized
+INFO - 2021-05-12 00:31:30 --> Loader Class Initialized
+INFO - 2021-05-12 00:31:30 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:31:30 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:31:30 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:31:30 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:31:30 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:31:30 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:31:30 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:31:30 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:30 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:31:30 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:31:30 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:31:30 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:31:30 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:31:30 --> Pagination Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Final output sent to browser
+DEBUG - 2021-05-12 00:31:30 --> Total execution time: 0.0283
+INFO - 2021-05-12 00:31:30 --> Config Class Initialized
+INFO - 2021-05-12 00:31:30 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:31:30 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:31:30 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:31:30 --> URI Class Initialized
+INFO - 2021-05-12 00:31:30 --> Router Class Initialized
+INFO - 2021-05-12 00:31:30 --> Output Class Initialized
+INFO - 2021-05-12 00:31:30 --> Security Class Initialized
+DEBUG - 2021-05-12 00:31:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:31:30 --> Input Class Initialized
+INFO - 2021-05-12 00:31:30 --> Language Class Initialized
+INFO - 2021-05-12 00:31:30 --> Loader Class Initialized
+INFO - 2021-05-12 00:31:30 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:31:30 --> Config Class Initialized
+INFO - 2021-05-12 00:31:30 --> Hooks Class Initialized
+INFO - 2021-05-12 00:31:30 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:31:30 --> Helper loaded: form_helper
+DEBUG - 2021-05-12 00:31:30 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:31:30 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:31:30 --> URI Class Initialized
+INFO - 2021-05-12 00:31:30 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:31:30 --> Router Class Initialized
+INFO - 2021-05-12 00:31:30 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:31:30 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:31:30 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:31:30 --> Output Class Initialized
+INFO - 2021-05-12 00:31:30 --> Security Class Initialized
+DEBUG - 2021-05-12 00:31:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:31:30 --> Input Class Initialized
+INFO - 2021-05-12 00:31:30 --> Language Class Initialized
+INFO - 2021-05-12 00:31:30 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:30 --> Loader Class Initialized
+INFO - 2021-05-12 00:31:30 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:31:30 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:31:30 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:31:30 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:31:30 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:31:30 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:31:30 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:31:30 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:31:30 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:31:30 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:31:30 --> Pagination Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Database Driver Class Initialized
+DEBUG - 2021-05-12 00:31:30 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:31:30 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:31:30 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:31:30 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:30 --> Final output sent to browser
+DEBUG - 2021-05-12 00:31:30 --> Total execution time: 0.0367
+INFO - 2021-05-12 00:31:30 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:31:30 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:31:30 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:31:30 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:31:30 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:31:30 --> Pagination Class Initialized
+INFO - 2021-05-12 00:31:30 --> Model Class Initialized
+INFO - 2021-05-12 00:31:30 --> Final output sent to browser
+DEBUG - 2021-05-12 00:31:30 --> Total execution time: 0.0335
+INFO - 2021-05-12 00:31:31 --> Config Class Initialized
+INFO - 2021-05-12 00:31:31 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:31:31 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:31:31 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:31:31 --> URI Class Initialized
+INFO - 2021-05-12 00:31:31 --> Router Class Initialized
+INFO - 2021-05-12 00:31:31 --> Output Class Initialized
+INFO - 2021-05-12 00:31:31 --> Security Class Initialized
+DEBUG - 2021-05-12 00:31:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:31:31 --> Input Class Initialized
+INFO - 2021-05-12 00:31:31 --> Language Class Initialized
+INFO - 2021-05-12 00:31:31 --> Loader Class Initialized
+INFO - 2021-05-12 00:31:31 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:31:31 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:31 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:31:31 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:31:31 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:31:31 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:31:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:31:31 --> Pagination Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Final output sent to browser
+DEBUG - 2021-05-12 00:31:31 --> Total execution time: 0.0264
+INFO - 2021-05-12 00:31:31 --> Config Class Initialized
+INFO - 2021-05-12 00:31:31 --> Hooks Class Initialized
+INFO - 2021-05-12 00:31:31 --> Config Class Initialized
+INFO - 2021-05-12 00:31:31 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:31:31 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:31:31 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:31:31 --> URI Class Initialized
+DEBUG - 2021-05-12 00:31:31 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:31:31 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:31:31 --> Router Class Initialized
+INFO - 2021-05-12 00:31:31 --> URI Class Initialized
+INFO - 2021-05-12 00:31:31 --> Router Class Initialized
+INFO - 2021-05-12 00:31:31 --> Output Class Initialized
+INFO - 2021-05-12 00:31:31 --> Security Class Initialized
+INFO - 2021-05-12 00:31:31 --> Output Class Initialized
+DEBUG - 2021-05-12 00:31:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:31:31 --> Input Class Initialized
+INFO - 2021-05-12 00:31:31 --> Language Class Initialized
+INFO - 2021-05-12 00:31:31 --> Security Class Initialized
+DEBUG - 2021-05-12 00:31:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:31:31 --> Input Class Initialized
+INFO - 2021-05-12 00:31:31 --> Language Class Initialized
+INFO - 2021-05-12 00:31:31 --> Loader Class Initialized
+INFO - 2021-05-12 00:31:31 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:31:31 --> Loader Class Initialized
+INFO - 2021-05-12 00:31:31 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:31:31 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:31:31 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:31 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:31 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:31:31 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:31:31 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:31:31 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:31:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:31:31 --> Pagination Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+DEBUG - 2021-05-12 00:31:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:31:31 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:31:31 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:31:31 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:31:31 --> Final output sent to browser
+DEBUG - 2021-05-12 00:31:31 --> Total execution time: 0.0385
+INFO - 2021-05-12 00:31:31 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:31:31 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:31:31 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:31:31 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:31:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:31:31 --> Pagination Class Initialized
+INFO - 2021-05-12 00:31:31 --> Model Class Initialized
+INFO - 2021-05-12 00:31:31 --> Final output sent to browser
+DEBUG - 2021-05-12 00:31:31 --> Total execution time: 0.0736
+INFO - 2021-05-12 00:32:01 --> Config Class Initialized
+INFO - 2021-05-12 00:32:01 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:32:01 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:32:01 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:32:01 --> URI Class Initialized
+INFO - 2021-05-12 00:32:01 --> Router Class Initialized
+INFO - 2021-05-12 00:32:01 --> Output Class Initialized
+INFO - 2021-05-12 00:32:01 --> Security Class Initialized
+DEBUG - 2021-05-12 00:32:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:32:01 --> Input Class Initialized
+INFO - 2021-05-12 00:32:01 --> Language Class Initialized
+INFO - 2021-05-12 00:32:01 --> Loader Class Initialized
+INFO - 2021-05-12 00:32:01 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:32:01 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:32:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:32:01 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:32:01 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:32:01 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:32:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:32:01 --> Pagination Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Final output sent to browser
+DEBUG - 2021-05-12 00:32:01 --> Total execution time: 0.0277
+INFO - 2021-05-12 00:32:01 --> Config Class Initialized
+INFO - 2021-05-12 00:32:01 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:32:01 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:32:01 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:32:01 --> URI Class Initialized
+INFO - 2021-05-12 00:32:01 --> Router Class Initialized
+INFO - 2021-05-12 00:32:01 --> Output Class Initialized
+INFO - 2021-05-12 00:32:01 --> Config Class Initialized
+INFO - 2021-05-12 00:32:01 --> Hooks Class Initialized
+INFO - 2021-05-12 00:32:01 --> Security Class Initialized
+DEBUG - 2021-05-12 00:32:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:32:01 --> Input Class Initialized
+DEBUG - 2021-05-12 00:32:01 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:32:01 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:32:01 --> Language Class Initialized
+INFO - 2021-05-12 00:32:01 --> URI Class Initialized
+INFO - 2021-05-12 00:32:01 --> Router Class Initialized
+INFO - 2021-05-12 00:32:01 --> Output Class Initialized
+INFO - 2021-05-12 00:32:01 --> Security Class Initialized
+DEBUG - 2021-05-12 00:32:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:32:01 --> Input Class Initialized
+INFO - 2021-05-12 00:32:01 --> Language Class Initialized
+INFO - 2021-05-12 00:32:01 --> Loader Class Initialized
+INFO - 2021-05-12 00:32:01 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:32:01 --> Loader Class Initialized
+INFO - 2021-05-12 00:32:01 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:32:01 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:32:01 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:32:01 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:32:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:32:01 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:32:01 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:32:01 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:32:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:32:01 --> Pagination Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Final output sent to browser
+DEBUG - 2021-05-12 00:32:01 --> Total execution time: 0.0342
+INFO - 2021-05-12 00:32:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:32:01 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:32:01 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:32:01 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:32:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:32:01 --> Pagination Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+INFO - 2021-05-12 00:32:01 --> Model Class Initialized
+DEBUG - 2021-05-12 00:32:01 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:32:01 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:32:01 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:32:01 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:32:01 --> Final output sent to browser
+DEBUG - 2021-05-12 00:32:01 --> Total execution time: 0.0800
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.0429
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+DEBUG - 2021-05-12 00:34:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.0797
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/aauth_lang.php
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.0521
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.0956
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.1002
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.1016
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.0745
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.0685
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.1010
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.1262
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.1015
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.1058
+INFO - 2021-05-12 00:34:40 --> Config Class Initialized
+INFO - 2021-05-12 00:34:40 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:40 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:40 --> URI Class Initialized
+INFO - 2021-05-12 00:34:40 --> Router Class Initialized
+INFO - 2021-05-12 00:34:40 --> Output Class Initialized
+INFO - 2021-05-12 00:34:40 --> Security Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:40 --> Input Class Initialized
+INFO - 2021-05-12 00:34:40 --> Language Class Initialized
+INFO - 2021-05-12 00:34:40 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:40 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:40 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:40 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:40 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+INFO - 2021-05-12 00:34:40 --> Model Class Initialized
+DEBUG - 2021-05-12 00:34:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:34:40 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:34:40 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:34:40 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:40 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:40 --> Total execution time: 0.0502
+INFO - 2021-05-12 00:34:42 --> Config Class Initialized
+INFO - 2021-05-12 00:34:42 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:34:42 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:42 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:42 --> URI Class Initialized
+INFO - 2021-05-12 00:34:42 --> Router Class Initialized
+INFO - 2021-05-12 00:34:42 --> Output Class Initialized
+INFO - 2021-05-12 00:34:42 --> Security Class Initialized
+DEBUG - 2021-05-12 00:34:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:42 --> Input Class Initialized
+INFO - 2021-05-12 00:34:42 --> Language Class Initialized
+INFO - 2021-05-12 00:34:42 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:42 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:42 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:42 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:42 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:42 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:42 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:42 --> Total execution time: 0.0333
+INFO - 2021-05-12 00:34:42 --> Config Class Initialized
+INFO - 2021-05-12 00:34:42 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:34:42 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:42 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:42 --> URI Class Initialized
+INFO - 2021-05-12 00:34:42 --> Router Class Initialized
+INFO - 2021-05-12 00:34:42 --> Output Class Initialized
+INFO - 2021-05-12 00:34:42 --> Security Class Initialized
+DEBUG - 2021-05-12 00:34:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:42 --> Input Class Initialized
+INFO - 2021-05-12 00:34:42 --> Language Class Initialized
+INFO - 2021-05-12 00:34:42 --> Config Class Initialized
+INFO - 2021-05-12 00:34:42 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:34:42 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:34:42 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:34:42 --> URI Class Initialized
+INFO - 2021-05-12 00:34:42 --> Router Class Initialized
+INFO - 2021-05-12 00:34:42 --> Output Class Initialized
+INFO - 2021-05-12 00:34:42 --> Security Class Initialized
+INFO - 2021-05-12 00:34:42 --> Loader Class Initialized
+DEBUG - 2021-05-12 00:34:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:34:42 --> Input Class Initialized
+INFO - 2021-05-12 00:34:42 --> Language Class Initialized
+INFO - 2021-05-12 00:34:42 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:42 --> Loader Class Initialized
+INFO - 2021-05-12 00:34:42 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:34:42 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:42 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:34:42 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:34:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:42 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:42 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:42 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:42 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:42 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+DEBUG - 2021-05-12 00:34:42 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:34:42 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:34:42 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:34:42 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:34:42 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:42 --> Total execution time: 0.0427
+INFO - 2021-05-12 00:34:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:34:42 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:34:42 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:34:42 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:34:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:34:42 --> Pagination Class Initialized
+INFO - 2021-05-12 00:34:42 --> Model Class Initialized
+INFO - 2021-05-12 00:34:42 --> Final output sent to browser
+DEBUG - 2021-05-12 00:34:42 --> Total execution time: 0.0508
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+INFO - 2021-05-12 00:35:02 --> Loader Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:02 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:02 --> Total execution time: 0.0495
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+INFO - 2021-05-12 00:35:02 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:02 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: abas_helper
+DEBUG - 2021-05-12 00:35:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:02 --> Total execution time: 0.0765
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+INFO - 2021-05-12 00:35:02 --> Loader Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:02 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:02 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:02 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Controller Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: text_helper
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:02 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:02 --> Total execution time: 0.0696
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:02 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+INFO - 2021-05-12 00:35:02 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:02 --> Total execution time: 0.1092
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+INFO - 2021-05-12 00:35:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:02 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:02 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: abas_helper
+DEBUG - 2021-05-12 00:35:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:02 --> Total execution time: 0.1039
+INFO - 2021-05-12 00:35:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:02 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:02 --> Total execution time: 0.1596
+INFO - 2021-05-12 00:35:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:02 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:02 --> Total execution time: 0.0807
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+INFO - 2021-05-12 00:35:02 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: url_helper
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: file_helper
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: url_helper
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:02 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: push_helper
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/rest_controller_lang.php
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:02 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:35:02 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/aauth_lang.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: url_helper
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:02 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:02 --> Total execution time: 0.0690
+INFO - 2021-05-12 00:35:02 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:02 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:02 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:02 --> Total execution time: 0.1263
+INFO - 2021-05-12 00:35:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:02 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:02 --> Total execution time: 0.1454
+INFO - 2021-05-12 00:35:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:02 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:35:02 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:02 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:02 --> Total execution time: 0.1411
+INFO - 2021-05-12 00:35:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:02 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:02 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:02 --> Model Class Initialized
+INFO - 2021-05-12 00:35:02 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:02 --> Total execution time: 0.1522
+INFO - 2021-05-12 00:35:02 --> Config Class Initialized
+INFO - 2021-05-12 00:35:02 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:02 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:02 --> URI Class Initialized
+INFO - 2021-05-12 00:35:02 --> Router Class Initialized
+INFO - 2021-05-12 00:35:02 --> Output Class Initialized
+INFO - 2021-05-12 00:35:02 --> Security Class Initialized
+DEBUG - 2021-05-12 00:35:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:02 --> Input Class Initialized
+INFO - 2021-05-12 00:35:02 --> Language Class Initialized
+INFO - 2021-05-12 00:35:03 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:03 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:35:03 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:03 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:03 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:03 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:03 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:03 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:03 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:03 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:03 --> Model Class Initialized
+INFO - 2021-05-12 00:35:03 --> Model Class Initialized
+INFO - 2021-05-12 00:35:03 --> Model Class Initialized
+INFO - 2021-05-12 00:35:03 --> Model Class Initialized
+INFO - 2021-05-12 00:35:03 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:03 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:03 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:03 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:03 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:03 --> Model Class Initialized
+INFO - 2021-05-12 00:35:03 --> Model Class Initialized
+INFO - 2021-05-12 00:35:03 --> Model Class Initialized
+DEBUG - 2021-05-12 00:35:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:35:03 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:35:03 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:35:03 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:03 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:03 --> Total execution time: 0.0506
+INFO - 2021-05-12 00:35:04 --> Config Class Initialized
+INFO - 2021-05-12 00:35:04 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:35:04 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:04 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:04 --> URI Class Initialized
+INFO - 2021-05-12 00:35:04 --> Router Class Initialized
+INFO - 2021-05-12 00:35:04 --> Output Class Initialized
+INFO - 2021-05-12 00:35:04 --> Security Class Initialized
+DEBUG - 2021-05-12 00:35:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:04 --> Input Class Initialized
+INFO - 2021-05-12 00:35:04 --> Language Class Initialized
+INFO - 2021-05-12 00:35:04 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:04 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:04 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:04 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:04 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:04 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:04 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:04 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:04 --> Total execution time: 0.0338
+INFO - 2021-05-12 00:35:04 --> Config Class Initialized
+INFO - 2021-05-12 00:35:04 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:35:04 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:04 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:04 --> URI Class Initialized
+INFO - 2021-05-12 00:35:04 --> Router Class Initialized
+INFO - 2021-05-12 00:35:04 --> Output Class Initialized
+INFO - 2021-05-12 00:35:04 --> Security Class Initialized
+DEBUG - 2021-05-12 00:35:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:04 --> Input Class Initialized
+INFO - 2021-05-12 00:35:04 --> Language Class Initialized
+INFO - 2021-05-12 00:35:04 --> Config Class Initialized
+INFO - 2021-05-12 00:35:04 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:35:04 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:35:04 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:35:04 --> URI Class Initialized
+INFO - 2021-05-12 00:35:04 --> Router Class Initialized
+INFO - 2021-05-12 00:35:04 --> Output Class Initialized
+INFO - 2021-05-12 00:35:04 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:04 --> Security Class Initialized
+INFO - 2021-05-12 00:35:04 --> Helper loaded: url_helper
+DEBUG - 2021-05-12 00:35:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:35:04 --> Input Class Initialized
+INFO - 2021-05-12 00:35:04 --> Language Class Initialized
+INFO - 2021-05-12 00:35:04 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:04 --> Loader Class Initialized
+INFO - 2021-05-12 00:35:04 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:35:04 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:04 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:35:04 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:35:04 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:04 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:04 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:04 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:04 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+DEBUG - 2021-05-12 00:35:04 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:35:04 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:35:04 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:35:04 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:35:04 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:04 --> Total execution time: 0.0439
+INFO - 2021-05-12 00:35:04 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:35:04 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:35:04 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:35:04 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:35:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:35:04 --> Pagination Class Initialized
+INFO - 2021-05-12 00:35:04 --> Model Class Initialized
+INFO - 2021-05-12 00:35:04 --> Final output sent to browser
+DEBUG - 2021-05-12 00:35:04 --> Total execution time: 0.0761
+INFO - 2021-05-12 00:36:22 --> Config Class Initialized
+INFO - 2021-05-12 00:36:22 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:22 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:22 --> URI Class Initialized
+INFO - 2021-05-12 00:36:22 --> Config Class Initialized
+INFO - 2021-05-12 00:36:22 --> Hooks Class Initialized
+INFO - 2021-05-12 00:36:22 --> Router Class Initialized
+INFO - 2021-05-12 00:36:22 --> Output Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:22 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:22 --> URI Class Initialized
+INFO - 2021-05-12 00:36:22 --> Security Class Initialized
+INFO - 2021-05-12 00:36:22 --> Router Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:22 --> Input Class Initialized
+INFO - 2021-05-12 00:36:22 --> Language Class Initialized
+INFO - 2021-05-12 00:36:22 --> Output Class Initialized
+INFO - 2021-05-12 00:36:22 --> Security Class Initialized
+INFO - 2021-05-12 00:36:22 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: url_helper
+DEBUG - 2021-05-12 00:36:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:22 --> Input Class Initialized
+INFO - 2021-05-12 00:36:22 --> Language Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:22 --> Config Class Initialized
+INFO - 2021-05-12 00:36:22 --> Hooks Class Initialized
+INFO - 2021-05-12 00:36:22 --> Config Class Initialized
+INFO - 2021-05-12 00:36:22 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:22 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:22 --> URI Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:22 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:22 --> Router Class Initialized
+INFO - 2021-05-12 00:36:22 --> URI Class Initialized
+INFO - 2021-05-12 00:36:22 --> Router Class Initialized
+INFO - 2021-05-12 00:36:22 --> Output Class Initialized
+INFO - 2021-05-12 00:36:22 --> Security Class Initialized
+INFO - 2021-05-12 00:36:22 --> Database Driver Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:22 --> Input Class Initialized
+INFO - 2021-05-12 00:36:22 --> Language Class Initialized
+INFO - 2021-05-12 00:36:22 --> Output Class Initialized
+INFO - 2021-05-12 00:36:22 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Config Class Initialized
+INFO - 2021-05-12 00:36:22 --> Hooks Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:22 --> Security Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:22 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: url_helper
+DEBUG - 2021-05-12 00:36:22 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:22 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:22 --> URI Class Initialized
+INFO - 2021-05-12 00:36:22 --> Router Class Initialized
+INFO - 2021-05-12 00:36:22 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:22 --> Total execution time: 0.0439
+INFO - 2021-05-12 00:36:22 --> Output Class Initialized
+INFO - 2021-05-12 00:36:22 --> Security Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: text_helper
+DEBUG - 2021-05-12 00:36:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:22 --> Input Class Initialized
+INFO - 2021-05-12 00:36:22 --> Language Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: abas_helper
+DEBUG - 2021-05-12 00:36:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:22 --> Input Class Initialized
+INFO - 2021-05-12 00:36:22 --> Language Class Initialized
+INFO - 2021-05-12 00:36:22 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:22 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:22 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:22 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:22 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:22 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:22 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Database Driver Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:36:22 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:36:22 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:22 --> Config Class Initialized
+INFO - 2021-05-12 00:36:22 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:22 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:22 --> URI Class Initialized
+INFO - 2021-05-12 00:36:22 --> Router Class Initialized
+INFO - 2021-05-12 00:36:22 --> Output Class Initialized
+INFO - 2021-05-12 00:36:22 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:22 --> Total execution time: 0.0888
+INFO - 2021-05-12 00:36:22 --> Security Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:22 --> Input Class Initialized
+INFO - 2021-05-12 00:36:22 --> Language Class Initialized
+INFO - 2021-05-12 00:36:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:22 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:22 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:22 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: abas_helper
+DEBUG - 2021-05-12 00:36:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:36:22 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:36:22 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:22 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:22 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:22 --> Total execution time: 0.1127
+INFO - 2021-05-12 00:36:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:22 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:22 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:36:22 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:36:22 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:22 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:22 --> Total execution time: 0.1512
+INFO - 2021-05-12 00:36:22 --> Config Class Initialized
+INFO - 2021-05-12 00:36:22 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:22 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:22 --> URI Class Initialized
+INFO - 2021-05-12 00:36:22 --> Router Class Initialized
+INFO - 2021-05-12 00:36:22 --> Output Class Initialized
+INFO - 2021-05-12 00:36:22 --> Security Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:22 --> Input Class Initialized
+INFO - 2021-05-12 00:36:22 --> Language Class Initialized
+INFO - 2021-05-12 00:36:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:22 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:22 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:22 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:22 --> Database Driver Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:36:22 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:36:22 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:22 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:22 --> Total execution time: 0.1556
+INFO - 2021-05-12 00:36:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:22 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:22 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:36:22 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:36:22 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:22 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:22 --> Total execution time: 0.1189
+INFO - 2021-05-12 00:36:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:22 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:22 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:22 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Model Class Initialized
+INFO - 2021-05-12 00:36:22 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:22 --> Total execution time: 0.0798
+INFO - 2021-05-12 00:36:23 --> Config Class Initialized
+INFO - 2021-05-12 00:36:23 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:23 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:23 --> URI Class Initialized
+INFO - 2021-05-12 00:36:23 --> Router Class Initialized
+INFO - 2021-05-12 00:36:23 --> Output Class Initialized
+INFO - 2021-05-12 00:36:23 --> Security Class Initialized
+INFO - 2021-05-12 00:36:23 --> Config Class Initialized
+INFO - 2021-05-12 00:36:23 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:23 --> Input Class Initialized
+INFO - 2021-05-12 00:36:23 --> Language Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:23 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:23 --> URI Class Initialized
+INFO - 2021-05-12 00:36:23 --> Router Class Initialized
+INFO - 2021-05-12 00:36:23 --> Output Class Initialized
+INFO - 2021-05-12 00:36:23 --> Security Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:23 --> Input Class Initialized
+INFO - 2021-05-12 00:36:23 --> Language Class Initialized
+INFO - 2021-05-12 00:36:23 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:23 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:23 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:23 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:23 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:23 --> Config Class Initialized
+INFO - 2021-05-12 00:36:23 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:23 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:23 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:23 --> URI Class Initialized
+INFO - 2021-05-12 00:36:23 --> Router Class Initialized
+INFO - 2021-05-12 00:36:23 --> Config Class Initialized
+INFO - 2021-05-12 00:36:23 --> Hooks Class Initialized
+INFO - 2021-05-12 00:36:23 --> Output Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:23 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:23 --> Security Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:23 --> URI Class Initialized
+INFO - 2021-05-12 00:36:23 --> Input Class Initialized
+INFO - 2021-05-12 00:36:23 --> Language Class Initialized
+INFO - 2021-05-12 00:36:23 --> Router Class Initialized
+INFO - 2021-05-12 00:36:23 --> Output Class Initialized
+INFO - 2021-05-12 00:36:23 --> Security Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:23 --> Input Class Initialized
+INFO - 2021-05-12 00:36:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:23 --> Config Class Initialized
+INFO - 2021-05-12 00:36:23 --> Hooks Class Initialized
+INFO - 2021-05-12 00:36:23 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/rest_controller_lang.php
+DEBUG - 2021-05-12 00:36:23 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:23 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:23 --> URI Class Initialized
+INFO - 2021-05-12 00:36:23 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Router Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Language Class Initialized
+INFO - 2021-05-12 00:36:23 --> Output Class Initialized
+INFO - 2021-05-12 00:36:23 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:23 --> Total execution time: 0.0629
+INFO - 2021-05-12 00:36:23 --> Security Class Initialized
+INFO - 2021-05-12 00:36:23 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:23 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:23 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: file_helper
+DEBUG - 2021-05-12 00:36:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:23 --> Input Class Initialized
+INFO - 2021-05-12 00:36:23 --> Language Class Initialized
+INFO - 2021-05-12 00:36:23 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:23 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:23 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:23 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:23 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:23 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:23 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:23 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:23 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:36:23 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:36:23 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:23 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:23 --> Total execution time: 0.1075
+INFO - 2021-05-12 00:36:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:23 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:23 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:36:23 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:36:23 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:23 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:23 --> Total execution time: 0.0937
+INFO - 2021-05-12 00:36:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:23 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:23 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:36:23 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:36:23 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:23 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:23 --> Total execution time: 0.1264
+INFO - 2021-05-12 00:36:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:23 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:23 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:23 --> Total execution time: 0.1195
+INFO - 2021-05-12 00:36:23 --> Config Class Initialized
+INFO - 2021-05-12 00:36:23 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:23 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:23 --> URI Class Initialized
+INFO - 2021-05-12 00:36:23 --> Router Class Initialized
+INFO - 2021-05-12 00:36:23 --> Output Class Initialized
+INFO - 2021-05-12 00:36:23 --> Security Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:23 --> Input Class Initialized
+INFO - 2021-05-12 00:36:23 --> Language Class Initialized
+INFO - 2021-05-12 00:36:23 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:23 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:23 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:23 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:23 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:23 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+INFO - 2021-05-12 00:36:23 --> Model Class Initialized
+DEBUG - 2021-05-12 00:36:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:36:23 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:36:23 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:36:23 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:23 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:23 --> Total execution time: 0.0439
+INFO - 2021-05-12 00:36:24 --> Config Class Initialized
+INFO - 2021-05-12 00:36:24 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:36:24 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:24 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:24 --> URI Class Initialized
+INFO - 2021-05-12 00:36:24 --> Router Class Initialized
+INFO - 2021-05-12 00:36:24 --> Output Class Initialized
+INFO - 2021-05-12 00:36:24 --> Security Class Initialized
+DEBUG - 2021-05-12 00:36:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:24 --> Input Class Initialized
+INFO - 2021-05-12 00:36:24 --> Language Class Initialized
+INFO - 2021-05-12 00:36:24 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:24 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:24 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:24 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:24 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:24 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:24 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:24 --> Total execution time: 0.0370
+INFO - 2021-05-12 00:36:24 --> Config Class Initialized
+INFO - 2021-05-12 00:36:24 --> Hooks Class Initialized
+INFO - 2021-05-12 00:36:24 --> Config Class Initialized
+INFO - 2021-05-12 00:36:24 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:36:24 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:24 --> Utf8 Class Initialized
+DEBUG - 2021-05-12 00:36:24 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:36:24 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:36:24 --> URI Class Initialized
+INFO - 2021-05-12 00:36:24 --> URI Class Initialized
+INFO - 2021-05-12 00:36:24 --> Router Class Initialized
+INFO - 2021-05-12 00:36:24 --> Router Class Initialized
+INFO - 2021-05-12 00:36:24 --> Output Class Initialized
+INFO - 2021-05-12 00:36:24 --> Output Class Initialized
+INFO - 2021-05-12 00:36:24 --> Security Class Initialized
+INFO - 2021-05-12 00:36:24 --> Security Class Initialized
+DEBUG - 2021-05-12 00:36:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:24 --> Input Class Initialized
+INFO - 2021-05-12 00:36:24 --> Language Class Initialized
+DEBUG - 2021-05-12 00:36:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:36:24 --> Input Class Initialized
+INFO - 2021-05-12 00:36:24 --> Language Class Initialized
+INFO - 2021-05-12 00:36:24 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:24 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:24 --> Loader Class Initialized
+INFO - 2021-05-12 00:36:24 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:36:24 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:24 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:36:24 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:36:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:24 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:24 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:24 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:24 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:24 --> Total execution time: 0.0354
+INFO - 2021-05-12 00:36:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:36:24 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:36:24 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:36:24 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:36:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:36:24 --> Pagination Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+INFO - 2021-05-12 00:36:24 --> Model Class Initialized
+DEBUG - 2021-05-12 00:36:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:36:24 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:36:24 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:36:24 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:36:24 --> Final output sent to browser
+DEBUG - 2021-05-12 00:36:24 --> Total execution time: 0.0860
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.0771
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+DEBUG - 2021-05-12 00:37:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.1035
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.1125
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.1019
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.0513
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.1379
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.1705
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/aauth_lang.php
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.0691
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.0806
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.0767
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.0730
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.0737
+INFO - 2021-05-12 00:37:59 --> Config Class Initialized
+INFO - 2021-05-12 00:37:59 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:37:59 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:37:59 --> URI Class Initialized
+INFO - 2021-05-12 00:37:59 --> Router Class Initialized
+INFO - 2021-05-12 00:37:59 --> Output Class Initialized
+INFO - 2021-05-12 00:37:59 --> Security Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:37:59 --> Input Class Initialized
+INFO - 2021-05-12 00:37:59 --> Language Class Initialized
+INFO - 2021-05-12 00:37:59 --> Loader Class Initialized
+INFO - 2021-05-12 00:37:59 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:37:59 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:37:59 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:37:59 --> Pagination Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+INFO - 2021-05-12 00:37:59 --> Model Class Initialized
+DEBUG - 2021-05-12 00:37:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:37:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:37:59 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:37:59 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:37:59 --> Final output sent to browser
+DEBUG - 2021-05-12 00:37:59 --> Total execution time: 0.0366
+INFO - 2021-05-12 00:38:00 --> Config Class Initialized
+INFO - 2021-05-12 00:38:00 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:00 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:00 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:00 --> URI Class Initialized
+INFO - 2021-05-12 00:38:00 --> Router Class Initialized
+INFO - 2021-05-12 00:38:00 --> Output Class Initialized
+INFO - 2021-05-12 00:38:00 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:00 --> Input Class Initialized
+INFO - 2021-05-12 00:38:00 --> Language Class Initialized
+INFO - 2021-05-12 00:38:00 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:00 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:00 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:00 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:00 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:00 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:00 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:00 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:00 --> Total execution time: 0.0332
+INFO - 2021-05-12 00:38:00 --> Config Class Initialized
+INFO - 2021-05-12 00:38:00 --> Hooks Class Initialized
+INFO - 2021-05-12 00:38:00 --> Config Class Initialized
+INFO - 2021-05-12 00:38:00 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:00 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:00 --> Utf8 Class Initialized
+DEBUG - 2021-05-12 00:38:00 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:00 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:00 --> URI Class Initialized
+INFO - 2021-05-12 00:38:00 --> URI Class Initialized
+INFO - 2021-05-12 00:38:00 --> Router Class Initialized
+INFO - 2021-05-12 00:38:00 --> Router Class Initialized
+INFO - 2021-05-12 00:38:00 --> Output Class Initialized
+INFO - 2021-05-12 00:38:00 --> Output Class Initialized
+INFO - 2021-05-12 00:38:00 --> Security Class Initialized
+INFO - 2021-05-12 00:38:00 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:00 --> Input Class Initialized
+DEBUG - 2021-05-12 00:38:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:00 --> Input Class Initialized
+INFO - 2021-05-12 00:38:00 --> Language Class Initialized
+INFO - 2021-05-12 00:38:00 --> Language Class Initialized
+INFO - 2021-05-12 00:38:00 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:00 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:00 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:00 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:00 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:00 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:00 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:00 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:00 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:00 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:00 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:00 --> Total execution time: 0.0296
+INFO - 2021-05-12 00:38:00 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:00 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:00 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:00 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:00 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+INFO - 2021-05-12 00:38:00 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:00 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:00 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:00 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:00 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:00 --> Total execution time: 0.0482
+INFO - 2021-05-12 00:38:16 --> Config Class Initialized
+INFO - 2021-05-12 00:38:16 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:16 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:16 --> URI Class Initialized
+INFO - 2021-05-12 00:38:16 --> Router Class Initialized
+INFO - 2021-05-12 00:38:16 --> Config Class Initialized
+INFO - 2021-05-12 00:38:16 --> Hooks Class Initialized
+INFO - 2021-05-12 00:38:16 --> Output Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:16 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:16 --> Security Class Initialized
+INFO - 2021-05-12 00:38:16 --> URI Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:16 --> Input Class Initialized
+INFO - 2021-05-12 00:38:16 --> Language Class Initialized
+INFO - 2021-05-12 00:38:16 --> Router Class Initialized
+INFO - 2021-05-12 00:38:16 --> Output Class Initialized
+INFO - 2021-05-12 00:38:16 --> Security Class Initialized
+INFO - 2021-05-12 00:38:16 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: url_helper
+DEBUG - 2021-05-12 00:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:16 --> Input Class Initialized
+INFO - 2021-05-12 00:38:16 --> Language Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:16 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:16 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:16 --> Config Class Initialized
+INFO - 2021-05-12 00:38:16 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:16 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:16 --> URI Class Initialized
+INFO - 2021-05-12 00:38:16 --> Router Class Initialized
+INFO - 2021-05-12 00:38:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:16 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:16 --> Output Class Initialized
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:16 --> Security Class Initialized
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:16 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Config Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:16 --> Hooks Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: abas_helper
+DEBUG - 2021-05-12 00:38:16 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:16 --> Utf8 Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:16 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:16 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:16 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:16 --> Total execution time: 0.0430
+INFO - 2021-05-12 00:38:16 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:16 --> Config Class Initialized
+INFO - 2021-05-12 00:38:16 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:16 --> Input Class Initialized
+INFO - 2021-05-12 00:38:16 --> Language Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:16 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:16 --> URI Class Initialized
+INFO - 2021-05-12 00:38:16 --> Router Class Initialized
+INFO - 2021-05-12 00:38:16 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:16 --> Output Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:16 --> URI Class Initialized
+INFO - 2021-05-12 00:38:16 --> Router Class Initialized
+INFO - 2021-05-12 00:38:16 --> Config Class Initialized
+INFO - 2021-05-12 00:38:16 --> Hooks Class Initialized
+INFO - 2021-05-12 00:38:16 --> Output Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:16 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:16 --> URI Class Initialized
+INFO - 2021-05-12 00:38:16 --> Security Class Initialized
+INFO - 2021-05-12 00:38:16 --> Router Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:16 --> Input Class Initialized
+INFO - 2021-05-12 00:38:16 --> Language Class Initialized
+INFO - 2021-05-12 00:38:16 --> Output Class Initialized
+INFO - 2021-05-12 00:38:16 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:16 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:16 --> Input Class Initialized
+INFO - 2021-05-12 00:38:16 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:16 --> Input Class Initialized
+INFO - 2021-05-12 00:38:16 --> Language Class Initialized
+INFO - 2021-05-12 00:38:16 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:16 --> Language Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:16 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:16 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:16 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:16 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:16 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:16 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:16 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:16 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:16 --> Total execution time: 0.0954
+INFO - 2021-05-12 00:38:16 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:16 --> Config Class Initialized
+INFO - 2021-05-12 00:38:16 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:16 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:16 --> URI Class Initialized
+INFO - 2021-05-12 00:38:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:16 --> Router Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Output Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:16 --> Security Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: inflector_helper
+DEBUG - 2021-05-12 00:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:16 --> Input Class Initialized
+INFO - 2021-05-12 00:38:16 --> Language Class Initialized
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:16 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Loader Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/aauth_lang.php
+INFO - 2021-05-12 00:38:16 --> Helper loaded: url_helper
+DEBUG - 2021-05-12 00:38:16 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:16 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:16 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:16 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:16 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:16 --> Total execution time: 0.0987
+INFO - 2021-05-12 00:38:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:16 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:16 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:16 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:16 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:16 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:16 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:16 --> Total execution time: 0.0895
+INFO - 2021-05-12 00:38:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:16 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:16 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:16 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:16 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:16 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:16 --> Total execution time: 0.1266
+INFO - 2021-05-12 00:38:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:16 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:16 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:16 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:16 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:16 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:16 --> Total execution time: 0.1675
+INFO - 2021-05-12 00:38:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:16 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:16 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:16 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Model Class Initialized
+INFO - 2021-05-12 00:38:16 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:16 --> Total execution time: 0.1092
+INFO - 2021-05-12 00:38:17 --> Config Class Initialized
+INFO - 2021-05-12 00:38:17 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:17 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:17 --> URI Class Initialized
+INFO - 2021-05-12 00:38:17 --> Router Class Initialized
+INFO - 2021-05-12 00:38:17 --> Output Class Initialized
+INFO - 2021-05-12 00:38:17 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:17 --> Input Class Initialized
+INFO - 2021-05-12 00:38:17 --> Config Class Initialized
+INFO - 2021-05-12 00:38:17 --> Hooks Class Initialized
+INFO - 2021-05-12 00:38:17 --> Language Class Initialized
+INFO - 2021-05-12 00:38:17 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:17 --> Config Class Initialized
+INFO - 2021-05-12 00:38:17 --> Hooks Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: file_helper
+DEBUG - 2021-05-12 00:38:17 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:17 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:17 --> URI Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:17 --> Router Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:17 --> Output Class Initialized
+INFO - 2021-05-12 00:38:17 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:17 --> Input Class Initialized
+INFO - 2021-05-12 00:38:17 --> Language Class Initialized
+INFO - 2021-05-12 00:38:17 --> Config Class Initialized
+INFO - 2021-05-12 00:38:17 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:17 --> Utf8 Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:17 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:17 --> URI Class Initialized
+INFO - 2021-05-12 00:38:17 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:17 --> URI Class Initialized
+INFO - 2021-05-12 00:38:17 --> Router Class Initialized
+INFO - 2021-05-12 00:38:17 --> Output Class Initialized
+INFO - 2021-05-12 00:38:17 --> Router Class Initialized
+INFO - 2021-05-12 00:38:17 --> Security Class Initialized
+INFO - 2021-05-12 00:38:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:17 --> Output Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:17 --> Input Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Controller Class Initialized
+INFO - 2021-05-12 00:38:17 --> Language Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:17 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:17 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Security Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:17 --> Input Class Initialized
+INFO - 2021-05-12 00:38:17 --> Language Class Initialized
+INFO - 2021-05-12 00:38:17 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:17 --> Config Class Initialized
+INFO - 2021-05-12 00:38:17 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:17 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:17 --> Database Driver Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:17 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:17 --> URI Class Initialized
+INFO - 2021-05-12 00:38:17 --> Router Class Initialized
+INFO - 2021-05-12 00:38:17 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:17 --> Output Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:17 --> Security Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: file_helper
+DEBUG - 2021-05-12 00:38:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:17 --> Input Class Initialized
+INFO - 2021-05-12 00:38:17 --> Language Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:17 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:17 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:17 --> Total execution time: 0.0585
+INFO - 2021-05-12 00:38:17 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:17 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:17 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:17 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:17 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:17 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:17 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:17 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:17 --> Total execution time: 0.0585
+INFO - 2021-05-12 00:38:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:17 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:17 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:17 --> Total execution time: 0.0947
+INFO - 2021-05-12 00:38:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:17 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:17 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:17 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:17 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:17 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:17 --> Total execution time: 0.1042
+INFO - 2021-05-12 00:38:17 --> Config Class Initialized
+INFO - 2021-05-12 00:38:17 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:17 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:17 --> URI Class Initialized
+INFO - 2021-05-12 00:38:17 --> Router Class Initialized
+INFO - 2021-05-12 00:38:17 --> Output Class Initialized
+INFO - 2021-05-12 00:38:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Security Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Config file loaded: /var/www/html/api/application/config/rest.php
+DEBUG - 2021-05-12 00:38:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:17 --> Input Class Initialized
+INFO - 2021-05-12 00:38:17 --> Language Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:17 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: form_helper
+DEBUG - 2021-05-12 00:38:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/aauth_lang.php
+INFO - 2021-05-12 00:38:17 --> Helper loaded: text_helper
+DEBUG - 2021-05-12 00:38:17 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:17 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:17 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:17 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:17 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:17 --> Total execution time: 0.1505
+INFO - 2021-05-12 00:38:17 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:17 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:17 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+INFO - 2021-05-12 00:38:17 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:17 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:17 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:17 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:17 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:17 --> Total execution time: 0.0469
+INFO - 2021-05-12 00:38:18 --> Config Class Initialized
+INFO - 2021-05-12 00:38:18 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:18 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:18 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:18 --> URI Class Initialized
+INFO - 2021-05-12 00:38:18 --> Router Class Initialized
+INFO - 2021-05-12 00:38:18 --> Output Class Initialized
+INFO - 2021-05-12 00:38:18 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:18 --> Input Class Initialized
+INFO - 2021-05-12 00:38:18 --> Language Class Initialized
+INFO - 2021-05-12 00:38:18 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:18 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:18 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:18 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:18 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:18 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:18 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:18 --> Total execution time: 0.0357
+INFO - 2021-05-12 00:38:18 --> Config Class Initialized
+INFO - 2021-05-12 00:38:18 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:18 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:18 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:18 --> Config Class Initialized
+INFO - 2021-05-12 00:38:18 --> Hooks Class Initialized
+INFO - 2021-05-12 00:38:18 --> URI Class Initialized
+INFO - 2021-05-12 00:38:18 --> Router Class Initialized
+DEBUG - 2021-05-12 00:38:18 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:18 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:18 --> URI Class Initialized
+INFO - 2021-05-12 00:38:18 --> Output Class Initialized
+INFO - 2021-05-12 00:38:18 --> Router Class Initialized
+INFO - 2021-05-12 00:38:18 --> Security Class Initialized
+INFO - 2021-05-12 00:38:18 --> Output Class Initialized
+DEBUG - 2021-05-12 00:38:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:18 --> Input Class Initialized
+INFO - 2021-05-12 00:38:18 --> Language Class Initialized
+INFO - 2021-05-12 00:38:18 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:18 --> Input Class Initialized
+INFO - 2021-05-12 00:38:18 --> Language Class Initialized
+INFO - 2021-05-12 00:38:18 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:18 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:18 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:18 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:18 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:18 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:18 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:18 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:18 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:18 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:18 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:18 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:18 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:18 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:18 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:18 --> Total execution time: 0.0410
+INFO - 2021-05-12 00:38:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:18 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:18 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:18 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:18 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:18 --> Model Class Initialized
+INFO - 2021-05-12 00:38:18 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:18 --> Total execution time: 0.0522
+INFO - 2021-05-12 00:38:33 --> Config Class Initialized
+INFO - 2021-05-12 00:38:33 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:33 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:33 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:33 --> URI Class Initialized
+INFO - 2021-05-12 00:38:33 --> Router Class Initialized
+INFO - 2021-05-12 00:38:33 --> Output Class Initialized
+INFO - 2021-05-12 00:38:33 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:33 --> Input Class Initialized
+INFO - 2021-05-12 00:38:33 --> Language Class Initialized
+INFO - 2021-05-12 00:38:33 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:33 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:33 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:33 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:33 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:33 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:33 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:33 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:33 --> Total execution time: 0.0255
+INFO - 2021-05-12 00:38:33 --> Config Class Initialized
+INFO - 2021-05-12 00:38:33 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:33 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:33 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:33 --> URI Class Initialized
+INFO - 2021-05-12 00:38:33 --> Config Class Initialized
+INFO - 2021-05-12 00:38:33 --> Hooks Class Initialized
+INFO - 2021-05-12 00:38:33 --> Router Class Initialized
+DEBUG - 2021-05-12 00:38:33 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:33 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:33 --> Output Class Initialized
+INFO - 2021-05-12 00:38:33 --> URI Class Initialized
+INFO - 2021-05-12 00:38:33 --> Router Class Initialized
+INFO - 2021-05-12 00:38:33 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:33 --> Input Class Initialized
+INFO - 2021-05-12 00:38:33 --> Output Class Initialized
+INFO - 2021-05-12 00:38:33 --> Language Class Initialized
+INFO - 2021-05-12 00:38:33 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:33 --> Input Class Initialized
+INFO - 2021-05-12 00:38:33 --> Language Class Initialized
+INFO - 2021-05-12 00:38:33 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:33 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:33 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:33 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:33 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:33 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:33 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:33 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:33 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:33 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:33 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:33 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:33 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:33 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:33 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:33 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:33 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:33 --> Total execution time: 0.0419
+INFO - 2021-05-12 00:38:33 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:33 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:33 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:33 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:33 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:33 --> Model Class Initialized
+INFO - 2021-05-12 00:38:33 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:33 --> Total execution time: 0.0851
+INFO - 2021-05-12 00:38:34 --> Config Class Initialized
+INFO - 2021-05-12 00:38:34 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:34 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:34 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:34 --> URI Class Initialized
+INFO - 2021-05-12 00:38:34 --> Router Class Initialized
+INFO - 2021-05-12 00:38:34 --> Output Class Initialized
+INFO - 2021-05-12 00:38:34 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:34 --> Input Class Initialized
+INFO - 2021-05-12 00:38:34 --> Language Class Initialized
+INFO - 2021-05-12 00:38:34 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:34 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:34 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:34 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:34 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:34 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:34 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:34 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:34 --> Total execution time: 0.0307
+INFO - 2021-05-12 00:38:34 --> Config Class Initialized
+INFO - 2021-05-12 00:38:34 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:34 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:34 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:34 --> Config Class Initialized
+INFO - 2021-05-12 00:38:34 --> Hooks Class Initialized
+INFO - 2021-05-12 00:38:34 --> URI Class Initialized
+DEBUG - 2021-05-12 00:38:34 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:34 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:34 --> URI Class Initialized
+INFO - 2021-05-12 00:38:34 --> Router Class Initialized
+INFO - 2021-05-12 00:38:34 --> Router Class Initialized
+INFO - 2021-05-12 00:38:34 --> Output Class Initialized
+INFO - 2021-05-12 00:38:34 --> Output Class Initialized
+INFO - 2021-05-12 00:38:34 --> Security Class Initialized
+INFO - 2021-05-12 00:38:34 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:34 --> Input Class Initialized
+DEBUG - 2021-05-12 00:38:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:34 --> Input Class Initialized
+INFO - 2021-05-12 00:38:34 --> Language Class Initialized
+INFO - 2021-05-12 00:38:34 --> Language Class Initialized
+INFO - 2021-05-12 00:38:34 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:34 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:34 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:34 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:34 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:34 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:34 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:34 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:34 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:34 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:34 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:34 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:34 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:34 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:34 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:34 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:34 --> Total execution time: 0.0384
+INFO - 2021-05-12 00:38:34 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:34 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:34 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:34 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:34 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:34 --> Model Class Initialized
+INFO - 2021-05-12 00:38:34 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:34 --> Total execution time: 0.0819
+INFO - 2021-05-12 00:38:43 --> Config Class Initialized
+INFO - 2021-05-12 00:38:43 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:43 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:43 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:43 --> URI Class Initialized
+INFO - 2021-05-12 00:38:43 --> Router Class Initialized
+INFO - 2021-05-12 00:38:43 --> Output Class Initialized
+INFO - 2021-05-12 00:38:43 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:43 --> Input Class Initialized
+INFO - 2021-05-12 00:38:43 --> Language Class Initialized
+INFO - 2021-05-12 00:38:43 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:43 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:43 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:43 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:43 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:43 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:43 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:43 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:43 --> Total execution time: 0.0323
+INFO - 2021-05-12 00:38:43 --> Config Class Initialized
+INFO - 2021-05-12 00:38:43 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:43 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:43 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:43 --> URI Class Initialized
+INFO - 2021-05-12 00:38:43 --> Router Class Initialized
+INFO - 2021-05-12 00:38:43 --> Output Class Initialized
+INFO - 2021-05-12 00:38:43 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:43 --> Input Class Initialized
+INFO - 2021-05-12 00:38:43 --> Language Class Initialized
+INFO - 2021-05-12 00:38:43 --> Config Class Initialized
+INFO - 2021-05-12 00:38:43 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:43 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:43 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:43 --> URI Class Initialized
+INFO - 2021-05-12 00:38:43 --> Router Class Initialized
+INFO - 2021-05-12 00:38:43 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:43 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:43 --> Output Class Initialized
+INFO - 2021-05-12 00:38:43 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:43 --> Security Class Initialized
+INFO - 2021-05-12 00:38:43 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: text_helper
+DEBUG - 2021-05-12 00:38:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:43 --> Input Class Initialized
+INFO - 2021-05-12 00:38:43 --> Language Class Initialized
+INFO - 2021-05-12 00:38:43 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:43 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:43 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:43 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:43 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:43 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:43 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:43 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:43 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:43 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:43 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Database Driver Class Initialized
+DEBUG - 2021-05-12 00:38:43 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:43 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:43 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:43 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:43 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:43 --> Total execution time: 0.0340
+INFO - 2021-05-12 00:38:43 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:43 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:43 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:43 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:43 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:43 --> Model Class Initialized
+INFO - 2021-05-12 00:38:43 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:43 --> Total execution time: 0.0372
+INFO - 2021-05-12 00:38:52 --> Config Class Initialized
+INFO - 2021-05-12 00:38:52 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:52 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:52 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:52 --> URI Class Initialized
+INFO - 2021-05-12 00:38:52 --> Router Class Initialized
+INFO - 2021-05-12 00:38:52 --> Output Class Initialized
+INFO - 2021-05-12 00:38:52 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:52 --> Input Class Initialized
+INFO - 2021-05-12 00:38:52 --> Language Class Initialized
+INFO - 2021-05-12 00:38:52 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:52 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:52 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:52 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:52 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:52 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:52 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:52 --> Total execution time: 0.0281
+INFO - 2021-05-12 00:38:52 --> Config Class Initialized
+INFO - 2021-05-12 00:38:52 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:52 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:52 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:52 --> URI Class Initialized
+INFO - 2021-05-12 00:38:52 --> Router Class Initialized
+INFO - 2021-05-12 00:38:52 --> Output Class Initialized
+INFO - 2021-05-12 00:38:52 --> Security Class Initialized
+INFO - 2021-05-12 00:38:52 --> Config Class Initialized
+INFO - 2021-05-12 00:38:52 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:52 --> Input Class Initialized
+INFO - 2021-05-12 00:38:52 --> Language Class Initialized
+DEBUG - 2021-05-12 00:38:52 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:52 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:52 --> URI Class Initialized
+INFO - 2021-05-12 00:38:52 --> Router Class Initialized
+INFO - 2021-05-12 00:38:52 --> Output Class Initialized
+INFO - 2021-05-12 00:38:52 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:52 --> Security Class Initialized
+INFO - 2021-05-12 00:38:52 --> Helper loaded: url_helper
+DEBUG - 2021-05-12 00:38:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:52 --> Input Class Initialized
+INFO - 2021-05-12 00:38:52 --> Language Class Initialized
+INFO - 2021-05-12 00:38:52 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:52 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:52 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:52 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:52 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:52 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Controller Class Initialized
+INFO - 2021-05-12 00:38:52 --> Database Driver Class Initialized
+DEBUG - 2021-05-12 00:38:52 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:52 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:52 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:52 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:52 --> Total execution time: 0.0275
+INFO - 2021-05-12 00:38:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:52 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:52 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:52 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:52 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+INFO - 2021-05-12 00:38:52 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:52 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:52 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:52 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:52 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:52 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:52 --> Total execution time: 0.0435
+INFO - 2021-05-12 00:38:56 --> Config Class Initialized
+INFO - 2021-05-12 00:38:56 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:56 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:56 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:56 --> URI Class Initialized
+INFO - 2021-05-12 00:38:56 --> Router Class Initialized
+INFO - 2021-05-12 00:38:56 --> Output Class Initialized
+INFO - 2021-05-12 00:38:56 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:56 --> Input Class Initialized
+INFO - 2021-05-12 00:38:56 --> Language Class Initialized
+INFO - 2021-05-12 00:38:56 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:56 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:56 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:56 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:56 --> Model Class Initialized
+INFO - 2021-05-12 00:38:56 --> Model Class Initialized
+INFO - 2021-05-12 00:38:56 --> Model Class Initialized
+INFO - 2021-05-12 00:38:56 --> Model Class Initialized
+INFO - 2021-05-12 00:38:56 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:56 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:56 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:56 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:56 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:56 --> Model Class Initialized
+INFO - 2021-05-12 00:38:56 --> Model Class Initialized
+INFO - 2021-05-12 00:38:56 --> Model Class Initialized
+INFO - 2021-05-12 00:38:56 --> Model Class Initialized
+INFO - 2021-05-12 00:38:56 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:56 --> Total execution time: 0.0299
+INFO - 2021-05-12 00:38:56 --> Config Class Initialized
+INFO - 2021-05-12 00:38:56 --> Config Class Initialized
+INFO - 2021-05-12 00:38:56 --> Hooks Class Initialized
+INFO - 2021-05-12 00:38:56 --> Hooks Class Initialized
+DEBUG - 2021-05-12 00:38:56 --> UTF-8 Support Enabled
+DEBUG - 2021-05-12 00:38:56 --> UTF-8 Support Enabled
+INFO - 2021-05-12 00:38:56 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:56 --> Utf8 Class Initialized
+INFO - 2021-05-12 00:38:56 --> URI Class Initialized
+INFO - 2021-05-12 00:38:56 --> URI Class Initialized
+INFO - 2021-05-12 00:38:56 --> Router Class Initialized
+INFO - 2021-05-12 00:38:56 --> Router Class Initialized
+INFO - 2021-05-12 00:38:56 --> Output Class Initialized
+INFO - 2021-05-12 00:38:56 --> Output Class Initialized
+INFO - 2021-05-12 00:38:56 --> Security Class Initialized
+INFO - 2021-05-12 00:38:56 --> Security Class Initialized
+DEBUG - 2021-05-12 00:38:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:56 --> Input Class Initialized
+DEBUG - 2021-05-12 00:38:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-05-12 00:38:56 --> Input Class Initialized
+INFO - 2021-05-12 00:38:56 --> Language Class Initialized
+INFO - 2021-05-12 00:38:56 --> Language Class Initialized
+INFO - 2021-05-12 00:38:56 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:56 --> Loader Class Initialized
+INFO - 2021-05-12 00:38:56 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: url_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: file_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: form_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: text_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: funcoesuteis_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: push_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:56 --> Helper loaded: abas_helper
+INFO - 2021-05-12 00:38:57 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:57 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:57 --> Model Class Initialized
+INFO - 2021-05-12 00:38:57 --> Model Class Initialized
+INFO - 2021-05-12 00:38:57 --> Model Class Initialized
+INFO - 2021-05-12 00:38:57 --> Model Class Initialized
+INFO - 2021-05-12 00:38:57 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:57 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:57 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:57 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:57 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:57 --> Model Class Initialized
+INFO - 2021-05-12 00:38:57 --> Model Class Initialized
+INFO - 2021-05-12 00:38:57 --> Model Class Initialized
+DEBUG - 2021-05-12 00:38:57 --> Session class already loaded. Second attempt ignored.
+INFO - 2021-05-12 00:38:57 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2021-05-12 00:38:57 --> Config file loaded: /var/www/html/api/application/config/aauth.php
+INFO - 2021-05-12 00:38:57 --> Database Driver Class Initialized
+INFO - 2021-05-12 00:38:57 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:57 --> Total execution time: 0.0366
+INFO - 2021-05-12 00:38:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-05-12 00:38:57 --> Model Class Initialized
+INFO - 2021-05-12 00:38:57 --> Model Class Initialized
+INFO - 2021-05-12 00:38:57 --> Model Class Initialized
+INFO - 2021-05-12 00:38:57 --> Model Class Initialized
+INFO - 2021-05-12 00:38:57 --> Controller Class Initialized
+DEBUG - 2021-05-12 00:38:57 --> Config file loaded: /var/www/html/api/application/config/rest.php
+INFO - 2021-05-12 00:38:57 --> Helper loaded: inflector_helper
+INFO - 2021-05-12 00:38:57 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2021-05-12 00:38:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-05-12 00:38:57 --> Pagination Class Initialized
+INFO - 2021-05-12 00:38:57 --> Model Class Initialized
+INFO - 2021-05-12 00:38:57 --> Final output sent to browser
+DEBUG - 2021-05-12 00:38:57 --> Total execution time: 0.0816

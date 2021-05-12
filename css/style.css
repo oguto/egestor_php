@@ -279,10 +279,16 @@ margin-bottom: 10px;
 }
 .pastas a{
   float: right;
-  font-size: 12px;
-  color: #829599;
+  font-size: 10px;
+  color: #fff !important;
   cursor: pointer;
   margin-left: 10px;
+  border-radius: 100px;
+  background-color: #d74545;
+  padding: 5px;
+  line-height: 10px;
+  margin-bottom: 0px;
+
 
 }
 .dados,#documentosPdf{
