@@ -269,6 +269,12 @@ cursor: pointer;
 .pastas li div:hover{
 border:2px solid #002E36;
 }
+
+.pastas li:hover a{
+
+    background-color: #002E36;
+    color: #fff!important;
+}
 .pastas li{
   list-style-type: none;
   padding-right: 7px;
@@ -279,16 +285,19 @@ margin-bottom: 10px;
 }
 .pastas a{
   float: right;
-  font-size: 10px;
-  color: #fff !important;
+  font-size: 12px;
+  color: #829599 !important;
   cursor: pointer;
-  margin-left: 10px;
-  border-radius: 100px;
-  background-color: #d74545;
+  margin-left: 12px;
+  border-radius: 4px;
+  background-color: #EFF1F2;
   padding: 5px;
-  line-height: 10px;
-  margin-bottom: 0px;
-
+  line-height: 12px;
+  margin-top: -3px;
+  width: 35px;
+  height: 22px;
+  text-align: center;
+  margin-right: 5px;
 
 }
 .dados,#documentosPdf{

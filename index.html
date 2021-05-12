@@ -699,12 +699,13 @@
 
               <ul class="pastas" v-if="exclusao==false">
                 <li v-for='docpastas in listarPastas' class="col-xl-2" :id='"pasta_"+docpastas.id'>
-                    <a @click='excluirPastas(docpastas.id)' class="" > &#xe90b; </a>
+
                   <div class="col-xl-12" @click='listarDocumentos(0,grupo , docpastas.id)'>
 
                     <p>&#xe90a;</p>
                     {{docpastas.nome}}
                   </div>
+                    <a @click='excluirPastas(docpastas.id)' class="" > &#xe902; </a>
                 </li>
               </ul>
 
