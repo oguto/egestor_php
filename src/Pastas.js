@@ -98,7 +98,6 @@ const  moduloPastas = {
 
 
         },
-
     excluirPastas(id) {
 
       alertify.confirm("Deseja excluir o cadastro?",

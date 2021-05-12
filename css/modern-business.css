@@ -20,12 +20,12 @@ body {
   padding-top: 56px;
   background-color: #fff;
   color: #829599;
- font-family: 'Asap','icomoon', sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px;
-text-align: left;
+  font-family: 'Asap','icomoon', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
 
 }
 
@@ -64,13 +64,7 @@ text-align: left;
     color: #003641;
 
 }
-.navbar li{
 
-  margin-left: 20px;
-
-
-
-}
 
 .navbar  a.active{
 
@@ -91,7 +85,7 @@ text-align: left;
 }
 .corpo{
   padding-top: 60px;
-      min-width: 1280px;
+      max-width: 1280px;
 }
 
 .navbar .nav-tabs{

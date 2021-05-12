@@ -67,7 +67,7 @@ const  moduloDocumentos = {
       listarGrupos:[],
       listarPastas:[],
       uploadedFiles: [],
-      pasta:".."
+      pasta:"/Sisseg"
     },
     methods: {
     validarForm(){
@@ -553,6 +553,8 @@ const  moduloDocumentos = {
 
         pdfjsLib.GlobalWorkerOptions.workerSrc = './js/pdf.worker.js';
 
+        console.log(appDocumentos.pasta+url);
+
         var loadingTask = pdfjsLib.getDocument(appDocumentos.pasta+url);
         loadingTask.promise.then(function(pdf) {
           //
@@ -721,7 +723,33 @@ const  moduloDocumentos = {
             });
 
     },
+    excluirPastas(id) {
 
+      alertify.confirm("Deseja excluir a pasta?",
+        function(){
+          axios.post(config.dominio+'api/Pastas/excluir', {
+            id: id
+          }).then(function(response) {
+
+            if(response.status==200){
+
+              alertify.success('Sucesso ao deletar pasta!');
+
+              appDocumentos.listarDocumentos();
+
+            }else{
+
+              alertify.error('Erro no servidor ao deletar pasta!');
+
+            }
+
+          });
+        },
+        function(){
+          alertify.warning('Exclusão de pasta cancelada');
+        });
+
+    }
   },
   created() {
     this.listarDocumentos();

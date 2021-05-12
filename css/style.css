@@ -213,6 +213,7 @@ border:2px solid #002E36;
 .doc{
   padding-right: 7px;
     padding-left: 7px;
+  max-width: 181px;
 
 
 }
@@ -272,6 +273,9 @@ border:2px solid #002E36;
   list-style-type: none;
   padding-right: 7px;
 padding-left: 7px;
+min-width: 132px;
+margin-bottom: 10px;
+  max-width: 181px;
 }
 .pastas a{
   float: right;
@@ -391,8 +395,6 @@ text-align: center;
 
 }
 
-element.style {
-}
 #appLogin button {
     width: 100%;
     text-transform: uppercase;
@@ -421,16 +423,16 @@ element.style {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 20px;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-/* identical to box height, or 34px */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  /* identical to box height, or 34px */
 
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 
-/* Label */
+  /* Label */
 
-color: #CCCECE;
+  color: #CCCECE;
 
 
 }
@@ -450,10 +452,10 @@ color: #CCCECE;
 }
 .verDados{
   border-radius: 5px !important;
-border-collapse: separate;
-border: 2px solid #EFF1F2;
-padding: 10px;
-font-weight: normal;
+  border-collapse: separate;
+  border: 2px solid #EFF1F2;
+  padding: 10px;
+  font-weight: normal;
 
 
 }
@@ -502,3 +504,108 @@ border-color: red !important;
     text-transform: uppercase;
     font-size: 10px;
   }
+.navbar-toggler-icon{
+  transform: rotate(90deg);
+}
+
+@media (max-width: 900px) {
+  .navbar-collapse,.navbar-collapse  .nav-tabs{
+    width: 200px !important;
+    float: left;
+    background-color: #d6e5e8;
+    border-radius: 0px 10px 10px 10px;
+
+  }
+  .logo{
+    display: none;
+    width: 0px;
+  }
+
+  .navbar{
+  float:left!important;
+
+  }
+
+  .show #menuSair{
+    width: 100%;
+
+  }
+  form, .documentos{
+    padding: 5px !important;
+  }
+  .doc,.pastas li{
+
+      max-width: 25%;
+  }
+
+
+}
+
+@media (max-width: 700px) {
+
+  .doc, .pastas li{
+
+      max-width: 33%;
+  }
+  #menuSair{
+
+  left: 75%!important;
+  }
+
+  #appLogin {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+}
+@media (max-width: 550px) {
+
+  .doc, .pastas li{
+
+      max-width: 50%;
+  }
+  #menuSair{
+
+  left: 75% !important;
+  }
+
+  #appLogin {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+}
+@media (max-width: 390px) {
+
+  .doc, .pastas li{
+
+      max-width: 100%;
+  }
+
+  #menuSair{
+
+  left: 75% !important;
+  }
+
+  #appLogin {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+}
+
+.divResp{
+  width: 100%;
+  overflow: auto;
+
+}
+#menuSair{
+  position: fixed;
+top: 22;
+left: 90%;
+}

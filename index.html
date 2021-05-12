@@ -17,9 +17,9 @@
 <body>
   </div>
   <nav class="navbar fixed-top navbar-expand-lg fixed-top">
-    <div class="container" style="min-width:1280px">
+    <div class="container" style="max-width:1280px">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon">|||</span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -108,7 +108,7 @@
               </tbody>
             </table>
           </div>
-          <div v-if='visualizar==true'>
+          <div v-if='visualizar==true' class="divResp">
             <a href="#" @click='listarDocumentos()' class="btn voltar">  &#xe904; Voltar</a>
             <ul class="dados">
               <li><b>Nº :</b>{{dadosDocumentos.id}}</li>
@@ -292,7 +292,7 @@
       </div>
       <div class="tab-pane fade" id="nav-Usuarios" role="tabpanel">
         <div id="appUsuarios" v-if='permissao==1'>
-          <div v-if='formulario==false && visualizar==false'>
+          <div v-if='formulario==false && visualizar==false' class="divResp">
             <a @click='incluirUsuarios()' class=" btn btn-success"><b> &#xe905;</b> Criar Usuário</a>
             <table class='table'>
               <thead>
@@ -699,7 +699,9 @@
 
               <ul class="pastas" v-if="exclusao==false">
                 <li v-for='docpastas in listarPastas' class="col-xl-2" :id='"pasta_"+docpastas.id'>
+                    <a @click='excluirPastas(docpastas.id)' class="" > &#xe90b; </a>
                   <div class="col-xl-12" @click='listarDocumentos(0,grupo , docpastas.id)'>
+
                     <p>&#xe90a;</p>
                     {{docpastas.nome}}
                   </div>
@@ -902,7 +904,7 @@
 
       <div class="tab-pane fade" id="nav-Atividades" role="tabpanel">
         <div id="appAtividades">
-          <div v-if='formulario==false && visualizar==false'>
+          <div v-if='formulario==false && visualizar==false'  class="divResp">
             <table class='table'>
               <thead>
                 <tr>
