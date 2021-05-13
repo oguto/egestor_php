@@ -96,6 +96,40 @@ class GrupoUsuarioModel extends CI_Model {
     }
 
 
+    function gruposId($id_usuario){
+
+        $this->db->from("GRUPO_USUARIO");
+
+        $this->db->select("GRUPO.*,GRUPO_USUARIO.id_usuario,GRUPO.id AS id");
+
+        $this->db->group_by("GRUPO.id");
+
+        $this->db->join('GRUPO', 'GRUPO_USUARIO.id_grupo = GRUPO.id','Left');
+
+        $this->db->where('GRUPO_USUARIO.exclusao is null');
+
+        $this->db->where('GRUPO.exclusao is null');
+
+          $this->db->where('GRUPO_USUARIO.id_usuario',$id_usuario);
+
+
+        $query = $this->db->get("");
+
+        $result=$query->result_array();
+
+
+        $listIn =[];
+        foreach ($result as $dados) {
+            $listIn[]= $dados['id'];
+        }
+
+
+        return  $listIn;
+
+    }
+
+
+
     function excluir($id) {
 
         $dados = array();

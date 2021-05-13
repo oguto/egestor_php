@@ -73,6 +73,9 @@ class PastasModel extends CI_Model {
 
     function filtrar($filtro,$maximo = NULL, $inicio = NULL){
 
+      $filtro= array_filter($filtro);
+
+
         $this->db->from("PASTAS");
 
         $this->db->select("PASTAS.*, PASTAS.id AS id");
@@ -89,10 +92,22 @@ class PastasModel extends CI_Model {
 
         unset($filtro['id_grupo']);
 
+        unset($filtro['grupos_user']);
+
+      }
+
+      if(!empty($filtro['grupos_user']) && empty($filtro['id_grupo'])){
+
+          $this->db->join('GRUPO_PASTA', ' PASTAS.id =GRUPO_PASTA.id_pasta','Left');
+
+        $this->db->where_in('GRUPO_PASTA.id_grupo',$filtro['grupos_user']);
+
+        unset($filtro['grupos_user']);
+
       }
 
 
-        $this->db->where($filtro);
+        //$this->db->where($filtro);
 
         $query = $this->db->get("", $maximo, $inicio);
 

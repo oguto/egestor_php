@@ -537,7 +537,7 @@ border-color: red !important;
     border-radius: 0px 10px 10px 10px;
 
   }
-  .logo{
+  .navbar .logo{
     display: none;
     width: 0px;
   }

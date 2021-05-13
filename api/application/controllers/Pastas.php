@@ -12,6 +12,11 @@ class Pastas extends REST_Controller {
 
         $this->load->library('paginacaonelos');
 
+        $this->load->model('api/UsuariosModel');
+
+        $this->load->model('api/GrupoUsuarioModel');
+
+
         $this->load->model('api/PastasModel');
 
         }
@@ -19,6 +24,10 @@ class Pastas extends REST_Controller {
     public function listar_post()
     {
         $dados = $this->post();
+
+        $user =$this->UsuariosModel->filtrar(array("id_aauth"=>$this->aauth->get_user()->id));
+
+        $dados['grupos_user'] =$this->GrupoUsuarioModel->gruposId($user[0]['id']);
 
         $resultado = $this->PastasModel->filtrar($dados);
 

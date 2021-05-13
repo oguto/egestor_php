@@ -228,7 +228,7 @@ const  moduloDocumentos = {
             appDocumentos.listarPastasDoc();
             });
     },
-		listarDocumentos(pagina=0,grupo=1,pasta=null){
+		listarDocumentos(pagina=0,grupo=0,pasta=null){
 
 	      axios.post(config.dominio+'api/Documentos/listar',
         {grupo:grupo,id_pasta:pasta,pagina:pagina}).then(function(response) {

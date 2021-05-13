@@ -17,7 +17,12 @@ class Documentos extends REST_Controller {
         $this->load->model('api/PastasModel');
 
         $this->load->model('api/GrupoDocumentoModel');
+
+        $this->load->model('api/GrupoUsuarioModel');
+
         $this->load->model('api/GrupoPastaModel');
+
+        $this->load->model('api/UsuariosModel');
 
         }
 
@@ -36,6 +41,10 @@ class Documentos extends REST_Controller {
           $pagina = 0;
 
         }
+
+        $user =$this->UsuariosModel->filtrar(array("id_aauth"=>$this->aauth->get_user()->id));
+
+        $dados['grupos_user'] =$this->GrupoUsuarioModel->gruposId($user[0]['id']);
 
         $lista = $this->DocumentosModel->filtrar($dados,10,$pagina);
 
@@ -125,28 +134,6 @@ class Documentos extends REST_Controller {
          } else {
              $data = array('arquivo' => $this->upload->data());
 
-             /*$source =fopen('../upload/'.$this->upload->data()['file_name'],'rb');
-
-             $imagick = new Imagick();
-             $imagick->readImageFile($source);
-             $imagick->setResolution(150,150);
-             $imagick->setImageCompression(imagick::COMPRESSION_JPEG);
-             $imagick->setImageCompressionQuality(90);
-             $imagick->setImageFormat("jpeg");
-             $imageBlob = $imagick->getImageBlob();
-
-             print_r($imageBlob);
-
-
-
-            // output file
-            $target = "../upload/converted.jpg";
-            // create a command string
-
-
-
-             exec('/usr/local/bin/convert "'.$source .'" -colorspace RGB -resize 800 "'.$target.'"', $output, $response);
-             */
 
              $this->response($data, REST_Controller::HTTP_OK);
          }

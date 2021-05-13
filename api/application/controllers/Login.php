@@ -18,7 +18,6 @@ class Login extends REST_Controller {
 
         $this->load->model('api/GrupoUsuarioModel');
 
-          $this->load->library("Aauth");
 
     }
 

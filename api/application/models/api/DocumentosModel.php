@@ -87,13 +87,14 @@ class DocumentosModel extends CI_Model {
 
       $filtro= array_filter($filtro);
 
-
       $this->db->select("DOCUMENTOS.*,DOCUMENTOS.id AS id, DATE_FORMAT(data_final,'%d/%m/%Y ') AS data_br, DATE_FORMAT(data_inicial,'%d/%m/%Y ') AS data_inicio_br ");
 
 
         $this->db->group_by("DOCUMENTOS.id");
 
         $this->db->from("DOCUMENTOS");
+
+
 
         if(!empty($filtro['exclusao'])){
 
@@ -117,6 +118,17 @@ class DocumentosModel extends CI_Model {
         }
 
         $this->db->join('GRUPO_DOCUMENTO', 'DOCUMENTOS.id = GRUPO_DOCUMENTO.id_documento','Left');
+
+
+        if(!empty($filtro['grupos_user'])){
+
+          $this->db->where_in('GRUPO_DOCUMENTO.id_grupo',$filtro['grupos_user']);
+
+          unset($filtro['grupos_user']);
+
+        }
+
+
 
           if(!empty($filtro['grupo'])){
 
@@ -152,7 +164,10 @@ class DocumentosModel extends CI_Model {
 
         $this->db->where($filtro);
 
+
         $query = $this->db->get("", $maximo, $inicio);
+
+
 
         return $query->result_array();
 
@@ -187,6 +202,13 @@ class DocumentosModel extends CI_Model {
 
         $this->db->join('GRUPO_DOCUMENTO', 'DOCUMENTOS.id = GRUPO_DOCUMENTO.id_documento','Left');
 
+        if(!empty($filtro['grupos_user'])){
+
+          $this->db->where_in('GRUPO_DOCUMENTO.id_grupo',$filtro['grupos_user']);
+
+          unset($filtro['grupos_user']);
+
+        }
           if(!empty($filtro['grupo'])){
 
             $this->db->where('GRUPO_DOCUMENTO.id_grupo',$filtro['grupo']);
