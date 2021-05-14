@@ -156,6 +156,7 @@ const  moduloDocumentos = {
         appDocumentos.paginaAtual=1;
         appDocumentos.thumbnail=[];
         appDocumentos.listThumbnail=[];
+        appDocumentos.nova_pasta=null;
         },
     incluirDocumentos() {
       appDocumentos.titulo="Novo Documento";

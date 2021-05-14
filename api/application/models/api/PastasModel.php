@@ -107,7 +107,7 @@ class PastasModel extends CI_Model {
       }
 
 
-        //$this->db->where($filtro);
+        $this->db->where($filtro);
 
         $query = $this->db->get("", $maximo, $inicio);
 
