@@ -394,7 +394,7 @@ const  moduloHome = {
 
         pdfjsLib.GlobalWorkerOptions.workerSrc = './js/pdf.worker.js';
 
-        var loadingTask = pdfjsLib.getDocument(url);
+        var loadingTask = pdfjsLib.getDocument(appHome.pasta+url);
         loadingTask.promise.then(function(pdf) {
           //
           // Fetch the first page
