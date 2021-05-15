@@ -157,6 +157,7 @@ const  moduloDocumentos = {
         appDocumentos.thumbnail=[];
         appDocumentos.listThumbnail=[];
         appDocumentos.nova_pasta=null;
+        appDocumentos.listaSelGrupos=[];
         },
     incluirDocumentos() {
       appDocumentos.titulo="Novo Documento";
@@ -463,13 +464,18 @@ const  moduloDocumentos = {
           id_documento:id_documento
 	      }).then(function(response) {
 
-          response.data.forEach((item) => {
-            console.log(item);
+          var itens = [];
 
+          response.data.forEach((item) => {
+
+            itens.push(item.id_grupo);
 
               $(".gruposDoc input#"+item.id_grupo).attr('checked',true);
 
           });
+          console.log(itens);
+
+          appDocumentos.listaSelGrupos = itens;
 
 
 

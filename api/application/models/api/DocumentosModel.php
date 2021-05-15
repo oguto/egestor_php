@@ -94,8 +94,9 @@ class DocumentosModel extends CI_Model {
 
         $this->db->from("DOCUMENTOS");
 
-        if( empty($filtro['id_pasta']) &&
-            empty($filtro['exclusao']) &&
+        if( empty($filtro['id_pasta']) and
+            empty($filtro['exclusao']) and
+            empty($filtro['status']) and
             empty($filtro['id']) ){
 
             $this->db->where('DOCUMENTOS.id_pasta is null');
