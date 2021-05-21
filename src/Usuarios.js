@@ -3,6 +3,7 @@ const  moduloUsuarios = {
     el:'#appUsuarios',
     data:{
     id: null,
+    id_aauth:null,
     nome:null,
     senha:null,
     telefone:null,
@@ -137,6 +138,7 @@ const  moduloUsuarios = {
             telefone :appUsuarios.telefone,
             email :appUsuarios.email,
             id_permissao :appUsuarios.id_permissao,
+            id_aauth :appUsuarios.id_aauth,
             grupos:appUsuarios.listaSelGruposUser,
             exclusao :appUsuarios.exclusao,
             }).then(function(response) {
@@ -171,6 +173,7 @@ const  moduloUsuarios = {
             grupos:appUsuarios.listaSelGruposUser,
             appUsuarios.id_permissao=UsuariosDados.id_permissao;
             appUsuarios.exclusao=UsuariosDados.exclusao;
+            appUsuarios.id_aauth=UsuariosDados.id_aauth;
             appUsuarios.listarGruposUsuario(id);
 
             });

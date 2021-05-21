@@ -167,10 +167,9 @@ class Usuarios extends REST_Controller {
 
           $user=$this->UsuariosModel->filtrar(array('id'=>$dados['id']));
 
-          $login= $this->aauth->update_user($user[0]['id_aauth'],
+          $login= $this->aauth->update_user(intval($user[0]['id_aauth']),
                                       $dadosUsuarios['email'],
-                                      $dadosUsuarios['senha'],
-                                      $dadosUsuarios['nome']);
+                                      $dadosUsuarios['senha']);
 
 
           if($login){
@@ -196,7 +195,7 @@ class Usuarios extends REST_Controller {
         );
       }
 
-        $this->response($dadosUsuarios, REST_Controller::HTTP_OK);
+        $this->response($login, REST_Controller::HTTP_OK);
 
     }
 
